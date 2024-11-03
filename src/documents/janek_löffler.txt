@@ -1,0 +1,145 @@
+Speaker 1  0:00  
+Very end, we want to show you a click dummy and get your feedback on it to then just like, yeah, get feedback, basically. So yeah, as you know, my name is Tino. I used to work at Shopify recently, and switched to freelancing in September. And at Shopify, I was very much involved with the sales and revenue team, which Shopify is quite big, couple of 100 people, and we developed AI and ML solutions for our internal team to just optimize how they work, make them more efficient. And in the end, the overall goal was to make more sales with the same amount of people. I think that's very, very much it. And Neil's a dear friend of mine. We know each other for a while already. He's basically a growth marketeer in like, he's basically a Swiss army knife, and can do whatever is needed to be done with a very entrepreneurial mindset. And at some point, like we thought about, I don't know, validating business ideas for a while already, and, yeah, now, now is the time that we both are in a position where we where we have the capacity to do so, which is why we wanted to dive a bit deeper into the sales topics and what we can do to improve sales for other sales reps, BDRs, AES, whatever comes to mind. And yeah. So what we did over the last few weeks is we talked to as many reps and managers as we could to get some insights. So we had already an idea of what we were looking for, because it was something that I did at Shopify that was very powerful. So we ran multiple interviews, and based on that, build a click dummy that I'll show you in a bit, but I don't go into more details to advise you before we ask the first few questions. Cool.
+
+Speaker 2  1:53  
+No. Nice to meet you, Neil. I think you have a good business partner.
+
+Unknown Speaker  1:58  
+What a great pitch.
+
+Speaker 2  2:01  
+Just quickly to me. So, yeah, I don't know if you saw it, but yeah, so I managed a team in Google before I was in sales there, and now I'm in altogether for the last three years more or less. And I manage the northern part of Europe, so analog stuff and the Nordics and yada. I mean, that's why I replied to you because we already have a chat bot. So if I can help you, anyhow, already kind of mentioned with Gong. I think most companies use Gong now, or it's really kind of the market standard, yeah, so we can have a look together. Oh yeah, nice to meet you guys. Beautiful.
+
+Speaker 1  2:36  
+Thanks. Yeah, good old Gong. We cross paths multiple times already. So yeah, let's, let's start from the very beginning, like with a few very generic questions. You already briefly described what you're doing at Autodesk. How? For how long have you been working with the team already?
+
+Speaker 2  2:56  
+And Autodesk for three years more or less? Okay, and then I was before that. I was at Google. I managed a team for one year. And before that, I was individual contributor. So I was selling to public sector.
+
+Speaker 1  3:07  
+Okay, cool, great. And how big is your current team at Autodesk? So, nine
+
+Unknown Speaker  3:12  
+people.
+
+Speaker 1  3:13  
+Okay, cool. And are these? How's the split between? I don't know. AES, SDRs, how does it look? They're
+
+Speaker 2  3:19  
+full 360 degree account executives. So we call them digital native or digital mature accounts, which don't really need a lot of in person attendance. So they range from any accounts, or we call them SMEs, but you have really any any company. It's just kind of, how do we address them? Do we need to go in person to the factories, to the offices? And if not, then we call them digital?
+
+Speaker 1  3:50  
+Okay, great, that totally makes sense. And focusing a bit on the team and your team members. So you said it's nine and they are full around AES house means seniority, like seniority versus Junior, juniority distributor? Is there anything you can tell us? And
+
+Speaker 2  4:08  
+what do you mean in seniority, so tenure in the role, or, yeah,
+
+Speaker 1  4:11  
+exactly like, not in that role specifically, but in sales in general. So let's say I don't know, 30% of your team, of your team, is considered more senior and the other 70 more junior, or how's the split?
+
+Speaker 2  4:23  
+So I usually look to have two official senior reps, which kind of function as team needs. So I have the same case now, and it usually happens after two years in a role like a year and a half, where I then going to look at, okay, what are the additional responsibilities. But generally we have quite high turnover. So the tenure, the average tenure, is a year and a half in the team, because then they're ready to get promoted. Or, I mean, the job market in Barcelona is quite tenure. Yeah. No, that totally
+
+Speaker 1  4:58  
+makes sense. Totally makes sense. Cool. And you already said regarding, like the digital natives you're looking for, it's very broad, like wherever you are good fit, whatever you think could be, where you could be an addition, that is what you're also selling to, right?
+
+Speaker 2  5:15  
+Yeah, exactly. I mean, another easy way to say it is direct sales. So we also have distributors or partners. Yeah, they are usually more in person or country specific, yeah, and if they don't need specific onboarding or implementation, then we they're basically digital, and they shift. I mean, they can shift anytime, really. So we have a portfolio set for one year, and then after that year, it can shift again. Cool,
+
+Speaker 3  5:40  
+great. What are some of the responsibilities of the team leads, as opposed to the ones who are not teammates?
+
+Speaker 2  5:47  
+So there's certain things. So one thing is to interview to be a buddy, so kind of being responsible for part of the team. So I'm coaching team needs on how to coach, let's say, rather than how to sell, their targets is increased by 15% their salary is also increased accordingly. And then also, one thing is that they're not included in incoming MQLs anymore. They focus only on their account sets because they have an established portfolio, versus more junior still need to build their portfolio customer, let's say engagement. So they are still involved with the marketing needs and inbound customer coming in again. Okay,
+
+Speaker 3  6:33  
+and you said they do interviewing. So basically they're coaching, the smaller the more junior persons. Now,
+
+Speaker 2  6:39  
+yeah. So also, for example, when I hire, I want them to play a role in the interviews. Kind of get a perspective of, who are we hiring? Why are we hiring? What are the skills that we're looking at? They lead projects. So let's say, just to give you one. So let's say we want to increase our LinkedIn activity overall, so one of the seniors, kind of chooses this project and guides, follows up, reports, all of these kind of things, gives training. So it's it's more of a high level responsibility that has also impact for my direct team, but also the other teams. So the project with LinkedIn is not only specific to my team, but also to the other teams across so we have a self team and a Dublin team, so it would be across the teams. So it's just a little bit of like an expansion of responsibility for overarching projects. Thank you.
+
+Speaker 1  7:33  
+And Could you walk us, like very high level, through a sales process, like a full end to end, from the first touch point to closing. Ideally, how does it look like in your team?
+
+Speaker 2  7:46  
+So, as I said, So the role is 360 so let's assume someone is starting. Let's say I'm starting in the role. I i get assigned a certain account set that varies from the market to like 100 to 300 accounts more or less, and then you go in there, basically quite naked. So they might have a certain installment base, they might not, but they're in the industry that we want to speak to. So you create shareholder or like engagement map. Who do I want to speak to? And it's usually two to five people. You reach out to them through different channels. So LinkedIn, usually first that I recommend emails come just introduced. Look, we chose you as an account that we focus on. So we need to really understand, how can we help you better to utilize our tools, then usually at least one meeting to understand what is the customer working on, if the customer is working on something that we can support, there's going to be a cop, a customer outcome proposal that we're going to work on. And then once we have identified that they're working on something or they're not, they have certain goals set in peace that we can support, then we're going to speak to multiple people to kind of validate what are they doing, or How do other people see it, because a CTO will have a completely different opinion, compared to the engineering manager, compared to the actual engineer. We want to kind of combine all of that and propose this to the like the decision maker, to see, look, this is what we understood from your company, and we have a solution that could fix certain things by doing ABC. So okay, just kind of quick, kind of come back. So first outreach, kind of prospecting meeting to understand, like just a qualification meeting, and then more of a validation let's call them validation phase, with different decision makers or influencers, and then in the end, it would be the cops or customer outcome proposal to the C level and hopefully closing the deal. And then we also do the post sales, so we have customer success working with us. Are we still staying engaged with the customer? Because, I mean, we have a big portfolio, so it's going to be up. So potential, it's
+
+Speaker 1  10:01  
+great. Okay, that's super interesting. And so obviously, like, like, one thing we're also interested to understand a little bit better. And I think, like, I have one or two more question. Maybe, Neil, you have one more given that we almost 15 minutes, and how do you evaluate how, how well calls or outreach has been? So obviously, a close deal is always something that is is a positive outcome, but how would you evaluate the individual steps that you just described, if your individual contributors did well or not?
+
+Speaker 2  10:40  
+So there's a few things. So there's one thing that's quantity and quality always at least that's that's how I look at it. So first we're going to start on the quantity. So are we making the calls? Are we reaching out to the accounts? How many connected calls we have? That's just a activity metric. And then afterwards, we match it on a pipe. What have we generated? Just pure pipeline generation, based on opportunities and then weighted pipeline so where in which stage is our pipeline? So kind of give it a percentage, because it's just assumed, like a stage five opportunity is way closer required than a stage one opportunity. So we give it a certain value. So this, and then, I mean, as I told you already, we use Gong, we have a quality team. That way it helps. We also have a dashboard that is already
+
+Unknown Speaker  11:34  
+managed for second. Thanks. Yeah, okay,
+
+Speaker 2  11:41  
+so, and then I also, I joined meetings. We evaluate the meetings together, etc. So it's, it's quite a proactive approach to be honest.
+
+Speaker 1  11:49  
+Okay, nice. And these meetings, how are they structured? Like? What do they look like? How regular are they?
+
+Speaker 2  11:55  
+So the goal is five per week per team member. Okay,
+
+Unknown Speaker  12:00  
+okay, nice, cool, Neo. Do you
+
+Speaker 3  12:05  
+Yes? Few questions the meeting is, the goal is five meetings per week for you, so five per team members, so one team member gets five meetings, or in
+
+Speaker 2  12:14  
+total, five no per per individual member, five meetings. Okay, cool.
+
+Speaker 3  12:21  
+And couple things, just about Gong. Two questions about Gong. So you've been using gong for a while. What would you say is gong as well? Very interesting for you. So obviously, there's two sides right? There's pre sales and then post sales. Do you guys actively use Gong in the post sales process? For example, during upsell, contract, expansion, all of those things
+
+Speaker 2  12:46  
+through a whole like almost all calls we try to record, we have like an automated message and we encourage always to record. All our meetings are set up with a gong link that automatically puts a request to record it. So of course, if so many clients that are not recorded, but I mean, just guessing, I would say at least 70, 80% of our meetings are recorded. So any meeting that we do, if a customer, we try to record because it makes our life easier in the end. I mean, for the rep as well, it's you can go back, you can watch it. You can just summarize it with one click. I mean, makes your life quite easy to
+
+Speaker 3  13:24  
+be honest. What um, like in all your time using Gong, obviously, like we're seeing all these positives. What do you wish Gong could do more for you?
+
+Speaker 2  13:36  
+So that's what I also would tell you. Needs to integrate directly with Salesforce or the CRM, because what the issues now? I mean, not, it's not an issue, but we haven't CRM, which is kind of the Bible. So every report, everything there is going from Salesforce, for us, others use HubSpot or anything similar. So anything is linked to it, but it's not synchronizing with or the information in Gong. So let's say Neil, you have a conversation, it's it should be linked directly to our opportunity, and then final back the meeting content to evaluate certain things. So if you, if you talk about timeline, it should directly update the project at close date. It should update, potentially even the stage of the opportunity directly, because that's a pain. It's a lot of time for me to review as a manager and for the individual rep, even more time to put it in correctly, and impossible to do objectively, because we have three people in this call. Your definition of is this a stretch? Three or four opportunity might vary, so it's really hard to kind of keep it objective, and that's the that's the thing that is missing. So it's not sinking into the information, and the opportunity is sinking that there was a call, it's sinking in the activity, but it's not sinking the information that is summarized or kind of analyzed by going into the environment of the CRM, and that's the biggest pain, to be honest.
+
+Speaker 3  15:05  
+Interesting. So just to reiterate, basically, there is an integration between Gong and your CRM, but the level of insights that you're getting from that that integration is not as deep as you'd like to it says like, oh, we had a meeting, but it doesn't really tell the action steps that come out of that meeting or the main insights that are there, which you have to do basically manually, correct. Yeah. Okay. And my last thing is, how is it on a language? Because you all around Europe so many different languages, right? Nordics, Southern like, how does it integrate with different languages?
+
+Speaker 2  15:38  
+Quite good to be honest. I mean, the transcript and everything works quite well. Yeah, there's some hiccups if, for example, if someone speaks Norwegian with an accent, the words are, I mean, that's just the reality of large language models. They're just not trained as good as on bigger languages like German or etc. So that's just reality. I think that's just gonna change over time, but the language working quite well. You can transcribe it and get the notes in any language that you want, so that that's not really an issue. Gotcha. Okay,
+
+Speaker 3  16:14  
+sorry, in my last question, because I know Tina's ready, how expensive? Like, what's the cost of gong for you guys, for like, a year subscription?
+
+Speaker 2  16:23  
+I have no idea. To be honest, it's quite expensive, I think. But, I mean, I can't really tell you, because it's like a whole company licensing deal. So we have an EBA, like an enterprise business agreement and but I think for the whole company, which is like, we have 15,000 people. I don't know how many people have a license. It was a couple millions.
+
+Unknown Speaker  16:46  
+Damn thanks. Thanks for that.
+
+Speaker 1  16:48  
+Great. Thanks for all all the questions. I think it was super insightful. Great new insights as well, which is always surprising when you had so many calls that always new things pop up. So to give a better idea of what we were working on, it's basically an AI sales coach that gives you tailored feedback to your calls. So the idea is, and what we did at Shopify was that giving feedback like managers or team leads, giving individual contributors feedback is a very time consuming process, right? You have to listen to the call. You have to prepare it or, like, also share the feedback. Same goes for ICS that want to listen to their calls. It takes, like, even if you speed up the call, it just takes time. You cannot do it at scale, right? You can maybe listen to 234, calls, Max, and then it gets quite cumbersome. And we at Shopify, we did an AI sales coach where you can basically upload your call transcript or video, whatever you have. You can choose your sales technique if you have a certain technique applied, like the Challenger sale or gap selling, and then you get feedback given the certain subcategories. And in addition to that, you get a call about the same topic that has preferred better than your call, so that you get actionable insights on what could have done better to get maybe to the close stage or whatever. And we pick this idea up, and I'll quickly show you a click dummy that we developed, which looks a bit like this one here. So the idea is that we move to a very simple tool that makes feedback very accessible at all time. That's that's the idea. Plus you get a comparison across your industry you're in, so you understand what do top performers my industry do differently, and how do they actually sell better? And the same goes for the team. Like, how do my top performers within the team perform well? So if you start the demo, it should be a very simple interaction. You can upload a file like this call, for example, you can choose a sales technique. In that case, we choose the Challenger sale, just for the sake of playing around with it. We upload it on the loading and then you get a very simple interface like this, so you have a summary of, in general, what went well and was room for improvement. And you have an overall score, in this case, 60% and the subcategories of the Challenger sale, in that case, where we see tailored message didn't go so well, constructive tension. We did great there. So I want to better understand now what the tailored message was lacking. So I would click on the details and I see a detailed overview, and could go down to the tailored message and read through it to better understand where it could improve, and when a rep or whoever understood, okay, I was lacking this and that, then you can basically, with one click, compare your call to a call that performed really good, so we can see the tailored message was nailed in this call. So right now I could basically click into it, listen to the call, or get a summary or some insight, and would have just saved a huge amount of time to get this feedback. So it's kind of actionable. I know how I performed. I can track it over time. I can see how others did even better, and I can compare myself to top performers across industry or team. And the idea, which is not incorporated yet here, is also that at some point, product specific knowledge, or industry specific knowledge, gets integrated into this feedback so that you can you're basically quickly prepared for your next call. Yeah, and that's basically the initial, like the very first MVP version that we that we want to test. So yeah, first ideas, first thoughts, no, like,
+
+Speaker 2  20:45  
+it's good, it's simple, it's visual. The thing, I mean, we have something really similar. We run it in Power BI, so we have one that is basically what you're doing. So we have critical, six Med, pick, coaching, insights, interactions, etc, and so just something. So for me, I don't know what you use as a analyst or background prompt. I would assume chat, GPT or anything like that. You need to think about what's unique about this, because I can put my transcript into chatgpt, and it will give me very similar things outside of the visuals. So that's the first thing. Because for this one, I would assume you, you would need to pay for certain things, the free version, I can analyze my calls if I just put the right prompt in on a very similar kind of advice giver, and that's what we do. Is we literally just like chatgpt integration that analyzes calls based on the transcript and the call from from Gom. So again, what I two things, how does this integrate into the CRM? And then other thing GDPR, because if you want to compare to other calls that has been an issue for us is especially, I mean, this is a good call so the person would not be bothered. But once you have negative examples in there, it's a whole different thing, because conversation is a individual right to kind of show or not show from both sides, the customer and the and individual having a conversation. So it kind of opens up a whole legal conversation of, how do I handle this? Where do I put this, and how, where, how and where can I store these calls? And then also, like we run this on a instant that we call Autodesk GPT, which is just storing our data on our servers, on chatgpt. Because think about further so we as a company, basically uploading all our data to chatgpt where we don't know where it's stored, it might be sensitive data, like bank information, personal information, so that would be the issue, or like the pain point for a lot of companies to look at this. But otherwise, I mean, the idea is very simple, very clear, and I think on an individual basis, it would help a lot to see it visual, to compare it. So, yeah, the things that I just mentioned, I think you need to address, otherwise it will be difficult for for companies to pick that up, because it's going to get more blurry and blurry where the data is, and the customer will question that you don't want to be sued for. Yeah, no,
+
+Speaker 1  23:41  
+no, I get it. I get it. So yeah, like giving quick feedback to the point I know we are almost on time. So like the differentiation we are trying to do versus chatgpt, because that's also something we thought about, is basically comparing your calls to also the industry, for example, or at some point, basically integrating your specific product knowledge into it. I know chatgpt Like with the right prompting, which is a skill in itself that or that our hypothesis, even if prepared, can do something similar. But we are trying to give this actionable insight, saying, Hey, okay, this and this one, well, do this this next time by using basically, maybe also product information. So that's kind of the edge that we are trying to find, and also performing in multiple languages. Because we heard mixed feedback in that regard, that some languages do well, some do less well. That was first the initial edge we're looking for. But I see that this could be clearer, and then what we're like the GDPR concerns, they are very valid, which is why we, for example, we store all the data within the EU, also using the Azure open AI API, which is fully hosted in Europe. So using that tool, the data would never, would never leave the EU, and therefore GDPR compliant, the way we process it and handle it on Azure. So basically covering the sensitivity on that part, but these are like, this is so valuable to hear because that's basically why I'm just thinking
+
+Speaker 2  25:15  
+about, I think will be really like a differentiator from Gong and chatgpt. Whatever it is, is to create a profile so that you kind of create, like a Prisma on, let's say these ones here, so you have tailored message, controlling, sale, differentiator, constructive attention, whatever metrics you want to put there that you can build a profile over time to kind of not get feedback on one specific one, but to understand the skill sets of a person that is evaluated from a tool. Because that's really, really difficult. And I mean, I would say alto this, or big companies also struggle with this. How do we know across teams how good a person is? Because I might evaluate completely different than Neil, and it's just my personal touch to versus Neil's personal thing. If you have a tool evaluating some skills kind of objectively, yeah, I think that would be really good one, because I don't have that in Gong. I don't have, like, a skill map of my team. I just have, I mean, I have multiple calls and kind of how much dimension different topics, but not how good. So if you can, over time, develop, like a skill map of the weighted average of calls, or something like this, I think that would be really, I mean, I haven't seen that, for example,
+
+Speaker 1  26:35  
+that's brilliant feedback. That's such a great idea. I totally understand why that could be important. One last question. I know we're almost on time, and I'll leave you alone. Then one reason why we're having these calls is also because we're looking for companies that would build a pilot with us. So that would be for like, a collaboration over three months, where we in cooperation or collaboration with the company, build this product. It would be for free, for the other company, like for the company we build it for, and we just want to get regular feedback, because the things you said were so valuable, and if we would have that while building would be super helpful for us. And the last question would be like, you don't have to answer it right now, but would you, maybe you and the team be up for for collaboration on this that, again, would be cost free, and we would set everything up so that it's compliant with your legal team.
+
+Speaker 2  27:24  
+So I'm there, I can't let me tell you. So, like, I'm more than happy to give feedback. Like, I'm super like, I like to hear new ideas. I mean, we all young. We want to have, like, make something new. We see opportunities, so more than happy to provide feedback, but I'm not going to be able to put that into Autodesk. It's just kind of like a risk that and a doubling down on certain things, because we have already gone so it will put more focus on something else, rather than the thing that is kind of unanimous, like unified to to work on. So for Autodesk, it wouldn't work to implement, and I would advise you to look maybe for smaller companies that don't have that because in the end, we already paying millions for Gong. So if I going to implement a new tool, I'm going to get the question from my manager, why are you not using Gong the way you do and implementing a new tool? I just won't kind of take that risk. Yeah,
+
+Speaker 1  28:24  
+no, it totally makes sense. Okay, again. Thanks a lot. I think that was a great chat, great insight. We're pretty sure maybe we send you like, once we're live, just like a link so you can click around with it, because your feedback was brilliant. And maybe we can, could just get it on an individual level.
+
+Speaker 2  28:43  
+Cool. No 100% Like for me, like you can always ask me for feedback. Half an hour here and there it is completely fine. To see the progress of your feedback, just for the company. I will be able to make totally fine. Thanks so much. That's.
+
+Transcribed by https://otter.ai

@@ -1,0 +1,202 @@
+Speaker 1  0:00  
+So could you maybe just give us a high level intro of what you do in your job, like how big the team is, what your industry is like, just a high level overview.
+
+Speaker 2  0:10  
+Yes, I work as in, pretty much AE at the company is called Title rhyme. We have two. We call them market teams. So one is so we can deliver like two verticals with our technology. The first one is fraud, so all big insurance companies in Germany work with us, and the government works with us. And the second vertical is where I work for is banks and sales, and there we have nearly all of the big private banks as customers, where we help them acquire ultra high net worth individuals. That's so our niche focus and also we work for private equity funds. Help them by finding investors to raise capital asset management companies. And there we have a very narrow market like there is a definite number of banks in Germany, and pretty much 90% are not our time. And yeah, we work with a lot of potential clients for us already. And yeah, we're now trying to pivot into new verticals or markets that's on a high level, what we do, and my my role is pretty much everything from prospecting to closing. Plus, yeah,
+
+Speaker 1  1:53  
+okay, that's great, great, great. Thanks. And how big is your team right now, and what's your role within the team exactly
+
+Speaker 2  2:03  
+the company is like 50 people all over Europe. Big in the sales department, like in the two verticals combined, are six sales people, including founders, who lead the market teams and do also sales and in our vertical, the banks and sales vertical, we are too. So it's just me and my boss and I get a new colleague in November. That's right. So from six to seven sales people, and
+
+Speaker 1  2:39  
+do you cover basically inbound and outbound, or is it for you just one or the other?
+
+Speaker 2  2:47  
+Yeah, it's inbound and outbound. But as I just said, since we are a very narrow market, I pretty much know everyone who's in the market, it's sometimes we also get inbound leads. But since we are very focused in what we do,
+
+Unknown Speaker  3:14  
+companies who don't know us, yeah, yeah, no,
+
+Speaker 1  3:16  
+that totally makes sense. And could you maybe also walk us through how a sales process would like for would look like for for you or your team, from basically, let's say, the first point of contact to closing a deal like on a high level, how would that look like? How many touch points do you have?
+
+Speaker 2  3:36  
+Yes, that depends on who you ask. Um. So our business model is pretty much making connections visible. So we kind of have the whole German economy as a network, and we can show you the shortest path between certain persons. That's why banks use us in this uh and wi space and what we or we empower our customers to use their connections for warm introductions. So that's pretty much the DNA of our company, and that's how founder led sales worked you. So my boss knows everyone in the news industry and gets an intro wherever he wants it. So if you ask him, then say it is kind of a relationship thing. If you ask me, then all starts with a cold call. Yeah, something interesting. And since we have the biggest database of wealthy persons in Germany, it's very easy to spark into it. So again I go, I have a cold call to demo ratio way north of 50% Yeah. And then start demoing, then you get the usual kind of rejections. In our case, it's more or less just pretty much the price, because we are not that cheap. I and then depends on who you speak with. I had a demo to close in 16 hours, and it were 16 because I had a typo in the first offer. So it could be less. But we also have say, cycle with banks with more than 25 months is now the record breaking bank?
+
+Speaker 1  5:50  
+Yeah, I can imagine I used to, I used to work for N 26 the bank. And also, like once, they became more serious, processes also got significantly slower. So I can imagine that things are slowing down. Okay, that's great. And so you said, like, this is can be a really long process. On the way, you probably have multiple touch points or emails or whatever. How do you evaluate how well you did, for example, in a call, like, when you when you talk to someone like, do you and you like, do you follow a sales technique? Or does your manager give you feedback? Does it join like? How does it look like?
+
+Speaker 2  6:27  
+I can work pretty much very independently. Here. We don't work out things since we are in very sensitive space. So imagine taking a call with the bank and say, want to record it. They are very they don't like it pretty much, and kind of destroys the the atmosphere. So we don't record anything in terms of feedback, since I can do very much, what I want and how I want to do it. I don't get that much feedback because things are going very well. I think I hit my target in June or something.
+
+Unknown Speaker  7:13  
+That's really nice.
+
+Speaker 2  7:15  
+So, yeah, that's been my question. So no, no, feedback since, since there's more or less no opportunity for my bus to feedback.
+
+Speaker 1  7:28  
+Okay, that makes sense. Like that's That sounds great. That sounds like a good setup. Then quick break from us and Neil, do you have any question you want to, want to ask now? Or,
+
+Speaker 3  7:39  
+yeah, my one question about you, Marcus, in that whole flow that you mentioned, from basic prospecting all the way down to eventually closing the climb, which stage would you say is giving you the is the most broken right now where you guys really are trying to fix the most I
+
+Speaker 2  8:04  
+during the process, from from demo to close, I would say The time between, wow, what an amazing system. And starting at 30k so and the and that what happens directly afterwards?
+
+Speaker 3  8:33  
+Okay, that would be cool. So I guess what you're saying is the biggest drop off is really like when you after a demo and you show them the price? Yes,
+
+Speaker 2  8:47  
+I had never been in a demo where persons are not totally blown away by what we do. Only reason not to buy is price that they don't want new clients. I already have that kind of wealth management work, amazing system. But Mr. Finsiva, to be honest, we don't want new clients. Okay, and this is not for you, but the rest is all the price tag.
+
+Unknown Speaker  9:20  
+Okay, cool. Got it. Thank you. I would
+
+Speaker 1  9:25  
+suggest that we then show you basically a click dummy that we built. So we are currently in the process of developing our MVP. So the idea and we run these interviews is that we think there's potential to to give sales reps and manages the opportunity to give feedback to calls in a better way. So that's something I did at Shopify. So at Shopify, within our team, we built something internally that basically did this, and we saw a good improvement in the sales call outcomes. So Neil and I, we thought, okay, let's take it to the next level and build up on that. So our initial like thought, or the first steps we take towards is improving sales calls. So maybe, in your case, like it's almost a done deal because the product is good, because people know each other. But we talked to many other reps from different companies who are basically struggling to get feedback. Managers take a really long time to get feedback, because if you have to listen to calls, that takes time prepare them, like putting them into context. And on the other side, sales reps, they can significantly prove that they get constant feedback. That's kind of the angle we're trying. And comes additionally to it is that regular feedback, especially in the early days, of a sales rep or AE, can significantly improve their onboarding so they like the better feedback. They get, maybe even product specific feedback. They just sell faster, and everyone is ideally happy with that, right? Yeah, so I'll quickly show you a quick dummy. I walk you through once, and then I you can just give us feedback and let us know what you think in a general in a general way.
+
+Unknown Speaker  11:08  
+Okay, cool. And
+
+Speaker 1  11:11  
+so what we want to do is basically having your own coach that gives you instant feedback with very few clicks, but at the same time as personalized as possible. So the interface would be very simple. You would have a drag and drop functionality in the beginning to just upload your calls. Everything is GDPR conform right now. So we are everything's hosted in Europe, even if we use AI models. Everything's happening in Europe. Data is encrypted, so we put a lot of effort into that, if you then upload your call, for example, call number one, you can also choose a sales technique, so either it's challenger sale, or mapping or gap selling, whatever you want. For the sake of this demo, we would choose this challenger sale, upload it, see the loading, and then you have a an overview, basically. So you get a very high level summary of the call, what went well, where's room for improvement, and you also get a score for the Challenger sale technique overall. This call was rather average, 60% what went well was the constructive tension, though. However, the tailored message, there's room for improvement. So if a manager or sales rep now wants to understand what went wrong here, you could go to the details section, scroll down and we'll see it down here and see okay, the strengths were these ones, areas for improvement, these ones. And that is already kind of helpful, because I know where are my gaps. Where do I need to improve? And with the last feature that we want to push in the early versions is basically comparing calls. So this is a call comparison between two calls about the same topic for maybe a colleague of yours, where the colleague scored with the same sales technique, scored a really good score. And now you can think into this call and understand a bit better how the other person sold the article, like sold the product, to understand what you can improve and buy that within a minute or maybe two, you've understood how your call went and what you can do better. And that's kind of where we think is the most value that we give you actionable insights and not just a general summary of how many times you mentioned a certain product, or what were the ratios of who spoke how long, we give you actionable thoughts and recommendations of how the next call can be better. And, yeah, that's the high level intro. First thoughts. We're very open to any any thoughts you have, like positive, negative.
+
+Speaker 2  13:40  
+Can you? Can you? Can you go back to the to the first overview, about the summary, so I have this differentiation, let's call our tailored Message area, where I can improve and I can go to details. But can I also click LIKE TO THE Can I hear the recording at that point, so that I don't get the summary, but where I can even hear what I said and who they who the system comes to the score. Yeah,
+
+Speaker 1  14:14  
+that you cannot listen to it, but we, oh, it's like, here you can see it. We reference quotes. So we give you quotes in our current MVP, we give you the minute and the second actually where, where we found a positive example or a negative example. So this, this year, is not the most recent layout anymore, but in the version we're building right now, it's basically you have quotes that are positive examples of, for example, controlling sale, or quotes that are negative examples, including the time at when they were set. So you would need to go back to your call, click on the minute or in second, and then you could use it.
+
+Speaker 2  14:55  
+But just to understand, these are quotes from the call or,
+
+Speaker 1  15:00  
+okay, these are basically things you you said that in the call,
+
+Speaker 2  15:04  
+yeah, because the first thing what I would think as a rep, if someone scores me to what I said, I would like to hear it, to somehow understand how he gets The Score. That would be the first thought. What I would have. The idea is, is cool. I was just wondering if the process, like taking mp three have to upload, it isn't a bit kind of more of a hassle, because it's another free game login, right? So yeah, and and I worked as a sales coach, for example, like two decades ago in the call center, which was pretty much inbound, and the most important thing was always to record and play it to colleague agents, because that's the most powerful thing you can do when you when you hear what you said, right? And that put missing. So, so just this score would always, I would always be wondering how, how get the score to this number and and why it's bad or good, right?
+
+Speaker 1  16:39  
+Yeah, I totally agree. That's a really good point. A follow up question, is it for you, or, like, would it be for you significantly more interesting to actually listen to that sequence? Or would maybe, like, short written summary of like you said this, and this is exactly word for word, what you said? Would that be sufficient? Or do you really want to listen to it?
+
+Speaker 2  17:00  
+Well, I would like to listen to it because tone is a very important thing, right when it comes to either cold calling or inbound calling or whatever. So I would prefer to hear it if I have to choose, if I could choose, I would choose both of it. So the basing would be like, like the written summary, because it just is faster, right? And then listen to to the call. But to actually get for me to be actually, for it to be useful, I would have to listen to it. Okay,
+
+Speaker 1  17:48  
+that's great. Thanks for the feedback. I also agree with your other point, like downloading a call from your main tool where you recorded it and then uploading it is obviously not ideal. It's something we have to go within our first version to then basically have smooth integrations at some point with, I don't know, zoom or align, not zoom with alcohol, for example, or whatever. And that's also one of the points why we are talking to people right, to get this feedback, to understand all these things a bit better. And that was very helpful. Yeah, go ahead.
+
+Speaker 2  18:18  
+Yeah. Two questions, and the first one would be, is it, does it only work for like calls, or does it also work for recorded meetings like this one, what we have here,
+
+Speaker 1  18:32  
+it would it work. Would work for both so it could be, it could be a phone call, or it could be a recording, we would just upload it and in both ways it would work.
+
+Speaker 2  18:45  
+And the second one is, you right? I mean, I can choose the the sales frameworks right to which it gets scored to. I can you take the same message, choose another sales framework and just compare the scores between
+
+Speaker 1  19:14  
+levels that's possible? So like, let's say we would record our call, we can then upload it once being analyzed based on the Challenger sale and once being analyzed on other Matt pick, for example. Because one of the reasons is, obviously, like, you want to be able if I really follow the Challenger sale, I want to be analyzed on that. But many people that we talked to also, they were not sure what technique they used, and maybe they can identify a little bit more, hey, more towards that direction, or that's something I'm more like, this comes more organic to me. So, yeah, it's possible.
+
+Speaker 2  19:47  
+Does the question then would be like, this is a very high level score, right? If I take a 25 minutes call and I get those results, I mean, would also be interesting, like, at what point or which point got to the score, right? Controlling sale at which points in time the Yeah, so the result had, to me, at least has to be way more interpretable, right? So, how, how does the software get to this core?
+
+Speaker 1  20:24  
+Okay, yeah, that's, that's great. That's super, super interesting to hear. Yeah, that's, that's great. I think we took notes. These are these. I think we're trying to incorporate. And again, like the this, this is why we are trying to have these conversations. And like, we're also, at the same time looking for pilot companies that work with us on like, a three month basis, or something like that, and give us regular feedback, so that they use the tools regularly and give us feedback. I would assume that you are you and the team might maybe, from a company point of view, not like, the perfect fit, because you obviously don't record calls, but like, Do you maybe know any company that we could reach out to, or you could make an intro that you think they're cool, they would like to test it. It would be for free for them. Obviously, we would just have, like, an agreement that everything is safe. Every like, the data concerns are all clarified. We just want to,
+
+Speaker 2  21:16  
+actually, I really don't have no company who records their up on calls. I don't know if you know anyone here in Germany, but for the last four companies I worked for, I think the last one where calls were at a fixed line and were recorded were really at the call center, because in my last four or five companies for which I work with everything with our mobile phones, and nothing was ever recorded. Oh, that's
+
+Speaker 1  21:50  
+that's interesting. Not not even calls like we would have like Google meet or something, no, okay, very interesting. Okay, that's also also great
+
+Unknown Speaker  22:02  
+learning English. Industries that we were working in before,
+
+Speaker 2  22:06  
+all finance related like, but before that, I worked for the document management and enterprise content management space, so the whole area of digitization where we work for, like, small medium companies and governmental bodies.
+
+Speaker 1  22:33  
+Okay, cool. Um, that's great, because, like you see, like we received a few times, is that people are trying to recall but or record, then you get this little pop up that's saying, Hey, is it okay if this calls me record? And then many people deny that, so that the companies were or the sales reps were actually interested, but sometimes they just get a no from from the other party, which obviously makes sense. So, yeah, okay, yeah, I
+
+Unknown Speaker  22:58  
+think that's that's also very German topic. Like to be recorded.
+
+Unknown Speaker  23:06  
+Someone has to protect our data rights,
+
+Unknown Speaker  23:10  
+that that's a very cultural thing.
+
+Speaker 1  23:14  
+Yeah, I think with that, we reach the end. Marcus, thank you so much for time. Thank you so much for feedback. I think it was super helpful. I'm very thankful. Yeah,
+
+Speaker 2  23:23  
+it's really, really great idea just to do you do, you know, connect and sell. Have you ever worked with or for that? No,
+
+Unknown Speaker  23:34  
+what's that
+
+Speaker 2  23:37  
+I I work for them for, for short period, because they are usually in the US. But connect and sell is, let's not call it a power dialer, but, but yet, have a technology where also few 100 or center agents in India or Vietnam or wherever, and connect to calls. So it's a live conversation weapon. So to say where they make millions and millions and millions of dials per year for their customers. They record everything. And they also, I think they came with the not the same way, but they also kind of offer an AI feedback tool, and maybe you can show them. So it's Jerry Hill. Is a German is ahead of Europe here, maybe they can help you with recorded calls. So that's what they have.
+
+Speaker 1  24:53  
+Yeah, we'll definitely look into it. I've never heard of it before, so it's good to just good to get to know a new company and just look at what that
+
+Speaker 3  25:03  
+happened? Would you? Are you? Was this the call center that you were working for before Marcus?
+
+Speaker 2  25:09  
+I didn't get the question,
+
+Speaker 3  25:13  
+Was this the call center that you were working No,
+
+Speaker 2  25:16  
+it was a German call center company which was then acquired by Vodafone, and actually our our branch was then sold to a conduit. I don't know if you know, the company, huge American business solution provider who also operates 300 call centers all over the world. Okay, wow, it's
+
+Speaker 3  25:43  
+a lot of call centers. Yes, okay, okay, yeah. Are you connected to this Jerry Jerry Hill guy, for instance, yeah, I am cool. Would you be open to actually, because I'm just on I'm looking at the Connect cell website, seems pretty interesting. Would you be open to actually connecting us with Jerry Hill to see if you could have a chat with him? Yeah, that's
+
+Speaker 2  26:06  
+nice. We are connected on LinkedIn. I
+
+Speaker 1  26:12  
+think you and Agostino, I think we are,
+
+Unknown Speaker  26:17  
+yeah, sure. Cool, amazing.
+
+Unknown Speaker  26:20  
+I think that really, really helpful.
+
+Unknown Speaker  26:21  
+Thank you so much. So thank you so much. Yeah, thanks
+
+Speaker 2  26:23  
+a lot. Thank you very much. Yeah, and have a wonderful evening. You too. Thank
+
+Unknown Speaker  26:27  
+you so much again. Bye,
+
+Unknown Speaker  26:28  
+Marcus, you too.
+
+Unknown Speaker  26:44  
+which sit on top
+
+Unknown Speaker  26:51  
+of backwards.
+
+Unknown Speaker  27:04  
+To use
+
+Unknown Speaker  27:17  
+a full price change.
+
+Unknown Speaker  27:28  
+Up you owe.
+
+Transcribed by https://otter.ai

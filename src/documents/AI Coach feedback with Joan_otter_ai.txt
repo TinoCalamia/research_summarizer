@@ -1,0 +1,145 @@
+Unknown Speaker  0:01  
+Okay, shall we kick it off?
+
+Speaker 1  0:02  
+I mean, we only have 30 minutes, so I think we could make the most out of it. Yeah. So first of all, thanks for taking the time. Neil and I, we are basically friends who are now exploring a business idea that we came up with based on something that I used to work on at Shopify. So I'm a data scientist and AI engineer that has worked for the Shopify sales and revenue team, and that was basically super interesting. I learned a lot, and at some point I thought, Okay, I'll take this knowledge and bring it somewhere else. So I reached out to Neil, who's a very entrepreneurial mind, is doing a lot in growth and marketing, basically. And I thought, Okay, who else to work with? Then, then Neil. So that's a great intro about Neil. I hope that that covers most of it, and what we're doing now is reaching out to sales reps, Business Development representatives like account executives and also managers and directors, just to get a little bit feedback on our thoughts and our ideas over the last two to three weeks, maybe a bit more. We talked to more than or we ran multiple user interviews, I think by now it's more than 10. And on top of that, also a few interviews on our click dummy and our idea that we developed to get feedback, and that's also the reason why I reached out to you, because I looked at your profile, it looked amazing. And I was like, that would be a great person to talk to. So how this call would look like is basically like, I give you a one minute intro and to what we do like, very broad, because we don't want to bias you, then we would have a few questions, show you the product that we have so far, and then we would get your feedback. Does that make sense? Yeah, perfect. Nice, great. So Neil and I over like, obviously, sales is really broad topic, and we needed to to focus on a specific area that we want to support on, and that we want to help with, and what we because, I mean, you know better than we do. Obviously it's like from lead gen to the managing the pipeline to all of that. And what we want to do is basically improving the way sales interacts with with clients. So we want to basically help reps or BDRs or whoever to to improve these interactions. And I'd stop it here, just to not give too much away. And to start with, could you just give us a little intro of what you did at Domo recently? Like, yeah, in the last row, yeah.
+
+Speaker 2  2:39  
+Okay, Domo, I was a sales director for EMEA. No, I had account executives. No, we were covering from Barcelona, Italy, France, dac Benelux and the Nordics in the ways organized the company, the sales, marketing and sales at Domo, we have account executives that they were part of my team, the account executives. So they were, they had to do call, calling. They had to prospect themselves. Normally, they don't. We have PDRs slash ADMS in London that they were the ones, you know, like, all the time, you know, call calling and emails, LinkedIn, etc, to bring qualified leads for a first meeting with their current executives. But this is not enough. So those guys who have two teams, not the BDRs and IDMs that they do purely, you know, a short intro call, calling no and they are, you know, calling all day long and contacting hundreds of people to bring first meetings, not the objectives that they bring first meetings to the Account Executives. Account Executives, they go from the first meeting that should be qualified, normally they are, until closing the deal. But of course, the connectivity kind of executive, they also have to do some prospecting themselves. So that's it, and I was managing this team. Okay, that's
+
+Unknown Speaker  4:02  
+great. And how big was the team in total? In
+
+Speaker 2  4:05  
+according to six in we were six, and then BDRs in London, there were three or four more.
+
+Speaker 1  4:11  
+Okay, nice. That's great. And how many um, calls did BDRs and account executives have per day or per week?
+
+Speaker 2  4:21  
+You had to a you have to chase ace, to do call. You have to fucking chase them. That's why they know companies invent call out days, you know, this bullshit, not to try to make people you know. So in this company, they didn't have a target of how many calls, or how many they had to call the account executives, the BDRs, they reported to the market in the CMO, so they were not part of our team, no close collaboration, so I don't know, but they had to do hundreds of contacts per month, hundreds. It's the only thing they did was calling emails, no LinkedIn a lot, you know, no. You give them a target account list. No. During two months, you have 200 prospects or no people that you have to call and you burn it and you go to the next one. So BDRs is full time prospect. But for us, or from what you said, it's important also not to understand it's not just the lead generation. The prospecting, to me, is also important when they are you have a good meeting, not a good qualified first meeting that you read the notes of the BDR, and it looks good. Suddenly, you know, the AE comes. That was a shitty call. It was a waste of time. And I said, Man, but I read the notes, and it was nice information, not the world. Was that time, okay? Man, I don't know. So, so it's important to understand, no, yeah, what the different calls, but different profiles, and it's a lot to do there.
+
+Speaker 1  6:05  
+Yeah, that totally makes sense. One more general question, and then I would go a bit more into the processes of of your team. What would like to what companies did you sell, and what were the ticket prices like? Yeah,
+
+Speaker 2  6:18  
+we sold to my team was a, what we call corporate, it was up to a billion euro revenue, okay, so less than a billion. So the perfect was between 100 million revenue half a billion in some countries like Italy, because it's a smaller country, we could go to enterprise, enterprises above 1 billion. But normally enterprise, EMEA was managed by London, by the London team, and my team was only corporate, so corporate, no, theoretically up to $1 billion revenue. Okay,
+
+Speaker 1  6:57  
+that totally makes sense. And when you said, like, the BDRs do some calls, and the AES do some calls as well. Is it then phone calls, or is it meetings? Or, like, how do they
+
+Speaker 2  7:09  
+know? Yeah, it's the BDRs. They do. It's, you know, it's outbound, of course, we go to, you know, a congress, or whatever. No, you have, there is an event. You go there, you have your booth, and then you get, I don't know, 200 leads. Then it's the BDR, so that they have to call everybody, unless an A that was in the event says, No, those 234, I had good conversations. Leave them for me. Otherwise, it goes to the PDR, okay. Then the BDRs also, they manage the inbound, not someone that comes to the website? No, it leaves the data. They also have to do this inbound, but the majority is outbound, so they have a list and they have to, and that is calling email, no, with SalesLoft and all these cadences and all these things, and also contacting on LinkedIn, try to start conversations. And normally what they do is they have to have a fast 10 minutes. They have, you know, elevator pitch for 510, minutes to try to identify the pain. The band know if they have budget, if they have a need. It is some very they don't go deep on the value proposition. I think this is for the AE, just to qualify a there is a potential project here. Then what they do is they organize a call, a meeting, they schedule no and you have it in your in your agenda for the AE, then is this this first meeting, okay, but to me, as I said, it's important the qualification of the BDR that we see in the notes, yeah, okay. And sometimes it's weird because the notes are very good, and then they say, Oh, it was a shitty meeting. And I said, Okay, what is the BDRs that they are both shitting us? I don't know, and for me, then it's important how they manage the call. Because, okay, it was bad, but I could see some of them, they would go with a PowerPoint. Some of them, nothing, no, I just go to ask. I don't believe in that. So you had every ie would do the different things. So it was important to understand. Was important understand how we use Gong. Then you have a lot of information. There you have the recording, you have the PowerPoint. But that's a way it was structured.
+
+Speaker 1  9:37  
+Yeah, no, no, totally, totally. And you said that sometimes you didn't understand where this discrepancy came from. How did you like? How did you give that feedback? Or how did you evaluate it?
+
+Speaker 2  9:49  
+I will go to Gong pray, if they've recorded the call then, and he says, No, I didn't record it. I forgot whatever. No, it will not. The client didn't allow me whatever the excuse they have. But normally, if you have a gun call, then you have everything there. But it's time consuming. There is a call that is 45 minutes. I have to listen to the whole 40 No. So you I could spend my time only listening to gun calls. Yeah, and will, you know? So of course, I have to admit that I was, I didn't spend that much time on Gong. I'm sure Gong gives you some intelligence, some insights. Know that you don't have to spend but the only way is to see, okay, what was the deck and how you structure the call
+
+Speaker 1  10:37  
+No, and why didn't you like, why didn't you spend much time on Gong like because I had a lot of things to do. Okay, nice. I,
+
+Speaker 2  10:48  
+when you go, I don't know your idea, but, of course, you can be very complex, and very Gong is very good, for sure. But then you need a gong team to be on, to live on Gong, you know, trying to understand. And then I could spend has my day listening to calls and at the end some of them, not two very important ones to, you know, hey, there was a good Enterprise Client that we had very, very good notes from the BDR. And you said, there is no opportunity. Okay, I would go to that one. But why does I have to spend my No, I'm a manager. I just listen to goncalve all the time, and one call is one hour.
+
+Speaker 1  11:31  
+Yeah, it's a lot. It's a lot totally. And if you like, if you look back at your time at Domo, how much time did you actually spend on it? Like, did you spend any time on it or
+
+Speaker 2  11:42  
+looking at a trying to help my teams perform better, I spent a lot of time that was my duty. Yes, I try to know, I would say, know that everyone went to the meetings in a different way. Okay, the onboarding, the training at Domo was not great. Oh, I've been in companies that they give you, you know, like the book that you have to follow here was then I would see one that would have, I tell you, one that would go naked, nothing like this, where what is your problem and just questions. No, then you would have another one with a deck of 300 slides, and depending on the call, it will show this slide, this slide, and then, okay, but how do you do the follow up? So it was complete disaster. So I try to nothing of the different possibilities, different users. We talk to, different stakeholders. Try to okay, if it's an inbound or is outbound, someone that comes to us with a need, or some we are, you know, trying to discover and qualify. Okay, I suggest you use these tags. I prepare for them, looking at the best things I saw in the company and based on my experience. So I would, I would spend time, and also I would go to some Gong calls. But on goals, I spend one hour a day. I could spend the whole day, yeah, okay, but then I don't do anything else.
+
+Unknown Speaker  13:04  
+Yeah, that's, I totally understand that question.
+
+Speaker 3  13:07  
+Your your team of account executives. How senior were they?
+
+Speaker 2  13:12  
+Well, these people that they have 510, years of experience. So they they have, they are not. They have some experience, but, but I tell you, the most data platform, selling data is fucking hard. It's very hard because data, nobody wants data. Everybody talks about data. Nobody cares about that. If nobody looks at the dashboards, nobody has no idea about the KPIs. But nobody, I mean, the CMO, they have no idea. So it's hard. And when you sell data products, and I just finished now, you're it's a project. You're not from the moment they sign, they need to build a project the company. What is important? What are the KPIs? Who has to see what? What is the data? How do I clean? These are fucking mess. It's not like marketing automation tool. Everybody knows that they have to send emails. Everybody knows that. So it's hard. So you see people that they have experience, but it's very consultative selling. I've seen technologies that they are not easy. Everything is it's always difficult to know to reach your point. It's always difficult. But there is technologies that they are friendlier than data. Is very broad, is something very that you have to land it to something very concrete. Yeah, but yes, if people know answering your question, they have 510, years of experience. Okay, very different wage one. So what is the way to do it in Domo, yeah, there was. So I was trying to see the good things of each one, the good things of the US team, or whatever. To say, this is as a recommendation. Of course, an A that has experience. They will decide themselves, but I try to facilitate and help them with the best content, the best qualified qualification questions, the best objection handling to succeed. Yeah,
+
+Speaker 1  15:13  
+it's a good point. Neil, given that we reached half time, should we move over to the click dummy? Or do you have any No,
+
+Unknown Speaker  15:22  
+I have no impression. First of all, thanks
+
+Speaker 1  15:23  
+for all the infos that was great, like brilliant insights. I think we learned a lot. So as a next step, I would show you our click dummy, which is related to sales calls. Actually, as you might have, might have noticed, it is something that the for the first time, I built with Shopify, just to give you some background. So we built an AI sales coach that gives you feedback on your calls. Because at Shopify, what we were struggling with was kind of similar what you were experiencing, that it's really time consuming process of like for a manager to look at all the calls at the same time reps or BDRs wanted to get feedback. Obviously, they wanted to improve. They wanted to see how they do over time, and also how this connects to a business output, and that's why we build it internally. And we saw like, atrify big success with it, and over the time, we talked to more and more sales teams, and either it's like the time consuming part of not or not having a standardized feedback process, or sometimes even understanding, what do top performers in your industry or in your team do to sell? Well, you know, like, if I know, like you sell in the like you sell a data product, what do other companies that sell data products? How do they perform their calls to to sell? Actually? How can we improve? And that's what we want to touch on. So we know there are tools like Gong, etc, but as you said, like you need a gong team, it's a bit more complex, and we want to have an easy solution that reps or BDRs can use. And I will quickly share my screen for that so I can show you a few clicks.
+
+Speaker 1  16:58  
+So what we have is our instant code for feedback. The idea behind that I just explained it is with an easy drag and drop or upload functionality, you can upload your call or maybe even connect directly to an API and get feedback on all your calls based on certain parameters you can input. So we can start the demo. For example, this would be like for a very early version, obviously, just the simplest interface we could think of. You can upload a call like, we take call number one, then we can choose a sales technique. In that case, we have like for the click dummy. We have four basic ones that most people use. I think let's choose the Challenger sale. Because I think especially like for other companies, it was very, very common. We can upload the call, let load and then we get a summary. So what you can see here is, on the left side we have a very broad summary of the call. We see what went well and where, where's the room for improvement? So very, very broad. And on the right side you see the overall score. So 60% of 100% is rather an average call the breakdown, like the tailored message controlling sale. These are all the subcategories of the Challenger sale, of the sales technique that we chose previously. And we can see, oh, the constructive tension at the very bottom worked really well. So 92% that we did really well, the tailored message. On the other side, we were struggling with this a little bit, so there's room for improvement. So now I want to understand, okay, but what does that mean? So I can click on the details and see a detailed view of the call. So on the left again, I see the overall score and with a few details. And then I see all the different subcategories that you that I showed earlier, the controlling sale, tailored message, constructive tension, and then I go and go into it and understand a bit better. How did I do it? Like, what did I do well, and where can I improve? So this way, I already get feedback within seconds, without anyone looking at my call, and I can do it on my own, without my manager. And the last part that I also mentioned was comparing calls, so now I understood what I could have done better, but I'm still not really sure. Like, how should I which hook should I use? Which words should I use? So I can compare my call based on the content of my call. I can look at my colleague's call or someone in the industry, and see, okay, these two calls are about the same topic and they are the same type of call, but my colleague did really well. So it's overall score of 91% and for example, tailored message has a score of 99% so I could now look into it or listen to the call to understand how they did it and learn from it. And ultimately, this is an easy way to share feedback and also to just be quick with it, right? Like I could do this in minutes, and could grade on a call. And that's what we're trying to
+
+Speaker 2  19:45  
+okay. But for example, this comparison with a real call is with a real call from the company, exactly that would be a real call and in your show, or whatever, would be nice not to go there and then, okay, if I'm a rep, I want to listen to this call the first of January. Okay, I think it's but you keep going. Just one question,
+
+Unknown Speaker  20:07  
+yeah, go ahead. Go ahead.
+
+Speaker 2  20:09  
+What we what we care at the end, I think it looks nice. It's very nice. Congratulations, guys. What to me is important is, did this call in the right that was so good, and scored 91% did they close it in the CRM with vs the ACV? So I think, you know, connecting to the CR because at the end, okay, can be a very, very good call, and we didn't win, and maybe it's still a good call because the competitor had a better price, or whatever it is, because at the end, what we care is and we don't, and at least my team didn't close that many opportunities, because, as the average was no starting 50,000 so they had to close one opportunity per month. Yeah, you know, you don't have to know close three or four?
+
+Unknown Speaker  21:03  
+No, I do agree that's something that.
+
+Speaker 2  21:06  
+And then if you say, of the, I don't know this quarter, and maybe it's for you, and it's to see if the insights you give, they are dying, no, they are connected to the CRM, no, I think it's interesting for you know, yeah, of the, of the, all the opportunities that the company closed this quarter, what was the score? Yeah, so crossing your intelligence, I don't know where it comes from with real, you know, business that we care is about closing opportunities,
+
+Speaker 1  21:36  
+yeah, basically, no, you're totally right with that. I think that's kind of the next step that we would want it to do, to connect it to a CRM that tells you, okay, this has been closed or not. On the other side, we also received the feedback that sometimes the pipeline is so long or so, like, there are so many factors influencing it that it's hard to connect it, but in the end, you're right. Like, it's that's the interesting thing.
+
+Speaker 2  21:58  
+I know it's hard, because maybe someone can have a very, very, very good call, and we lose, because Salesforce, you know, they give it for free, that product, and so you're fucked, and you did an amazing job. Of course, there is many, many things happening, but at the end, our bonus comes from, not the overall score. It comes from or if a company don't know, because they were not very good at that. But other companies, I was, I'm sure they would put in the KPIs, and they know OKR and all these things they could put, hey, you get your bonus if you are above 80% on your overall score. So, but that. But anyway, at the end, your commission is based on the quota, no on the on the achievement.
+
+Unknown Speaker  22:42  
+That's true. That's right.
+
+Neil Gursahani  22:44  
+I think a business needs to do one of two things. They need to either save time or make money, right? Or, ideally, they do both. Yeah, at the moment with this, the very first, let's say, promise, is that it saves money. Sorry, saves time because you can get instantaneous feedback. But what, what Tino mentioned is that sales cycles are months, so only over time can you basically see like, Oh, if you have improved calls, it leads to more sales or faster sales cycles, right? That's why you need to have pilots. Tino ran a pilot with Shopify, where this thing was live for three to six months when they were building it internally, I think they first ran into 100 sales members, and they basically scaled it to like 500 and they noticed that these improved calls had a 70% uplift in your in your business
+
+Speaker 2  23:45  
+outcomes, yeah, I agree. I agree, yeah. But I mean not to forget to connect to the Yeah, yeah. You need to. We are for No, but yes, I like it, yeah, yeah. That's
+
+Speaker 1  23:55  
+great. First of all, thanks for the feedback as well. I think that was good. It was good to hear the connection to the CRM again, I think that's something we should implement. What we're trying to do now is looking for pilot companies. I know you don't work at Domo anymore. We talked about that, but do you think it makes sense for us to reach out to Domo? Or do you know any other company that could be open for a pilot or pilot
+
+Speaker 2  24:16  
+What is it your target account? Of course, Shopify is a big company. No, yeah, yeah, of course you can, I tell you, if you go to very big companies, Domo is 300 million revenue company, no, in the NASDAQ. So it's not a super big company, but it's big enough. So in those companies, unless you know someone, and normally you have to go to the US, because in implementing, well, in your case, is yes, no throwing the audio of the, know, the video of the car, the recording of the of the zoom to so you don't need, if you don't need, you know, hard implementation, like, I believe, of course, maybe it's a harder one. With API, everything is connected everything. But maybe with what you showed me, it's an easy pilot. So maybe then, yes, you can go to, I tell you, in Domo is margreen. I can, I can try to help you guys, but you can connect him to know he manages Europe. Normally, everything comes from the US, every technology, but every now and then we try something. We tried something locally. And in your case, that you don't have to do, you know, her integration with the CRM that we then we would have to go to the US, etc, something that you can have. No, yeah, exactly, besides, and you throw the the the videos, know, the recordings. So I think that's something that you can do,
+
+Speaker 1  25:52  
+yeah, okay, that's great, because our idea is to work with a company for like, three months just, and it's for free for them, so that we can get the feedback just and improve our product with a working team. And I think Domo would be an interesting case, because we don't look at big companies like Shopify. Shopify is too big and too complex. We look more at like startups, scale ups, medium sized companies. And yeah, that's why you're in Barcelona. I'm in Barcelona, right? Yeah,
+
+Speaker 2  26:21  
+I'm Barcelona. You have, for example, the, I don't know, I took them many, many years ago, but Barcelona, Tech City, where all these, not tech companies, are, you know, they so I would, I would go to this kind of organizations also, that is just to go there or to call them, and because there they have a lot of seat or scale up companies. You know that they are not still very, very big, they are flexible, they are fast. And there are nice, I say in Barcelona, because you're in Barcelona, this happens everywhere. No, in Amsterdam, a lot. So know that you have nice logos. They are not companies, but they are flexible, they are fast, so I would try these things. But yes, the most because a pilot with you is the thing is that if we give Mark Green something that he doesn't have to ask too many permissions and to make sense, because then you're fucked, because he will tell you go to Utah, but it is something that it can live with. We have all the recordings. Just record, then drop your file here, and you have this. That's something that he can do underneath. He could also sign a company like you locally. The thing is that he has the power to do it. The thing is that we already, the companies, have so many fucking technologies, yeah, that they don't use or that they use not enough, yeah, and at the end, are tired of having more technology. Yeah, I
+
+Speaker 1  27:53  
+totally get that. I think that's that's really a technology fatigue. Many, many companies
+
+Unknown Speaker  27:57  
+fatigue. No, another one. No, everything looks good.
+
+Unknown Speaker  28:00  
+No one question though. It's
+
+Unknown Speaker  28:02  
+very nice. It's very nice.
+
+Speaker 1  28:04  
+I like it. Thanks first, yeah, thanks again. Do you think you could make us an intro to Marguerite? Like, just let him know, hey, we talked, and then I can take the conversation from there. Just, yeah,
+
+Speaker 2  28:14  
+yeah. Send me. Send me. I can do it. But send me, like, because I don't want to spend time like lines. Thing I saw, I think you, if you have a website or whatever, you know a I will send him a LinkedIn. But he's very, very nice. I tell you, Domo is in trouble. Now they close up. I'm not working at Domo. They close the operations. They just, they close the cup. Everybody from the persona TVs is out. No they, because the shares of so now they are tough times. But anyway, this is not a big investment, even if they would buy it in the future. It's not such a big investment. And I think it goes to know what also Neil said, No, it goes to saving time or No, improving the performance. I think it's worth trying the best moment for them all, but I think it's worth trying, and I will do it for you. Yeah, no problem. Send me information and I will, and I will, and of course, well, I guess who is the sales guy? Nilo, I was. You are the technical No, I'm
+
+Speaker 1  29:25  
+the technical guy. I do
+
+Unknown Speaker  29:30  
+everything to get it running, you know. So,
+
+Speaker 4  29:31  
+okay, so yeah, but I think you have a good value proposition,
+
+Speaker 2  29:38  
+you know, very direct. It's not complex. Is the demo is, wow, of course, then it will come a lot of poison that I didn't know. Okay, this is very nice. Okay, let's go deeper. Of course, not your, your AI or whatever. But I think you have a a nice, a nice product to go after. And there is many companies that that could make sense going after. So,
+
+Transcribed by https://otter.ai
