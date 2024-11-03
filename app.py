@@ -15,7 +15,6 @@ import src.constants as con
 # Environment setup for LangChain tracing
 os.environ['LANGCHAIN_TRACING_V2'] = "true"
 os.environ['LANGCHAIN_ENDPOINT'] = "https://api.smith.langchain.com"
-os.environ['LANGCHAIN_API_KEY'] = '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'
 
 from src.loader import load_folder_docs
 import src.prompts as pr

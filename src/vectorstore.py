@@ -7,7 +7,6 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter  # for effici
 
 import src.constants as con
 
-os.environ["OPENAI_API_KEY"] = 'sk-proj-cSjli0Fde3Ysoymk2BcmT3BlbkFJ6vzpWBUVgLz8G2SFsBGl'
 
 # Initialize embeddings and FAISS index
 embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
