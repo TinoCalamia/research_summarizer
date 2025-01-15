@@ -1,0 +1,3 @@
+"""
+Research Summarizer package.
+""" 
