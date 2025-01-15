@@ -1,39 +1,44 @@
 def create_basic_prompt():
-    return  """Answer the question based only on the following context:
-            {context}
+    return  """Analyze the provided context carefully and answer the question based solely on the information provided.
 
-            Analyze the following user interview transcript carefully. This interview is aimed at understanding key challenges, pain points, and opportunities in the sales process for [Company/Product/Service]. As you read, identify and structure the insights into the following categories:
+Context:
+{context}
 
-            1. Pain Points: Specific challenges or frustrations expressed by the user related to sales activities. Be attentive to difficulties such as:
-            Lead generation and qualification issues (e.g., time-consuming processes, low-quality leads).
-            Conversion challenges (e.g., handling objections, customer decision delays).
-            Follow-up processes (e.g., lack of automation, difficulty in tracking customer responses).
-            Sales productivity issues (e.g., repetitive tasks, difficulty in accessing information).
-            Any expressed dissatisfaction with current tools or processes.
-            
-            2. Opportunities for Improvement: Identify statements or hints that suggest unmet needs or potential enhancements. This includes:
-            New features or capabilities the user wishes they had (e.g., better CRM integration, improved reporting).
-            Specific requests for automation in areas such as follow-ups, reminders, or data entry.
-            Suggestions or requests for improved insights or analytics (e.g., customer behavior insights, sales forecasting).
-            Gaps in existing tools that the user believes hinder sales performance.
-            
-            3. Positive Insights and Successful Practices: Note any aspects that the user finds beneficial or successful within their current workflow, such as:
-            Techniques or tools that contribute positively to their productivity.
-            Positive feedback on specific features or processes that could be enhanced or replicated.
-            Mention of strategies that work well in building customer relationships.
-            
-            4. Additional Considerations: Capture any other details relevant to understanding the user’s perspective, including:
-            Desired outcomes or goals the user is trying to achieve (e.g., shorter sales cycles, higher close rates).
-            Insights into how the user measures success in sales and areas they believe could have the most impact.
-            Any emotional language that indicates strong feelings (e.g., frustration, enthusiasm) about certain aspects of the sales process.
-            
-            After completing the analysis, structure the output in the following format:
+Objective: Extract and structure actionable insights from the user interview transcript. The purpose of this analysis is to identify challenges, unmet needs, opportunities for growth, and areas of success in the sales process for [Company/Product/Service]. Use the following categories to organize your findings:
 
-            Pain Points: [List specific pain points]
-            Opportunities for Improvement: [List improvement opportunities]
-            Positive Insights and Successful Practices: [List positive aspects]
-            Additional Considerations: [Other relevant insights]
-            Be thorough and consider the implications of each point, aiming to provide a comprehensive understanding of the user’s needs, frustrations, and potential areas for growth within the sales process.
+1. **High-Priority Pain Points:** Identify specific challenges or frustrations expressed by the user. Focus on recurring issues and their impact. Consider:
+   - Lead generation and qualification (e.g., time-consuming processes, low-quality leads).
+   - Conversion difficulties (e.g., handling objections, decision delays).
+   - Follow-up inefficiencies (e.g., limited automation, inconsistent tracking).
+   - Productivity barriers (e.g., manual tasks, tool limitations, inaccessible information).
+   - Any dissatisfaction with current tools or processes.
 
-            Question: {question}
+2. **Opportunities for Improvement:** Highlight unmet needs or suggestions for enhancement. Focus on frequent mentions or high-value opportunities, including:
+   - Feature or tool requests (e.g., CRM integration, advanced reporting).
+   - Automation needs (e.g., follow-ups, reminders, data entry).
+   - Improved insights and analytics (e.g., customer behavior analysis, trend forecasting).
+   - Workflow or process gaps impacting sales performance.
+
+3. **Positive Insights and Successful Practices:** Capture any feedback on what the user finds beneficial or effective, such as:
+   - Successful techniques (e.g., personalized outreach, strong follow-up strategies).
+   - Positive experiences with specific tools or processes.
+   - Strategies that contribute to productivity or customer relationship success.
+
+4. **Additional Considerations:** Note any other relevant details that provide context for understanding the user’s perspective, including:
+   - Desired outcomes or goals (e.g., shorter sales cycles, increased close rates).
+   - How the user measures success and where they believe improvements would be most impactful.
+   - Emotional cues indicating strong feelings about aspects of the process (e.g., frustration, enthusiasm).
+
+Structure your analysis in the following format:
+---
+Pain Points: [List specific challenges and their frequency/impact]
+Opportunities for Improvement: [List improvement opportunities and potential benefits]
+Positive Insights and Successful Practices: [List positive aspects and potential for replication]
+Additional Considerations: [List other relevant insights or contextual details]
+---
+
+Be comprehensive and ensure that frequently mentioned or high-impact insights are prioritized. Use the analysis to provide a detailed understanding of the user’s needs, frustrations, and growth opportunities.
+IGNORE PROBLEMS DESCRIBED BY THE INTERVIEWERS.
+Question: {question}
+
             """

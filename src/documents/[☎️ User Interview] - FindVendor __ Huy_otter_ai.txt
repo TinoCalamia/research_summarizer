@@ -1,0 +1,328 @@
+Unknown Speaker  0:02  
+Yeah, can you hear me? Well,
+
+Unknown Speaker  0:03  
+yes, I hear you. Please.
+
+Speaker 1  0:06  
+Perfect. Thank you so much for taking the time and agreeing to the meeting. I know you're probably super busy, and I really, really appreciate that you take the time.
+
+Unknown Speaker  0:15  
+Yeah, thank you for having me too. Yeah. Do we wait for your colleague?
+
+Speaker 1  0:18  
+No. Neil's laptop broke earlier this morning, so the poor guy had to go to the Apple Store, and has repaired right now. So it's just
+
+Unknown Speaker  0:30  
+the two of us. What can I do? Yeah, thank
+
+Speaker 1  0:32  
+you. So I'll give you a very brief overview in the beginning, then I would have a bunch of questions, and then after that, I can give you a bit more information about we are running these interviews just to not bias your opinions or thoughts from the beginning. So the overall idea is that Neil and I, we're currently exploring a business opportunity, or like, at least doing some market research on the B to B buying journey. So basically, when companies or managers or head offs are buying software for their teams or companies, how does it look like? And we were looking to connect to various leaders in various industries. So I'm taking care a little bit about software engineering and data science, because that's also my background. I'm also, I've been a machine learning engineer freelancing now, and Neil is more taking on the sales and marketing side, and that's why we are trying to just get a bit more information on how other companies handle this process. With that, I would also start with the first, first few questions. If you could, yeah, maybe just briefly describe your role and responsibilities within the company, and also, like, maybe give a two sentence introduction about your company. I've done some research on my own, but I think it's always good when, when you would just describe it and summarize it.
+
+Speaker 2  1:59  
+My roles at the company, yeah, okay, so I'm a data is data manager, but I'm not managing anyone anymore, but I'm a data science lead in the company. So first data center. So usually I involve in something that company need data science decision or some kind of strategy, then they will involve me to help me to get direction or have some expert opinion. I've been in the company for more than two years. The company, right is a buy now, pay later. Company is similar to planner, but we are a normal retail customer the loan, not that we need to space for overview, operating in Middle East, not in Europe.
+
+Speaker 1  2:56  
+Okay, that's great. And how many people do work for tomorrow's name, right
+
+Speaker 2  3:03  
+around 500 people, including the special services,
+
+Speaker 1  3:08  
+okay, that's well, that's great. And how many of these work in the tech organization, and specifically data like, can you break it down? Okay,
+
+Speaker 2  3:21  
+the LinkedIn has a good numbers there, I think in the text might be 100 people, data 50 people, the data here, including data analyst, data engineer.
+
+Speaker 1  3:37  
+Okay, totally, that totally makes sense. And then I would assume, like, do you like? Who do you report into? Is it like, head off, or is it directly C level
+
+Speaker 3  3:49  
+reporting to Bucha data
+
+Unknown Speaker  3:53  
+and that person reporting to CDO? Okay,
+
+Unknown Speaker  3:56  
+that makes sense. That's
+
+Speaker 1  3:59  
+amazing. And when we, like, when, I mean, again, I looked a bit at your LinkedIn profile, but like, what's the, what's the mission for the data science team for the next, next year? Maybe, like, where, where do you want to develop? Like, what's the idea of where do you want to go? Is there a strong focus area?
+
+Speaker 2  4:24  
+Several minutes. Part of the company does science, yes,
+
+Speaker 1  4:33  
+maybe even we can also start with the company and then go next step to like, if you if these are things, you
+
+Speaker 2  4:40  
+can say that's science is you want to be more mature in all the data pipeline, serving, machine learning model, data science model, use cases. For example, one thing is a feature store, and what is reach the gap between development and the production much more than real time. More there are certain gaps. It's not easy to solve. That's one thing, because there are many use cases. But we are not a big company, yeah, so we have very limited number of data centers, yeah,
+
+Unknown Speaker  5:25  
+yeah. I can imagine, I can imagine,
+
+Speaker 1  5:28  
+and when, like, you already touched up on the feature store now, like, what does your tech stack in general look like? Like, what's what tools or like software to use,
+
+Speaker 3  5:40  
+like many companies, tactics to BigQuery,
+
+Unknown Speaker  5:46  
+we use airflow for scheduler, we
+
+Unknown Speaker  5:50  
+use DDT for Data governance,
+
+Unknown Speaker  5:54  
+data stigmatization,
+
+Unknown Speaker  5:59  
+okay, that
+
+Speaker 1  6:01  
+makes sense. And like, who decides which tools do you use? Is that your VP or, like, how do you make a decision on which which tools you've been chosen?
+
+Speaker 2  6:11  
+Yeah, not the VP, but just me, the team.
+
+Unknown Speaker  6:16  
+There's head of each team,
+
+Speaker 2  6:20  
+data analyst, data engineer, data science represented me. Then we discuss, we also discuss with team, team members, yeah. Students balance between different things, yeah. And
+
+Speaker 1  6:33  
+like, Okay, I got this. This is great. This also what I know from my experience back in the past how this usually looks like. And when you have these conversations, what are like, like? How do you? How do you? How would a conversation about to look like like? Let's assume you and the team, you come up with a tool like, let's say, a new tool for scheduling like you. You say, hey, maybe want to replace airflow now, and we want to use some other tool. How would this conversation look like? Like based on what would you like, even identify that you want to like, replace airflow.
+
+Speaker 2  7:16  
+What is the problem? What is challenges that we are facing right now? Why the current one cannot solve it by solution, but then solution, there's always balance between the cost. Is it easy to maintain? Is it easy to migrate
+
+Unknown Speaker  7:36  
+to balance?
+
+Speaker 1  7:40  
+Okay, that makes sense. And how do you like, how do you identify this problems? Like, when you say, Okay, first we need to identify the problem. How, how does that look like?
+
+Speaker 2  7:49  
+Problems? Okay, so big picture always come from business. What is struggling with the business that is still kind of so they have to go forward from that, backward from that, for example, does it deliver the data quickly? We cannot, as not fast enough. Or the data is clean, not clean. What is the challenge? We have to go back from the source, the business, go back
+
+Speaker 1  8:19  
+and who's who's usually identifying this problem. So when you say, Hey, okay, this is the business objective, and we have to go back down to like, what can data do for it?
+
+Unknown Speaker  8:30  
+Who's responsible for that?
+
+Unknown Speaker  8:34  
+Because the
+
+Speaker 2  8:37  
+exactly so they had the data team is the one we ultimately accountable for this function to really
+
+Unknown Speaker  8:48  
+give the algorithm
+
+Speaker 2  8:52  
+persuade each other, okay,
+
+Speaker 1  8:58  
+that makes sense, and then, assuming you, you have this problem identified, and, you know, okay, like in that case, you, for example, talk now about the streaming versus the batch, probably that you were talking about, how would you like? I mean, there, there are 1000s of, like, hundreds of solutions to it, right? How would you like from identifying the problem, what would be the next step for you to to consider, do we do it in house? Do we do it like, do we use something external? There are many ways. Like, how would you how would you decide on that?
+
+Unknown Speaker  9:33  
+Okay, so the same thing. Really,
+
+Speaker 2  9:37  
+there are several aspects. I don't remember, everything, the cost and the maintenance and also the confidence of the team can also learn a new technique, if so hard and why don't we have to do it? That's basically, I guess the cost is one of the most important, easy to maintain or change? Yeah, that's too difficult. Yeah, I
+
+Speaker 1  10:05  
+can imagine. And when we talk about costs, do you have a process of allocating budget to teams like,
+
+Unknown Speaker  10:15  
+how does that? How does that work?
+
+Speaker 2  10:20  
+The standard right now, they have to work for budget owner each vertical team, they have their look at certain budget and budget you have to decide what to do. What can you cut, for example. But then the data team that is served as in April, for the whole community, it's not a team. You get something used more, something use less, then okay, like it's unfair that it is unfair that you use a lot, but you don't get some budget from your side. Tonight, that's a debate, discussion for the head of the team.
+
+Unknown Speaker  11:02  
+It's not framework in general, the head routine
+
+Speaker 2  11:05  
+design. They serve that barrier. They have to foresee what is one year usage, two years usage, stop easily.
+
+Speaker 1  11:21  
+That's amazing. Okay, so there's basically just for me to understand that there's basically one budget and then the different hat offs negotiate a little bit back and forth of who from that one big part gets what and what, depending on usage and strategy and enablement of other teams. Maybe that's great, perfect. Okay, yeah, that totally makes it I can imagine, these are probably really, really tough conversations to free up, but yeah, for your team, most likely that's great. And how is like maybe coming back to how you would solve the problem? How does your company look towards developing tools themselves versus using external tools, like, Do you have a tendency or, like, a strategy behind it? So
+
+Speaker 2  12:10  
+at least in our community, usually we try to use open source, because cheaper, yeah, usually across open source, pros and cons,
+
+Speaker 2  12:26  
+and we're not really developing. We have some less certain thing that we develop by ourselves, but that should not require too much maintenance,
+
+Unknown Speaker  12:39  
+one thing, because I for maybe
+
+Speaker 2  12:44  
+sometimes to advocate for certain tools easier and support from other other some PPE from other team, if they did that, in their experience, they use that tool. This is what I see. It's easier. So if you want to sell something, to sell to that person, you have to use it. Can you recommend
+
+Speaker 1  13:09  
+this? And are you? Do you mean, like, let's say a VP of marketing has used some tool, and then it's easier. The VP of marketing, for example, has used that tool, and the VP of data wants to use a tool which has an overlap, and then they connect, because the VP of marketing has used this tool in another company, yeah? And then it's easier for the VP of data to
+
+Speaker 2  13:29  
+buy the tool for your That's right, that's right. Okay, that's very
+
+Unknown Speaker  13:33  
+interesting. That's very interesting, yeah, but
+
+Speaker 2  13:36  
+how do, how do we find that information from your side? That is, I have no idea, yeah, yeah, that's
+
+Speaker 1  13:42  
+that's tough. And how do you like, I imagine, like, communicating across various teams is quite, quite complex, right? Like, if the company grows and grows like, how do you like? Let's assume your VP of data, or like, you, or whoever's responsible for it, has an idea of a tool that they want to use, and then they want to connect to other departments, to I don't know, collect requirements or understand, has anyone else used it already? How do you do that? Or do you do that? Each case is different.
+
+Speaker 2  14:22  
+The data team is like the governance. They control the tools, but then the suggestion sometimes follow ourselves, sometimes come from other vertical business team, yeah, and naturally it is better the vertical team, the business teams advocate for that, then we have to justify certain things, cost, maintenance, Budget, yeah,
+
+Unknown Speaker  14:59  
+that's what I see
+
+Unknown Speaker  15:01  
+happy more with this.
+
+Speaker 1  15:03  
+That's great. That was already. That was super helpful already. And then another question from my end, I know we talk now a lot about tools, collaboration, etc, and but maybe, like, zooming out a little bit, how does your company or, like, how they do they look at AI? Like, are you driving it a lot? Are you cautious with it? Like, what's what's your sentiment about it? Or use of AI in your company? Obviously,
+
+Speaker 2  15:36  
+by AI, you mean large language model. Yeah,
+
+Speaker 1  15:40  
+large language models. But it could also be advanced, advanced deep learning, or even, like complex machine learning solutions, not necessarily an easy binary classifier. It's more like something that goes into advanced into advanced techniques.
+
+Speaker 2  16:02  
+Just just because data centers, we buy few data centers, model for the advanced one, say, using GPU, etc, we haven't thought about use case for clear use case. What is the benefit and cost? But keep an open mind. So with other AI, for example, integrate chativity, we have it. Or other
+
+Unknown Speaker  16:36  
+AI assisting COVID, yes, we have it.
+
+Speaker 1  16:41  
+Okay, that's, that's super helpful. And you said that you haven't, like, you didn't take the time to to create this use case or to think about these use cases. Why? Why did that not happen yet? Like, is there a reason for for this?
+
+Speaker 2  16:59  
+It is not in priority when we think about our business most of these days, for example, the reprocessing image. Now we process a lot of times. Now it was processing tabular data. Makes sense?
+
+Speaker 1  17:15  
+Yeah, makes sense. I get that. I used to work for N 26 before, which is a bank in Europe. And they also, like, the main use cases were also tabular data in most cases, maybe some, some chat bot for support, like, for customer support. But other than that, it was, was mainly, mainly that great that makes and if you would have to, like, think about a situation where you, you and the team were struggling to deliver a project or solution. Is there, is there something that you have in mind where you thought, Okay, actually, this is a project where we struggled a lot, or, like, where we struggled a little bit, and can you pin down why that happened? Like, is there any case like that? I
+
+Speaker 2  18:03  
+You mean, if there were a project, we struggling, and can I pin down,
+
+Speaker 1  18:08  
+yeah, so exactly like a project, yeah, a project where you and the team, you were struggling to deliver, maybe on time or delivering the quality that you wanted to deliver. And is there a project like that? And if so, what was the reason for it that you couldn't deliver? Thank
+
+Unknown Speaker  18:24  
+you. Love to share. Sure, there are many
+
+Speaker 2  18:28  
+struggling, okay, because any many budget challenges here, there
+
+Unknown Speaker  18:39  
+are many interesting example.
+
+Speaker 2  18:42  
+Okay, so one example is really classic. This is by now play data player as a model is to predict if someone would be default or not if we leave them alone. And so one challenge with the data scientist is what the definition of the label, what fit in the model training? Yeah, this is not so clear. So when we look back now at that time, not so good, because we have to build this metric, the transfer that means metric to the language the model, what exact formula it has to be programming. Yeah, correct. Different programming. This is the label. There's no confusion, but that's just so much the business is not so clear
+
+Unknown Speaker  19:37  
+under pressure. Of
+
+Unknown Speaker  19:42  
+course, it's just balanced that time
+
+Unknown Speaker  19:45  
+I tried to push by,
+
+Speaker 2  19:49  
+proposed a new solution in the second decision, I should have really clear and complete fit with the business metrics, but I'm not convinced enough for the business people to adopt them, so I use them with a definition, and then we test it. It's just terrible result, at least that one lesson, of course, later, we know that, oh, this label is not good if you feel like stronger determination, determination to use a correct one, more correct one and say correct but more correct one deliver better result, only after some lesson. Yeah.
+
+Speaker 1  20:35  
+No, I totally do understand that. That makes sense to me, and if you like, I mean, that sounds like alignment between business and you as well. And like, clearly working on definitions, is there, like, if you could, like, if you think about how this could have been better, how would you have changed it? Like, I know that, like, it sounded like a little bit of a like definition problem like or like business. Wanted something. You wanted something else. How if you could wish for a better solution to that problem? How would that look like? Or what would you like to see there? Yeah, I
+
+Unknown Speaker  21:19  
+guess your question may be called a technical solution,
+
+Speaker 1  21:22  
+potentially, like it could be technical solution or also business alignment, right?
+
+Speaker 2  21:28  
+Yeah, business alignment is sometimes that, for example, we should have more people. Voice, do other checking persuasion. Another solution is you need to hire better business people, because if they don't want the same logic, then it's not communicating, yeah,
+
+Unknown Speaker  21:56  
+from a technical peer to point is
+
+Speaker 2  22:01  
+sometimes it's just like the maturity of the whole company, where we can take more risk to experiment different solution at that time. Sure, there's some situation that we have to do it. We don't care. Wait for a and b, yeah, to do
+
+Unknown Speaker  22:23  
+it. Yeah,
+
+Speaker 1  22:24  
+I get that that's like a big shift in culture that needs to happen so that this experiment, experimentation culture actually, actually happens. And assuming you, you would now like have an idea of a tool that could help you run these experiments. How would that like, how would you propose it? What would be the process you would have to go through to basically show this to someone and suggest the tool? For example, like, let's say you want to you want for that experimentation part, you want to look at one of the AB experiment tools? Like, there are various out there. Like, how would you, how would you go about proposing it to someone in your company?
+
+Speaker 2  23:12  
+Actually, we are we? Are we now using circuit tool. It is for starting. So and now our company counter shift. So really we wanted to experiment. We can tolerate more time.
+
+Unknown Speaker  23:30  
+Don't have to sleep, much
+
+Speaker 2  23:35  
+like mandate, easier before that is just so hard. Yeah, yeah. But there are so many when you mention about three people. For example, I wish to update skewer data analysts, data people, to understand model statistics, this certain tool to understand data. Right now, my feeling is just telling people to solve the problem. We forgot like, oh, to solve that problem with a certain skill set. And then we feel that hopefully, oh, they can learn. It's like, oh, man, even keep up enough time they can create a test line. But no need to take a lot of education to get test line. So data analyst is inside, if you look at all kind of thing about inside, it's the skill to use it so simple, any high school can do it. Yeah, let me say that. But actually, take a lot of credit just find such a significant thing. So how to find two tell people,
+
+Unknown Speaker  24:58  
+at least don't have to study so much.
+
+Speaker 2  25:03  
+This is so clear. Try to look out outside. There was something they was interested in. This is called sisu, black farm us, they already bought by snowplate or some kind of data inside. When they hope, when they throw a lot data there, they will say, Oh, why do TMB increase? What make it increases with that? This is some kind of that reduce the gap between what's skill set to know that part, but somehow that tool does not work well,
+
+Unknown Speaker  25:45  
+is you try to observe, yeah?
+
+Speaker 1  25:46  
+So that also sounds like an LLM based tool, right, where you probably pass some data and then it helps you analyze it, right? Is that correct? Yeah. And why do you say it doesn't work? Well, like, what's, what's with the issues you saw?
+
+Speaker 2  26:06  
+I don't really know what is a pinpoint with the PDS, the one who uses logical thinking, yeah, logical thinking, not just a random person.
+
+Unknown Speaker  26:17  
+That's all okay, but it's a better way?
+
+Speaker 1  26:21  
+No, I understand that. I totally get the reasoning part of LLM still not where it needs to be to maybe put things into context. But have you like, how did you test it? Is it free? Or did they send you a demo? No, I
+
+Speaker 2  26:41  
+observe it. I ask people, I like it, the idea really like, I am serious, is it really useful? As some people, different company like it, but some companies use it. Beginning was high, but now they feel like, oh, it's not useful. Interesting.
+
+Speaker 1  26:59  
+And how did you reach out to these people? How did you find them? Networking, Private Networking, yeah, okay, nice. That's always super helpful, right? That's like having, having a good network is always, always very, very nice and beneficial. Okay, that sounds amazing. Let me quickly browse through my questions so that I can make sure I've covered most of it.
+
+Unknown Speaker  27:36  
+Okay, I'm
+
+Speaker 2  27:38  
+using the fighting an idea stage, exactly.
+
+Speaker 1  27:43  
+So I think we can also slowly wrap it up here, and I can give you a bit more context on what what we're looking for. First of all, thank you so much for all your answers, for all the context. I think that was super, super helpful. And what we are looking at is basically like the current process of companies buying software consists of multiple stages. It's like first identifying the problem, as you described it as well. Then you explore solutions. What could be potential solutions, like in house, then maybe buy external tool, hiring a service. Then you collect requirements from all the stakeholders that are needed, and then you then you compare solutions. Maybe you say you want to buy an external software tool. You can pair all these tools. You maybe have a demo, and then hopefully you buy it. So it's a very process that is not linear, like it's going up and down, back and forth, etc, etc. We're trying to help with that process, because the the reason with that is that many people, they buy software, and within 12 months, they regret it, because it was not a good fit, as you just described
+
+Unknown Speaker  28:52  
+with sisu. How do I spell it? CI,
+
+Unknown Speaker  28:58  
+us, company. Yeah,
+
+Unknown Speaker  29:00  
+it's, sorry, bought by itself. Like, okay,
+
+Speaker 1  29:06  
+exactly because that is, that is something that is something very common that that we observed, where people buy it and then they notice, okay, actually, it's not what I really was looking for because of the performance or missing features. And then you've spent money and time on something that you don't really like, and that's a disadvantage, and that's we're kind of currently exploring the this problem a bit more to see where can we help Exactly, and that's that's why we're running these interviews as well. I was trying to understand your whole process and like your connection to AI.
+
+Speaker 2  29:47  
+So you're trying to give a process. If someone wants to buy, somebody want to buy some tool, how do they start? How to what kind of right question they should ask, yeah,
+
+Transcribed by https://otter.ai

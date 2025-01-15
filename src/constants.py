@@ -1,5 +1,5 @@
 ########## Splitter Constants ##########
-SPLITTER_CHUNK_SIZE = 1000
+SPLITTER_CHUNK_SIZE = 1500
 SPLITTER_CHUNK_OVERLAP = 100
 
 ########## Prompting ##########

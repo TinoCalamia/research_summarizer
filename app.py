@@ -1,112 +1,225 @@
-import os
-import faiss
 import streamlit as st
-from PIL import Image
-import numpy as np
-
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
-from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-
-import src.constants as con
-
-# Environment setup for LangChain tracing
-os.environ['LANGCHAIN_TRACING_V2'] = "true"
-os.environ['LANGCHAIN_ENDPOINT'] = "https://api.smith.langchain.com"
-
 from src.loader import load_folder_docs
-import src.prompts as pr
-from src.utils import format_docs
-from src.vectorstore import create_vectorstore_from_documents, split_documents, add_documents_to_vectorstore
+from src.chain import create_conversation_chain
+from src.memory_types import create_summary_memory
+import os
+from dotenv import load_dotenv
 
-st.set_page_config(page_title="Sales Insights ChatBot", page_icon="💼", layout="centered")
+# Load environment variables
+load_dotenv()
+from src.vectorstore import split_documents, create_vectorstore_from_documents
 
-@st.cache_resource()
-def prepare_data():
+# Initialize LLM
+llm = ChatOpenAI(
+    model_name="gpt-4o",
+    temperature=0,
+    max_tokens=4000
+)
+
+# Initialize session states
+if "all_documents" not in st.session_state:
+    st.session_state.all_documents = load_folder_docs()
+    st.session_state.document_names = [
+        doc.metadata.get('source', '').split('/')[-1] 
+        for doc in st.session_state.all_documents
+    ]
+
+if "memory" not in st.session_state:
+    st.session_state.memory = create_summary_memory(llm)
+
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
+
+if "vector_store" not in st.session_state:
+    st.session_state.vector_store = None
+
+@st.cache_data
+def load_initial_data():
+    """Load initial documents"""
+    return load_folder_docs()
+
+def prepare_vector_store(docs):
+    """Prepare vector store from documents"""
+    if not docs:
+        return None
+    splitted_docs = split_documents(docs)
+    return create_vectorstore_from_documents(splitted_docs)
+
+def handle_user_input(user_question, rag_chain):
+    """Handle user input and display response"""
+    if not rag_chain:
+        st.error("Please select at least one document first.")
+        return
+
+    response = rag_chain({
+        "question": user_question,
+        "chat_history": st.session_state.chat_history
+    })
     
-    # Define the LLM for generating responses
-    llm = ChatOpenAI(model_name=con.MODEL_NAME, temperature=con.MODEL_TEMPERATURE)
+    st.session_state.chat_history.append((user_question, response["answer"]))
+    
+    # Display chat history
+    display_chat_history()
 
-    # Load and split user interview documents
-    print('---------- Load User Interviews -------------')
-    interview_docs = load_folder_docs()
-    print('---------- Doc loaded successfully -------------')
-    if not interview_docs:
-        raise ValueError("No documents found in the specified folder.")
-    print('---------- Split documents -------------')
-    interview_splits = split_documents(interview_docs)
-    print('---------- Documents splitted successfully -------------')
+def display_chat_history():
+    """Display the chat history"""
+    for question, answer in st.session_state.chat_history:
+        with st.container():
+            st.write("Human: " + question)
+            st.write("Assistant: " + answer)
+            st.markdown("---")
 
-    # Create vector store for interviews and define retriever
-    print('---------- Create vector DB -------------')
-    vector_db = create_vectorstore_from_documents(interview_splits)   
-    retriever = vector_db.as_retriever(search_type="similarity", search_kwargs={"k": 5})
-
-    # Define prompt template for analyzing interviews
-    prompt = ChatPromptTemplate.from_template(pr.create_basic_prompt())
-
-    # Define the RAG chain for retrieving and generating responses
-    rag_chain = (
-        {"context": retriever | format_docs, "question": RunnablePassthrough()}
-        | prompt
-        | llm
-        | StrOutputParser()
+def initialize_page():
+    """Initialize the Streamlit page"""
+    st.set_page_config(
+        page_title="Research Tools",
+        page_icon="🔬",
+        layout="wide"
     )
-    return rag_chain
 
-rag_chain = prepare_data()
+def sidebar_content():
+    """Create sidebar content with navigation"""
+    with st.sidebar:
+        st.title("Navigation 🧭")
+        
+        # Add radio buttons for navigation
+        app_mode = st.radio(
+            "Choose the app",
+            ["Research Summarizer", "Topic Analyzer"]  # Add more options as needed
+        )
+        
+        st.markdown("---")
+        st.header("Settings")
+        if st.button("Clear Conversation"):
+            st.session_state.memory.clear()
+            st.session_state.chat_history = []
+            st.experimental_rerun()
+            
+        return app_mode
 
-####################SETUP STREAMLIT APP#####################
-print('---------- Load Streamlit App -------------')
+def show_summarizer():
+    """Display the research summarizer interface"""
+    st.title("Research Summarizer 📚")
 
-# Title and Branding
-st.markdown("<h1 style='text-align: center; color: #0582BC;'>Sales Insights ChatBot</h1>", unsafe_allow_html=True)
-# Load and display company logo
-col1, col2, col3 = st.columns([1,2,1])
-with col2:
-    st.image(Image.open("src/images/company-logo.png"))
+    # Document selector
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        selected_docs = set(st.multiselect(
+            "Select documents to include in the analysis:",
+            st.session_state.document_names,
+            default=st.session_state.document_names
+        ))
     
-def run_app():
-    # Initialize session state for messages and question tracking
-    if "messages" not in st.session_state:
-        st.session_state.messages = [
-            {"role": "assistant", 
-             "content": "Hello! I'm here to help analyze user interviews for key insights in the sales process. Please enter any questions or areas you'd like me to explore."}
+    with col2:
+        st.write(f"Selected: {len(selected_docs)}/{len(st.session_state.document_names)} documents")
+
+    if not selected_docs:
+        st.warning("Please select at least one document")
+        return
+
+    # Track changes in document selection
+    if "previous_selection" not in st.session_state:
+        st.session_state.previous_selection = selected_docs
+        filtered_docs = [
+            doc for doc in st.session_state.all_documents 
+            if doc.metadata.get('source', '').split('/')[-1] in selected_docs
         ]
-    if "current_question" not in st.session_state:
-        st.session_state.current_question = None
+        st.session_state.vector_store = prepare_vector_store(filtered_docs)
+    else:
+        added_docs = selected_docs - st.session_state.previous_selection
+        removed_docs = st.session_state.previous_selection - selected_docs
 
-    # Display chat messages
-    for message in st.session_state.messages:
-        avatar = None if message["role"] == "user" else Image.open("src/images/avatar.png")
-        with st.chat_message(message["role"], avatar=avatar):
-            st.markdown(message["content"])
+        if added_docs or removed_docs:
+            docs_to_add = [
+                doc for doc in st.session_state.all_documents 
+                if doc.metadata.get('source', '').split('/')[-1] in added_docs
+            ]
+            docs_to_remove = [
+                doc for doc in st.session_state.all_documents 
+                if doc.metadata.get('source', '').split('/')[-1] in removed_docs
+            ]
+            
+            update_vector_store(docs_to_add, docs_to_remove)
+            st.session_state.previous_selection = selected_docs
 
-    # Accept user input
-    prompt = st.chat_input("Ask me a question about sales insights.")
+    # Create chain using the stored vector store
+    rag_chain = create_conversation_chain(st.session_state.vector_store, llm)
+
+    # Chat interface
+    st.markdown("### Chat Interface")
+    user_question = st.text_input("Ask a question about the interviews:", key="user_input")
     
-    # Ensure `prompt` is a string and not a repeat question
-    if prompt and isinstance(prompt, str) and prompt != st.session_state.current_question:
-        # Add user message
-        st.session_state.messages.append({"role": "user", "content": prompt})
+    if user_question:
+        handle_user_input(user_question, rag_chain)
+
+    # Display existing chat history
+    if st.session_state.chat_history:
+        display_chat_history()
+
+def show_topic_analyzer():
+    """Display the topic analyzer interface"""
+    st.title("Topic Analyzer 📊")
+    
+    # Dummy content for now
+    st.markdown("""
+    ### Topic Analysis Tool
+    This tool will help analyze topics across your research documents.
+    
+    Features coming soon:
+    - Topic modeling
+    - Keyword extraction
+    - Trend analysis
+    - Visualization of topic distribution
+    """)
+    
+    # Dummy interface elements
+    st.selectbox("Select analysis method", ["LDA", "NMF", "BERTopic"])
+    st.slider("Number of topics", 1, 20, 5)
+    if st.button("Analyze Topics"):
+        st.info("This feature is coming soon!")
         
-        with st.chat_message("user", avatar=None):
-            st.markdown(prompt)
-        
-        try:
-            # Generate response using the RAG chain - pass prompt directly as string
-            response = rag_chain.invoke(prompt)  # Changed this line
+    # Dummy visualization
+    st.markdown("### Sample Visualization")
+    st.bar_chart({"Topic 1": 20, "Topic 2": 15, "Topic 3": 30, "Topic 4": 10, "Topic 5": 25})
+
+def update_vector_store(docs_to_add=None, docs_to_remove=None):
+    """Incrementally update the vector store"""
+    if not st.session_state.vector_store:
+        # Initial creation if vector store doesn't exist
+        if docs_to_add:
+            st.session_state.vector_store = prepare_vector_store(docs_to_add)
+        return
+
+    try:
+        if docs_to_remove:
+            # Get document IDs to remove
+            for doc in docs_to_remove:
+                doc_id = doc.metadata.get('source', '').split('/')[-1]
+                # Find and remove matching documents from vector store
+                matches = st.session_state.vector_store.similarity_search_with_score(doc.page_content, k=1)
+                if matches:
+                    st.session_state.vector_store.delete([matches[0][0].metadata['doc_id']])
+
+        if docs_to_add:
+            # Add new documents
+            splitted_docs = split_documents(docs_to_add)
+            st.session_state.vector_store.add_documents(splitted_docs)
             
-            # Display chatbot response
-            with st.chat_message("assistant", avatar=Image.open("src/images/avatar_2.png")):
-                st.markdown(response)
-            st.session_state.messages.append({"role": "assistant", "content": response})
-            
-            # Update current question
-            st.session_state.current_question = prompt
-            
-        except Exception as e:
-            st.error(f"An error occurred: {str(e)}")
-run_app()
+    except Exception as e:
+        st.error(f"Error updating vector store: {str(e)}")
+
+def main():
+    initialize_page()
+    
+    # Get the selected app mode from sidebar
+    app_mode = sidebar_content()
+    
+    # Display the selected app
+    if app_mode == "Research Summarizer":
+        show_summarizer()
+    elif app_mode == "Topic Analyzer":
+        show_topic_analyzer()
+
+if __name__ == "__main__":
+    main()

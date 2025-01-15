@@ -1,0 +1,178 @@
+Speaker 1  0:00  
+Electricity providers. So one of our biggest customers is eon. Once they send invoices, they basically send invoices through our software. So what we get is the inputs on how the consumption was, what is the actual price? We have connection to the market, because the electricity market in Germany is really decentralized and works through various emails and stuff like that. So we collect basically all of that and create an invoice from from that for for the customers, there are multiple. Eon is one of the biggest, but we have stat back. We have smaller customers. So it's a whole range of different setups, everybody with their own. Some have, for example, feed in, meaning that not they are sending an invoice, but they're sending what's it called drift refund, basically, on some occasions, if you feed in with your solar panels and stuff like that. So, yeah, very complex software. My role is the director of, I think I don't know the title. It's rather new, Director of software development, meaning I'm leading a team. I'm responsible for the software delivery part of our organization, leading a team or leading eight teams. So eight individual team leads report to me, and they each have up to 10 team members. So there's a slight difference between what is my role description or what I'm actually doing. I'm actually like putting out fires left and right. But usually the whole, let's say, governance of certain processes is in my in my responsibilities. So for example, I don't know QA governance or software quality overall guidelines for development, and then also people management is part of it, not the biggest part, but with eight direct reports, you need to have some people management as well. So,
+
+Speaker 2  2:13  
+yeah, that makes sense. First of all, that's a big team you're managing that, which is nice, good, good for you. We
+
+Speaker 1  2:18  
+had a currently, we had a currently, we had a layoff, like one month ago, there was 140 people.
+
+Speaker 2  2:25  
+Oh, wow, that's that hurts. How big is the company in general? Right now,
+
+Speaker 1  2:29  
+right now, we are 290 people, but we have been bought by Hansen at the global company with over 3000 please. Okay, we are one business unit now, officially, of Hansen Got
+
+Speaker 2  2:44  
+it, got it, and you already said that you you're working on all these processes, and like, putting fires out, left and right, what's, um, what does your tax deck look like to do that, or like to enable your your engineers like, what? What tools do you use? Well, I
+
+Speaker 1  3:02  
+also, different from what my role should be actually using we are. I mean everything by with us is in our in the Atlassian cloud. So everything is in Jara conference, Bitbucket, you name it. So every process should be like, yeah, should be visible in JIRA. So from purchase orders to, I don't know, software development tickets, change requests or permission requests for customer for for Intel, everything is in gyro, basically. But in the in my daily work, I use a lot of tools, postman, RP, Doc, I don't know. I sometimes even code, because I have to do some scripts. I use the Microsoft suite for everything, because that's part of the leadership. Part of the of this role needs to be present PowerPoints, do something in Excel and stuff like that. So it's a huge range on what we occur or what I'm currently using?
+
+Speaker 2  4:01  
+Yeah, I get it. That makes sense. And within the company, like, like talking about AI tools, did you over the last few years, when everything hyped up, did you start integrating tools for yourself? Like we're talking about internal tools, not necessarily about your SaaS product, more, like to to use with you and the teams?
+
+Speaker 1  4:18  
+No, we only recently started this week that we are now rolling out GitHub co pilot license for every developer. But before that, some Well, we did not have an official policy to allow this, but we also did not like forbade this. So we know that people are using guitar, whatever.
+
+Unknown Speaker  4:44  
+But because we have, like,
+
+Speaker 1  4:47  
+very strict rules on our intellectual property, we cannot allow this. Hansen now changed it and said, Well, we rolled it out for everyone. Besides that, we have in machine learning tool internally, they may use more tools like this, but
+
+Speaker 2  5:03  
+and what like was the like the purchase by Hansen, or like the decision button, just the only reason why you rolled out co pilot now? Or was there a trigger for that?
+
+Speaker 1  5:16  
+Well, Hansen uses this. Use this with all its business units. They have, like, enterprise license, where we are now part of but the demand was already coming from power cloud quite for some time. So developers keep asking if, if they can use it, or what is the policy we were always or the management. I wasn't part of the management by then, but was very quiet and did not take a decision for, I mean, basically for, like, copyright reasons. They were concerned that this there, the source code gets to an unknown location, basically on the other side. They saw the benefit that this may have, but they were very undecisive about this. Now, demand was still there, and Hansen just said, well, let's have it for everyone.
+
+Speaker 2  6:02  
+Yeah, okay, got it. And when, like you now, talked about that, the demand came from the bottom, basically. And, like, probably, engineers made the case. How did they, how did they present this to the management? Like, was there a certain format or certain information they needed to present, or was that process around it
+
+Speaker 1  6:22  
+not from the No, not from the bottom up with the initial presentation, we have something called a developer guild, which is something that happens infrequently, every six to eight weeks, where all the developers come together present some cool new tools or cool new features They implemented. And one of them, one of the devils, had benefits. I think it didn't. It wasn't co pilot. It was jet race AI, where they basically have showed what this is capable of. Cool from the developer guild, there always has to be some kind of action items, because a lot of developer developers are sitting in there, and it's going on for two or three hours, so it needs to have some justification. And one of the actual items was to create a plan to present this to management. But this was like, as I said, shut down quite quietly, and the management did not act about this, because they didn't, I can. They didn't know how to decide this.
+
+Speaker 2  7:24  
+Yeah, I interesting. That's very interesting. Do you know, like, what? What made it difficult for them to decide
+
+Speaker 1  7:32  
+in the the uncertainty about where the data goes to? Okay? Because by that time, and now it's much clearer with GitHub. By that time, it wasn't clear what they are allowed to do with that. Can we do? We see suggestions made from our code in other in other people's prompts, for example, or other people's answers? Nobody could answer that. And that time, they saw the benefits that this may speed up because it was really good by that time, already, by that time, I mean, that was like half a year, but they were very uncertain about because we are the competitor to SAP, so they are very, like, very strict on what is can be published from, from our side, yeah, what is should be accessible, and they're very hard on keeping the stuff in within the company.
+
+Speaker 2  8:33  
+That makes sense. If sap would be my competitor, I would also be very strict on what I publish and whatnot. Like, very strict and for like, for tools like that. Do you have a budget, like, if you, if you cannot talk about numbers, that's obviously totally fine. But generally, do you have a budget in the company that is set?
+
+Speaker 1  8:51  
+No, we have, I mean, we have a budget for tools, but those, it's the other way around. If you need a tool, you will get a budget for it. So if you can justify the usage of the tool, you can show the benefits, make a business case, maybe around this. And you usually get a budget for it, and then you have to, every year, go through the same process saying, Okay, this was my budget last year for this tool. Now I need more 10 more licenses. Please approve that. But there's no, like, general budget where I can just say, Okay, this is 10k a month. I can have this, this, this tool currently not, yeah, okay,
+
+Speaker 2  9:30  
+great. And what, what in the business case need to contain to be convincing? And, like, sorry, two questions. In one, what would it need to contain? And also, who would make that business case? Is it you that you make the business case and present it to your bosses, or does it come from the bottom up? It's
+
+Speaker 1  9:48  
+whoever needs the tool needs to create a business case. And that business case is not only like financial numbers, of course. I mean, for example, something like copilot, you cannot just directly generate revenue from it. So you need to make assumptions, saying, okay, developer is 10% faster with this. We have Higgs, developers, stuff like that. But also within this business case, you have to check for licenses. You have to check for, I don't know any fees, any I don't know copyright issues you may have in other countries, because we're now a global business, so there's a whole process around what needs to be considered before we can introduce that tool. And we do not limit this to paid tools. We do that for all, for example, open source tools as well. Cool.
+
+Speaker 2  10:40  
+Yeah. And how long, like, I know it's probably depends on the tool a little bit, but could you say, on average, how long would it take for a business case like that,
+
+Speaker 1  10:50  
+depending on the one who's climbing that, if I'm driving that, that should be rather quick, because I really want that. But
+
+Unknown Speaker  10:59  
+some of the like,
+
+Speaker 1  11:02  
+let's say lower is the wrong word, but the lower employees, they are often hesitant if they handed it in ask again tomorrow. So usually processes that it needs to go through management, and then that's still management above me, and that can take some time. So I don't know if you want to have an, I'd say an average time span of six to eight weeks before something can get rolled out that's depending on the tool. If it's just something for your team, that's rather six week, if that's something that needs to be rolled out for the company, that's probably rather half a year. And also depending on the on the cost, if that's a tool for 200 euros a month, that's an easy process, but we have tools that costs, I don't know, 200k a year, then that needs to have additional steps and additional approvals for, of course,
+
+Speaker 2  11:55  
+got it and but like, the pure business case, even, like, let's say you do it. Like, how long would it take you? Like, in days? Like, is more one,
+
+Speaker 1  12:03  
+it's two days. I just recently did a business case for for a tool. What not? No, it wasn't a tool. It was a development for new service that usually takes two days. It's you have to check. We have a checklist for security, for license, for costs, and then for possible revenue stream. And then you collect all the numbers, and then put in an actual form, and you're done. And in there is a it's called spending approval request. So you have to collect everything, put it in Microsoft forms. And then from there, the process has started. But this is where it sometimes gets stuck, because that goes to certain management level, and if they don't act, and somebody, whoever created that request, needs to follow up. That's where it actually takes long. The decision itself, or the creation of the business case, is not that
+
+Unknown Speaker  12:58  
+long, okay? And is there? Are there any
+
+Speaker 2  13:02  
+you can go in a second here? Are there any pain points in that process that you like, that you face multiple times, maybe now you find, found a way to manage that, but also because you're on a director level. But are there pain points that others in your company might face when, when creating this business case every
+
+Speaker 1  13:21  
+single time? Well, maybe not the creation, but the status of it. Once we handed it in, we don't know what happened to this, other than we need to ask again, what about this? And then I don't know. Management doesn't know what they're talking about, because there's no overview about any request or anything. They basically get an email from the form. Okay, got it and yeah, the business sense itself, or the business case itself, it's not that standardized. Yes, there is a checklist for new tools, but how you do your calculations on anything that's basically up to you. So that can take some time, and that may be a pain point, pain point for me, but you need to also have the right ideas to justify it. I get it thing. I need a tool. Doesn't justify much.
+
+Speaker 2  14:14  
+Yeah, I totally understand that. Neil Go ahead.
+
+Speaker 3  14:20  
+Yeah, my question is that it seems that creating the business case or the form is pretty straightforward, and then the, let's say, the blocker, or the longer time comes when the management CMS basically make the decision, because they have different priorities, right? Is it because that this topic of a new tool is not a high priority for them, because they don't see the business potential, for instance, how much extra cost savings or revenue potential can generate? Yes, definitely.
+
+Speaker 1  14:55  
+One example is, for example, we have postman as a as a tool, and postman is incredibly expensive, and introducing replacement for postman was quick. Was really, was a very quick process. We analyzed some tools that were possible or suitable, then we created a business case saying, Well, look, we save 100,000 euros per year for our licenses, and that went through within a few days. But that's a tool for small team or a small project that, of course, does not spark very much attention of the management, because it doesn't really affect them. It improves the team's way of work, maybe significantly, but yeah, if they don't follow up on this quickly or persistently, then it's really that's what slows it down. Yeah, the importance of
+
+Unknown Speaker  15:55  
+that makes sense. And let me
+
+Speaker 3  16:00  
+How often are you portugue, the director of software development.
+
+Unknown Speaker  16:09  
+Now, I think your connection broke down like,
+
+Speaker 3  16:11  
+how often are you evaluating the contracts? Sorry, can you guys hear me?
+
+Unknown Speaker  16:16  
+Yeah, it's about evaluating the contracts, right?
+
+Speaker 3  16:20  
+Yeah. How frequently are you evaluating the current contracts and also return on investment of your existing tools to ensure that they are in the market? And are there not other alternatives right now that are could do better
+
+Speaker 1  16:38  
+this? I mean, this is something that I currently put in place, or that I learn. Because what happened now, after I took over, and I took over only four months ago, that from one day to another, somebody came to me and said, well, the license for this and this tool expired. Please tell me if you need it. But I cannot do that within two days. But what I'm putting in place right now is to get an overview, when does something expire, and then have a schedule for or a plan, an early enough plan to act upon it. Do we need it? Is there better alternatives? Can we negotiate price deals or anything, or should we just let it expire? Because there's nothing else we don't need it anymore. So let's say, in the ideal world, we already have a process where we like evaluate, re evaluate every year, because usually we make contracts with tools, with toolings for at least one year. Yeah,
+
+Speaker 2  17:38  
+and that's great. I so from, from what you now said is that on the one side, one trigger of reevaluating tools and potential other competitors is the expiration of the contract. But in the case of postman, was that also the expiration of the contract, or was that more money
+
+Speaker 1  17:57  
+driven? That was money driven? Because postman has a very interesting functionality. You purchase the Enterprise license because that's the only one that allows SSO. But once somebody signs in with your SSO, it automatically adds another license. So each new user that says, well, I need to see that whatever collection signed in 1200 euros already charged. And that sparked some interest quite quickly. And because, basically everybody just at one point logged in, into the and they changed it now, but at one point they everybody logged in because they need to do some testing, or they need to fire some test requests collections. So at one point, we had 300 something licenses, and which cost each 1200 euros per year. Now it's cheaper, and now they they have a process where you have to approve someone for joining, but they didn't have that in place. And the, yeah, the costs were so high that the management said we had to, we have to act on this. Do we really need 300 something licenses? What are you actually doing with this?
+
+Speaker 2  19:16  
+Yeah, okay, that's that makes sense. And okay, let's assume you, first of all, that's expensive, like, luckily, I never had to pay postman invoice, apparently. Let's assume so whatever trigger triggered the reconsideration of a tool. Like, let's stick with postman in that case, because it's a tangible example. What, like, what did you do next? So I know you just said, like your next steps, but could you maybe just walk us through the process of you decided, hey, let's challenge. Postman,
+
+Speaker 1  19:49  
+okay, since this is initiative has been tried two times, two approaches. One is working, one is not. The first one we did was reaching out to every employee on the list, saying, do you need that access? Please enter something in the Excel file. What happened was, yes, everybody, oh no. We said no. Which it was the other way around. Which accounts can we can we delete? Please mark in the Excel file, and they were there. No, we need this? Yeah, we ended up, I don't know, cleaning up 20 something, because they were all former employees. So that didn't work. So the second one was okay by today, or not by today, by next week, I will delete all accounts unless you tell me exactly why you need it, and on purpose, make it a very short period of time, because then people start to act and say, Well, okay, I need this. Because otherwise, if you delete it tomorrow, I cannot work. So they will act immediately on the list or on the initiative, and that worked much better. And the the change we did was they need to have a justification. Business as Usual work or my daily duties wasn't sufficient, and that was not that my job, but the job of the team leads to to to check the justification. Do they really need it? Jdba work. What is jdba work? Why do we need access to all repositories? Or what do you need, or access to postman for your daily please explain, and then, if the explanation was okay, they kept this, but we were very strict. Say, Okay, after one week, everything's gone,
+
+Speaker 2  21:39  
+so you're still with postman, but you just cut licenses.
+
+Speaker 1  21:44  
+Yes, we're still with postman, because we have a very extensive automation library included there, and RP Doc is better, but we need some time to migrate.
+
+Speaker 2  21:56  
+And would that be, would that be an option, like, Are you considering to migrate. Yeah,
+
+Speaker 1  22:01  
+we're in the process, but currently, I mean, there is this transition phase, but we had to reduce costs fast on this. So for the most crucial ones, and that was part of the justification, I'm using this and this automation. I need access still, but we are now down to 40 licenses on postman and moving to Rp dog for our business as usual. And
+
+Speaker 2  22:28  
+how did you, how did you evaluate RP Doc as the right solution? I mean, like, not, we don't have to go talk about the individual features which are better or worse, but like the process from Okay, so apparently postman is not our ideal solution. Like, how did you explore potential solutions? Or, like, talk to teams. Like, what?
+
+Speaker 1  22:46  
+Yeah, I put in place some people who volunteered. I don't know how much you can volunteer, but to drive this topic and say, Okay, we need a replacement. This costs us almost 300,000 euros a year. Please find alternatives. And what they first did is, was some kind of requirements engineering. So what are we actually postman, using postman for? And what? What would we need that it may be not even covered by postman, for example, we want to go to API design first. That's nothing that you can do with postman, but you can do an RP doc, for example. So the initial step was, okay, what are our requirements to that tool? Write it down, sign it off with me, or my colleagues say, okay, these are the requirements. Now, go and find a tool. Requirements can be, as I said, RP, design, the correct license price not over x, something like this. And once this is signed off, they went through, yeah, they basically researched, Googled, what other post libraries are there or request libraries are there? And they come up. I came up with a list that all suited more or less most of the requirements, and then testing started. So we rolled it out for some teams say, Okay, you use now arpidock, you use now hopscotch, and please come back, or please document your results and then please come back so we can make a decision on this. Okay,
+
+Speaker 2  24:20  
+nice, that makes sense. And one last question, and then I can give you a bit more background on why we are asking you all of this. Is you talk a bit about, like the postman costs, which were incredibly high. Have you also considered looking into tools that track your software costs? Like I know now you, you are probably setting something up yourself, which you just described. Have you considered looking into tools that helps you manage costs? No,
+
+Speaker 1  24:47  
+because I would not have thought that something like this is in place. I mean, now that I think about it, there's like for private users, something like Clark or I don't know where you put all your contracts in, and it checks for you. And I know that finance, our finance department, does something where they should know, because they have all the license and the expiry dates, but there's no comprehensive overview of such a thing. But no, honestly, I didn't even consider looking for a tool that does that for me I use now, well, now notepad. I want to convert it to Excel, because I need to keep track and I need to act early enough
+
+Unknown Speaker  25:33  
+to that makes sense.
+
+Speaker 2  25:37  
+I think I would wrap it up here. Neil, if I didn't miss any key aspect. I would give a little bit of background. So, because the reason why we ask these questions is that the B to B buying process basically consists of multiple steps. The first one is identifying the problem, then exploring potential solutions, like, do we want to build something in house, or do we want to buy external software? Then you collect all the requirements if you decided to buy something, and then you have to go out explore vendors like talk to them, talk to sales people. But before you talk to a salesperson, usually that's 80% of the work that is being done by the buyer. So they figure all the stuff out. They do the research on their own, because there's so much information available in on the net that people are really emphasized to do it themselves. However, still, 50% of buyers who buy software regret it after 12 months. And that is interesting, because people want to talk less to sales, but at the same time, when they make these decisions on their own without sales, they regret it more often. And we are now trying to understand where do things go wrong in this process, and are just running interviews like, Is it maybe? Do they identify the wrong problem? Do they choose the wrong tool? Do they collect the wrong requirements, and we are just trying to understand where we can contribute
+
+Speaker 1  26:52  
+there? Yeah, maybe to give you another example where exactly that was the case, we explored. We needed an API documentation tool, and there's not much in the market. Postman doesn't do that very good. We need because we wanted to switch to API design. First, we initially found stoplight, which by then, was the only competitor or the only really fitting to all our requirements. So we went with that. And as you said, the whole sales process was a mess. I mean, the the requirements, yes, was also complicated, because we need to switch, like our way of working with this, but everything beyond that, because at that time, I was only a team lead, and I was driving that. But I am by no means any decision maker. I can have conversations with the sales people, but in the end, then I can collect all the info and say, go to my manager. This is the proposal. And then he comes back. Oh, well, I need to understand why we need this. Can I talk to them again? Can we renegotiate again? What is this? How long it's stuff like that. So from not from now, from my position, that's a little easier. I can make decisions on those tools. But Q, if I want to initiate such an initiative as a team lead, that's quite difficult. Yeah, I
+
+Speaker 2  28:22  
+can imagine, like it sounds, sounds like a very cumbersome process I have not been part of. Like
+
+Speaker 1  28:27  
+we have then canceled again, because the adoption of this tool was then also not followed up. I mean, the team used it, and the idea was to roll it out for the whole company. But the process that needed to be taken to use this tool towards like, what we pay for, it was then never follow, for example, it was also quite expensive, and I think it would have been worth but the process, or the transition to adopting that tool was
+
+Speaker 2  28:59  
+was too difficult. Why do you think that adoption was too difficult? Like, what was like? What made it so difficult to adopt
+
+Speaker 1  29:04  
+it? Well, if we now have nothing, I don't know if you know API design first, but it's something that the PO or the business analysts design the APIs before they get implemented and they get documented, and so the customers can already start implementing stuff, because they know the specification, and only after the specification is ready developers start to implement now is the other way around. We have an idea, we need an API, and then the developer decides, Okay, this key is named this. This is the name of the API and stuff like that. So it's way too late, and it's better for the customer and for our plan. Able to plan. It is a complete change of mindset. Who designs this API? Now the PO needs to design with an API design first, the PO needs to be the one designing the API and really thinking about from the technical perspective before he only gave the input, I need an API that should be able to do this and that, and the developer was doing the now, the developer is doing the whole technical implementation, and that was too difficult to roll out to. Now I have nine teams, but before I had 14 teams, it was just not feasible. And that's also not a process that can do step by step, because if you not, if you have a documentation that you rely on, because it's API design first, and still do something that is not API design first, you have a mismatch. And that's not, was not possible. So we didn't think of what that actually means. It means on one day, you need to make the switch. Today, everything goes into this new tool. It goes into stoplight. Okay,
+
+Transcribed by https://otter.ai

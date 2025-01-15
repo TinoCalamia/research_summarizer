@@ -1,0 +1,244 @@
+Speaker 1  0:00  
+Time here, and yeah, and I are growing a business opportunity where we are running interviews right now to better understand how the B to B buying process is happening. So the B to B buying process when companies buy software is something that is kind of complex, has many stages, and we just want to understand a bit more how various companies buy software. So that's when I thought about you, because I met you at the conference. I saw you having a talk and talking about, like the agenda frameworks that you were building. So I just reached out and
+
+Speaker 2  0:36  
+right, so I'm actually have to say beforehand that I'm not buying software in our company. I'm just buying some licenses when needed, but not really
+
+Unknown Speaker  0:52  
+partnership software
+
+Speaker 1  0:53  
+that's totally that's totally fine, because that process covers multiple things like so multiple stages, even from identifying problems. So I think we can, we can touch up on many of these. If you could start by by just describing your role and what you do, that would give Neil a good, good overview. In general,
+
+Speaker 2  1:17  
+I'm talking to people about AI and showing them how to onboard AI technologies in their business. That's basically a high overview of my my main so strategy related to AI,
+
+Speaker 1  1:35  
+and that's great. And how, like, how big is the company? General? How big is your team?
+
+Speaker 2  1:44  
+Oh, the company is quite big. Is 11,000 people. I mean, not huge, but quite large company.
+
+Unknown Speaker  1:52  
+I don't have a team. Actually, I have just
+
+Speaker 2  1:58  
+a role that goes across the organization. So I'm helping different teams and collaborating tightly with the heads off. Okay, different departments.
+
+Speaker 1  2:08  
+I got it. I got it. And how's the tech organization, general structured? When you say you you operate across various teams, like, what can you? Can you elaborate that a bit more,
+
+Speaker 2  2:17  
+it's spread around the globe, we have offices in I don't know if you took a look at the numbers website. Yeah, yeah. I did save offices from South America to through Europe, Eastern Europe, Vietnam, India, Australia, so covering more or less all the time zones, okay? And yeah, the idea would be to have people working in the same time zone as the clients, and also nearshore colleagues that are located by nearby the clients.
+
+Speaker 1  2:58  
+Okay, cool. I got that, and you basically from, from what I saw on the website is that you cover a wide range of services, right? That could be implementations from, like, a technical point of view, but also product
+
+Unknown Speaker  3:11  
+point of view, right? Yeah, okay,
+
+Speaker 1  3:13  
+that's, that's great. That makes sense. And, like, I know, obviously you're very like, in the like, your data person and you also offer that service. How well is AI integrated with? Like, how do you use it? Or, what features do you use it for? Like, how's the How does that look like?
+
+Speaker 2  3:34  
+So we are collaborating very closely with open AI, and we have lots of integrations with different tools they offer, basically covering from chat GPT, classical web, page to platform chat GPT to the playground and the API calling and then moving on to multi agents, through soar, AI and so on. But we have partnerships with other providers, so we're using to answer your questions, AI, almost every step in our process, in drawing, RFPs in extracting, building stories for a certain product, delivering, so like Canvas, to deliver software and then build, generate software faster. So it's, it's everywhere,
+
+Speaker 1  4:39  
+okay, that's great. That's, that's a really good point. And when, when you think about, like, where the company was wants to go, like, in 2025 what are the biggest challenges? And translating this also to the people you work with, what would you describe are kind of, like the challenges you're facing, or like the goals you're setting?
+
+Speaker 2  5:00  
+So maybe the challenge that we're facing with people are related to
+
+Unknown Speaker  5:09  
+the
+
+Speaker 2  5:12  
+fact that they don't know where to start. So we need to elaborate these training programs, and also trying to be cautious for the over reliance on and with our clients is more or less same. Actually, we are educating them on how they can use AI and also how how to be cautious, how to build guard rails for the solutions that they are finally ending up using,
+
+Speaker 1  5:43  
+okay, got it. And when you say you are training them, or you are basically showing them how to use and apply AI, how does that look like? Like? What? What do you exactly do? What like? How do you structure a program like that?
+
+Speaker 2  5:59  
+So it usually starts by looking at the foundation, see if they have proper foundation on which, on top of which, to build. Then we have discovery, either workshop or we find out that there is that they really need to solve, on to giving me more great industry, great solutions.
+
+Speaker 1  6:31  
+Okay, got it. And when you like, when you think about these low hanging fruits that you just described, and you like, basically break it down to, what can we solve now? What is the usual process there, and how do you go about to find a well fitting solution? Then, like, the like, can you? Can you walk us through like, let's say you want to identify a problem. Where do you start, and how do you go about solving it?
+
+Speaker 2  6:58  
+So these are quite I'm just thinking that some of our approaches are not really shareable, so I'm trying to figure out exactly what you are looking for, and actually, if you could tell me about your activity, what's what are you doing better if I understand the purpose of the discussion,
+
+Speaker 1  7:21  
+yeah, let me. Let me maybe rephrase it like, let's assume you and the the teams you, you set goals for 2025 right. Like, or you you want to work towards, towards an overarching goal, and for that goal, you have to break it down, right, like, into into smaller steps that you perform, right? And like to figure out, hey, what? What other stuff that we want to perform to approach this goal? Like, how do you how do you find them? Or how do you define it? Let's
+
+Speaker 2  7:51  
+start, yeah, but maybe you haven't heard my question that was about your activity and your objectives for this. If you could explain, yeah, if you could, we could stop a little bit and explain me what you're looking for and what's your organization and objectives for this discussion.
+
+Speaker 1  8:09  
+We don't have an organization right now, so what we're doing is we have to be buying processes that are like very complicated and cumbersome. And what we want to do is just understand how people go from identifying a problem to choosing a solution, either that could be internal solutions or that could be software. And that's kind of like where we want to understand how do different departments work with each other, like, how do you communicate with other teams? All these kind of things that we are like, we're very in a in a state where we're exploring, exploring this, and don't really have a solution yet,
+
+Speaker 2  8:47  
+but you're, you're building your own startup, or what's this?
+
+Speaker 1  8:51  
+So right now, it's more running interviews. Ideally, if we come out of out of it with, like, some insights, then that would be an ideal case. Right now, it's, it's just interviewing to understand the process a little bit better.
+
+Speaker 2  9:05  
+Okay, so that's that's a quite complex area, so I don't know. Let's see how I can help you be I have to be mindful with this, the information that I can share and the one that I can't. So, yeah, happy to help out up to a certain point.
+
+Unknown Speaker  9:23  
+Yeah, I totally understand.
+
+Speaker 2  9:27  
+So maybe. Okay, so you were saying, how we do to to arrive from point A to point B in,
+
+Unknown Speaker  9:38  
+in an engagement, you mean, that was the question, yeah. Like, we
+
+Speaker 1  9:41  
+can also talk, talk about your internal goal. Like, not like you don't have to share the goals themselves, obviously, but more, like, obviously, the company also has a direction that it wants to go to in 2025 and every team contributes a part of it, right? Like, all the teams take this big goal and break it down into things they want to achieve. And for us, it's interesting to understand, how do people like, how do teams identify what they need to do, and then how, once they identified what they what their like problem or their their challenge is to contribute to it, how do they try to solve it, like, what's, what's the process in that does that make sense?
+
+Speaker 3  10:23  
+We can also, by the way, make it a bit more because right now it's very abstract and very vague. Maybe we can make make it a bit more concrete. Radu in this quarter. So in q4 are there any projects that you perhaps delivered and were worked, worked on that that you wouldn't mind talking about. So we can maybe start with that as an example, right? So like, Hey, what is the problem project that you're working on? And how did you actually develop tools or a solution to kind of solve that? Maybe that would make it a bit more
+
+Speaker 2  10:58  
+Yeah, it's the same. I mean, the idea, I understand, the idea that the thing is that there are two levels of approaching problem. One is understanding what the real challenge of the client is, and that's really is more related to the business than to the technology. And then what's the technical solution that would solve the challenging best so in order to discover the needs we have, the discussions where I'm involved in so I'm asking lots of questions. We're discussing a lot around the processes they have, identifying patterns, handovers,
+
+Unknown Speaker  11:47  
+places where
+
+Speaker 2  11:50  
+rotinary work is being performed, and we identify the real challenge, not maybe sometimes it's Different than the challenge than the client things they have, we have a large spectrum of capabilities, so it's pretty straightforward to map the challenges to a team that could solve it, and then we build the teams. Obviously, the things are formed of different skills that contribute to the success, and then we start working by
+
+Unknown Speaker  12:30  
+following an agile methodology.
+
+Speaker 1  12:34  
+Okay, that makes sense to me. And like when, when you've decided, okay, we've, we've, we're facing this challenge, and we want to use this solution, or like this internal capabilities or internal teams to solve it. How do you sometimes decide between, hey, we build it ourselves, versus we put together a team that maybe implements a mix of external tools and internal tools? Like, is there there a certain pattern you follow?
+
+Speaker 2  13:02  
+Well, it's in the best interest of the client. If there are external tools that can be applied, we we will disclose that, but many times, we also explain how what are the limitations of an external tool and where we can contribute to, to leverage this, this gap that there is in the in the tool,
+
+Speaker 1  13:27  
+okay, that makes sense. And this entire process, how do you manage, like the communication with the client, like defining the actual problem, defining your approach. How do you How does the communication happen? Like
+
+Speaker 2  13:40  
+between, well, I guess the coordination would be some sort of Kanban, and the communication is by email, meetings and video calls, okay, sometimes in person meetings.
+
+Speaker 1  13:52  
+Yeah, nice. Okay. And do you like, is there in this process? Is there anything where you say this, like, this is also pain that we have on customers, like every single time when we talk about communication. Is this problem that pops up?
+
+Speaker 2  14:10  
+Yeah, maybe the lack of understanding of the technology, and we always have to level set them either they're too enthusiastic or too pessimistic,
+
+Speaker 1  14:25  
+I can imagine, and that's probably where your team comes in and explains a little bit of the advantages and disadvantages, right? Exactly?
+
+Speaker 2  14:32  
+And we have many accelerators so small demos that we can use to show them a functionality or a way in which the technology can be used, and that's really helpful.
+
+Speaker 1  14:47  
+And are these demos that you develop yourself, or do you have access to demos, like, to a variety of demos, or are these many,
+
+Speaker 2  14:55  
+I mean, not myself hands on, but teams that I'm coordinating, and most of the demos are internal ones. So we create some proof of concepts for customers, then we repurpose into demos. That's that's internal production. Let's say,
+
+Speaker 1  15:17  
+okay, that makes sense. And when you do, sorry, quick question,
+
+Speaker 3  15:21  
+like, I know you, you basically build these technologies for yourself internally or for your clients. Do you is the idea always to build the tool in house? Or do you guys also buy or purchase or contract other like tools available in the market? Oh,
+
+Speaker 2  15:39  
+no, we, we don't buy per set the tools, but we advise the client and we let them will help them buy the tool.
+
+Speaker 3  15:53  
+Okay, so close to actually using market like tools are in my today. No,
+
+Unknown Speaker  15:57  
+doesn't make sense. Nice.
+
+Speaker 3  15:59  
+Okay, what is your process of because, of course, sometimes the client has a problem and then you provide different solutions. What is your process of actually coming up with, like, Hey, these are the top three tools or solutions that the client can use.
+
+Speaker 2  16:17  
+Okay? So most of the time, when things are not clear, we have to go through a discovery period of one or two weeks, which is paid a paid effort. So the client should pay for for this work that we're doing together, we are very transparent and show them what we're doing and what the results are and how the what we discover sometimes when there is a very strict dependency session, and we offer this study ourselves, but the idea is that there is no silver bullet, unless you already have a previous very similar case in which you say, Okay, we know very well the yeah and yeah, that's that happens many times, because we have lots of projects already done and subject matter experts that are in our teams. So many times, indeed, we have the previous experience that can help us accelerate and just put the finger on the on the problem, rather than trying to discover by reading academic papers or information being the related to the field interesting.
+
+Speaker 3  17:43  
+So it's a two week paid deep dive into a client's and then you really give customized suggestions or proposals based on their needs. Unless it's a client that is an industry that you've worked with prior and you have a lot of experience, then it's, you can just copy, pay or, like, use silver bullets, right? That's yeah, we
+
+Speaker 2  18:01  
+can use our previous experience and explain them all right. These, these are the options. Please, analyze the pros and cons, and we can give you our opinion, but, yeah, that's faster.
+
+Speaker 3  18:19  
+Yeah, is it mainly AI tools, like that the client is coming for, like or AI solutions that you guys propose? Or is it all, all kinds of technological solutions?
+
+Speaker 2  18:31  
+Well, I might be biased, because I'm mostly in the AI world, so I'm only using AI AI tools. But yeah, maybe other colleagues are are having a different I cannot share. My view is that we're into everything related to Gen AI, to machine learning, to ml ops. So everything that makes AI work, we haven't,
+
+Speaker 3  19:04  
+sorry, last question. I'll get back to Tina. Actually, it's more like when a client comes to you, and of course, you know that, okay, they're coming to you directly, so they have an interest in AI, do they already kind of know what application of generative AI they need for their problems, or is it really like high level like, Hey, Raju, I have this my problem for 2025 I kind of might want to use AI tool. I don't really know if that's the solution. Like, where are they in their awareness journey? When they come to
+
+Speaker 2  19:38  
+they're everywhere. There are companies that know what they want to do, and they typically best please deliver an algorithm that's doing this, this thing, and we just can't just collaborate that that can work on an embedded device, for example. Or there are companies saying, Okay, we have a large CMS. We don't know exactly what to how to use. Ai, how would you advise us to improve something? And then we start discussing, okay, what do you want to improve internal efficiency, or your business results or your outcomes from different directions? So we have to understand better. In those cases, there is more need for for longer discussion, but always you need to make very make sure that you understand very well the problem they are trying to solve. Because if you are trying to understand how to sell B to B, that's quite broad topic.
+
+Speaker 1  20:49  
+Yeah, I think that's also why, like, we're trying to, like, to to understand the entire buying process, instead of selling like we because, like, we're trying to look at how buyers would behave. And that's just like, as you did describe this, like, very broad topic, and we're just trying to orient ourselves. And one follow up question on what you just just described, like, figuring out what the actual problem is, and then talking to the customer. Do you have a, like, internal framework for that? So is it like, maybe not the checklist. But do you know, hey, we have to perform these steps to get to this point.
+
+Speaker 2  21:24  
+Yeah, we have internal frameworks. Okay,
+
+Speaker 3  21:29  
+what are some of the things you do during this two week, paid problem dive period.
+
+Speaker 2  21:39  
+Usually it's research, looking around, seeing how problems have been solved by solved by the academia, if we're talking about specific algorithm, or what are the options in the market, and checking out the existing software of the shelf, or basically getting to know better the domain
+
+Unknown Speaker  22:12  
+in any way,
+
+Speaker 3  22:15  
+yeah, and like, in terms of so obviously you have a lot of employees, and I assume because of that, you have a lot even more customers, hopefully. So when you give a potential what is their level, overall level of satisfaction? Like one year down the line, we
+
+Speaker 2  22:40  
+have customer satisfaction survey. There is an acronym, I forget. They are usually very, very CCA satisfied because we give the IP so it never keep the IP of the solutions that we develop with them. And we also work in partnerships. So we are not we don't have a waterfall approach. We have a very partner like we work together with them in an agile way. We have daily meetings, or very often, meetings to share the results, to ask for their steering and feedback and see if we are close.
+
+Speaker 3  23:34  
+That's really good. I am. Yeah. The reason I ask is because a lot of more than 50% I would say, of companies like, really regret the software that they purchase. So, like, this is off the shelf software, and because they think it's a lot, lose some, loss of money, loss of time, it leads to competitive disadvantage. So it's really nice to hear that you guys have a really high, high one.
+
+Speaker 2  24:00  
+Yeah, we are very careful with this. Yeah,
+
+Speaker 3  24:04  
+is it? Is it only a two week process in terms of the diving, or is that standard? Or does it always also go with longer sometimes,
+
+Speaker 2  24:12  
+sometimes it's longer, but the longer it is, the harder it's to sell or to spark the interest. If you go with a very long process, then there'll be like, we don't have four weeks, or we don't have two months to work on that. It depends. If there is a large organization with no budget limitations, they're they're more flexible with this. But the, I would say, 90% of the cases is one or two weeks interesting.
+
+Unknown Speaker  24:40  
+And how long is your implementation period?
+
+Speaker 2  24:45  
+Again, depending on the project, but on AI, we are somewhere around two, three months, and we can provide an MVP, and if some things need to be further developed. We continue. I had engagements where we started with two weeks discovery, two months development, and then after two years, we're still developing.
+
+Unknown Speaker  25:15  
+Damn,
+
+Unknown Speaker  25:17  
+that's a lot of years. Yeah,
+
+Speaker 3  25:21  
+do you guys also let me my last question for me, at least in your discovery when you're actually coming up with the MVP, do you guys also kind of
+
+Unknown Speaker  25:30  
+jump really quickly in my next call? Sorry, no worries. Thank
+
+Speaker 1  25:34  
+you. Thank you for your time. Thanks for taking the time. And yeah, we will get back to you if we have updates or anything. Please,
+
+Speaker 2  25:45  
+actually interested in understanding how or where you got with this
+
+Unknown Speaker  25:51  
+I will keep you posted. Okay, much good.
+
+Transcribed by https://otter.ai

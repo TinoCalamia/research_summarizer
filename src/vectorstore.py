@@ -20,22 +20,55 @@ vector_store = FAISS(
     index_to_docstore_id={},
 )
 
-def create_vectorstore_from_documents(documents, vectorstore=vector_store, embedding=embeddings):
-    # Embed and add documents to vector store
-    vector_db = vectorstore.from_documents(documents=documents, embedding=embedding)
+def create_vectorstore_from_documents(documents, vectorstore=vector_store, embedding=embeddings, batch_size=3):
+    # Process documents in batches to prevent memory issues
+    vector_db = None
+    
+    for i in range(0, len(documents), batch_size):
+        batch = documents[i:i + batch_size]
+        print(batch)
+        try:
+            if vector_db is None:
+                vector_db = vectorstore.from_documents(documents=batch, embedding=embedding)
+            else:
+                vector_db.add_documents(batch)
+        except Exception as e:
+            print(f"Error processing batch {i//batch_size}: {str(e)}")
+            continue
+    
     return vector_db
 
-def split_documents(documents):
-    # Define the text splitter for chunking with constants from `con`
+def split_documents(documents, batch_size=100):
+    # Define the text splitter
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=con.SPLITTER_CHUNK_SIZE,
         chunk_overlap=con.SPLITTER_CHUNK_OVERLAP
     )
-    # Split the documents into chunks
-    splitted_documents = text_splitter.split_documents(documents)
-    return splitted_documents
+    
+    # Process documents in batches
+    all_splits = []
+    for i in range(0, len(documents), batch_size):
+        batch = documents[i:i + batch_size]
+        try:
+            splits = text_splitter.split_documents(batch)
+            all_splits.extend(splits)
+        except Exception as e:
+            print(f"Error splitting batch {i//batch_size}: {str(e)}")
+            continue
+    
+    return all_splits
 
-def add_documents_to_vectorstore(splitted_documents, vector_db=vector_store):
-    # Add split documents to the vector store
-    id_list = vector_db.add_documents(splitted_documents)
-    return id_list
+def add_documents_to_vectorstore(splitted_documents, vector_db=vector_store, batch_size=50):
+    id_lists = []
+    
+    # Add documents in batches
+    for i in range(0, len(splitted_documents), batch_size):
+        batch = splitted_documents[i:i + batch_size]
+        try:
+            ids = vector_db.add_documents(batch)
+            id_lists.extend(ids)
+        except Exception as e:
+            print(f"Error adding batch {i//batch_size}: {str(e)}")
+            continue
+    
+    return id_lists

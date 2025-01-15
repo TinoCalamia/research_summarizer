@@ -1,0 +1,250 @@
+Speaker 1  0:00  
+Always. I mean, I would like to help both ways, either you or Sastra five. So
+
+Speaker 2  0:07  
+why that? Yeah, thanks so much. I would suggest I can give you a little bit of background, like, start with a little bit of background while we're running these interviews. Then I would have a few interview questions, and at the end, maybe I can give you a, like, clearer picture on what we are interviewing for, or, like, just researching, basically, so that I don't bias your answers before, before I ask all the questions. So the background, why Neil and I? So Neil is my colleague who can, unfortunately, cannot join today, but we basically looked at the B to B buying process, like, how do companies buy software, and what are their challenges, and what are they trying to to improve to make this process a bit smoother? And we identified that there are various steps in this process, and are currently trying to understand where people are companies struggling the most with in this in this process, I would say, and how we can kind of support them, or, like, build a solution that could solve their issues. And with that, I would keep it like that. I give you a bit more details later on, after I interviewed. So if you could maybe give me a high level overview of your role and at monta, just what you do. I read about monta, but if you could spend one or two sentences on them as well, then I would have a clearer picture of what what's the situation like.
+
+Speaker 1  1:38  
+I'm senior artist for engineer at monta. Basically I take care of, I was taking care of most of the renewables that was in monta, negotiating, checking the spending, and also documenting everything, having documents in one place. So, yeah, I'm doing everything around it. So now we just let this negotiating and this part for each department, because it's it requires a lot of manpower to do that as well. And of course, it's very hard for you to negotiate tool that you never used. Yeah, you haven't been introduced. Maybe your admin there. Maybe you're getting you paying for that tool, but you don't know the usage. You don't know why you're using it. What is the use case? So it's very hard to have kind of like overview, of course. So it's basically EV focus company. Basically we do software for EV chargers and for the charging stations. If you have one charge point, or you have 1000 charge points, you can manage them through our ecosystem. So basically, that's, that's we are very tech focused company.
+
+Speaker 2  2:54  
+That's very cool. So thanks. I mean, how many people do work at monta
+
+Unknown Speaker  3:00  
+now? We are around 320
+
+Unknown Speaker  3:03  
+I think, okay, no
+
+Speaker 2  3:05  
+cool. And do you have any specific focus, like geographical focus? Do you focus on any kind of
+
+Speaker 1  3:11  
+so we have, we are based in Copenhagen. We have, I think, eight offices around Europe. Also, we opened us now in Miami, we have, we are quite, quite, quite International, slowly getting there, like to the most of the countries we have also in Berlin, also some Nordic countries, UK, France,
+
+Unknown Speaker  3:38  
+Spain,
+
+Unknown Speaker  3:41  
+yes. So far this, yeah, great.
+
+Speaker 2  3:43  
+Thanks. And I mean, obviously, like, whenever you cannot ask answer a question because of confidentiality or anything like that, obviously, that's totally clear. But when you, when you look or like you and the team and the company, look into 2025 what is kind of the biggest opportunity or challenge you're seeing in 2025 What do you want to achieve as a company? Is there a certain direction you're going?
+
+Speaker 1  4:09  
+I mean, probably savings. Because, yeah, the market is like it is. You know, there is a lot of tech company now. They struggle with, they have to lay off a lot of people. So I think that's the main focus to kind of like, go more focused on savings, or like, think about what we're spending money on, and kind of like, think for the future. Yeah, yeah,
+
+Speaker 2  4:38  
+I can imagine. And is there a clear strategy on how you and the team, like, specifically, your team can contribute to that goal? Like, is there, like,
+
+Speaker 1  4:48  
+we will have a strategy. There is, and I think that's gonna be, that's gonna be a topic, yeah,
+
+Speaker 2  4:54  
+yeah. I can imagine next month. So I can imagine, and you said you're also a very tech savvy company, or tech focused company, yes, what's your take like with all the company's take on AI, how do you use it internally in terms of tools?
+
+Speaker 1  5:11  
+The tools So probably we, we only use it for coding, I think, mostly. And of course, like we have also account in AI, like company wide, account on chatgpt, and then we also use notion AI for making our sites, the sites and notion pages better, and stuff like that, very using AI. But no, we've got offers from gem Gemini, and we didn't take that mostly chat, GPT and ocean AI, I think, is the most used. And, of course, some co pilot in GitHub,
+
+Speaker 2  5:56  
+very interesting. And why did you decide against using Gemini,
+
+Speaker 1  6:02  
+the price and the I think the price was the most,
+
+Unknown Speaker  6:09  
+most important factor.
+
+Speaker 2  6:11  
+Yeah, I can imagine. And who's proposing these tools, like, when you say you now use chatgpt. And also, I mean chatgpt is very obviously, everyone is using it, but there are also alternatives, or like, when we talk about notion AI, who's proposing these tools,
+
+Speaker 1  6:31  
+usually departments, they find something that fits them and also depends on the sea level how They basically if they approve it or not. It makes sense if it's too expensive, or if there is a budget for it, or if it's crucial, okay, I think everybody has their word. They can, they can come up with whatever tool, yeah, and then if it fits the purpose, I think should be probably gonna get approved, of course, if there is a budget, yeah,
+
+Speaker 2  7:05  
+do you have, do you have a fixed budget, or do you have to make a business case for
+
+Speaker 1  7:10  
+I think kind of both depends, of course, but budget for It, department based budget, of course, if it goes through the different departments, they probably you use the first option that you ask. Okay,
+
+Unknown Speaker  7:27  
+that's very business case. Yeah.
+
+Speaker 2  7:29  
+Okay, cool, that makes sense. And assuming one of the teams finds a interesting new tool, what's the process of proposing that tool, because you said you now mentioned various state like various people that are involved, what would be the process of me, as I'm data scientist myself, I find a new tool. I want to propose it. What would I need to do to get it approved?
+
+Speaker 1  7:56  
+Write down what it does, I think, what it's going to be used for, who's going to use it, and how much is this cost? If it's monthly, all the details, then it has to go through different processes. First is the budget process. Then it's the vendor approval process, which is security compliance, stuff like that. If it gets through all of them, you have a green light. Then it has to go to some, some person who has the power of signing the contract, the attorney, and then then it's done. Then it's going to finance, and then finance is paying for it, of course. So it's like, yeah, like, a circle has to go. You have to go. It's like jumping on the train. Yeah,
+
+Speaker 2  8:42  
+that makes sense. That's That's great. Thank you so much. And how many of, like, how many tools do you onboard? I don't know, per year, for example,
+
+Speaker 1  8:54  
+but I don't know actually, like, we are very young company, so it can, really, can really say the number, but might be 510,
+
+Speaker 2  9:06  
+okay, that's, that's super interesting. That's, that's good to know, because it's obviously also always like, there are, there's always this conflict between buying something off the shelf or finding a solution in house, right? And, yeah, do you, Does your company have a specific take on buying something off the shelf versus building something in house you have? Like, how do you decide that?
+
+Speaker 1  9:29  
+Yeah, I mean, usually buy. I think you usually buy because, yeah, usually the there's something on the market that can fit with our needs. Usually, we find something, of course, it's better in house, but of course, you need to put manpower to maintain it, and yeah, customize it. And yeah, we have few in house solutions. But of course, my manager is telling me, we have to switch it, but I'm saying I will take care of it. It's fine now,
+
+Speaker 2  10:09  
+yeah, yeah, I can imagine and when, like, how do you identify use cases for tools? I know it's probably a bit tool specific, but is there an example of of a tool where you, for example, or someone else you work closely with identified a problem or an efficiency and wanted to solve it by using a tool
+
+Unknown Speaker  10:36  
+that was me, For example, with sastify.
+
+Unknown Speaker  10:41  
+That's a good use case. Yeah. So
+
+Speaker 1  10:43  
+I was a lonely man in my department, in the company, basically as an IT person, of course, with lot of tasks that I that I couldn't really accomplish myself, only myself. So I was looking for some solution where we can spare money, have our whole tool stack in one place with documents and renewals and stuff like that. Of course, that takes a lot of time to maintain this. Of course, we have more than 100 tools, so it's it's crazy amount to have everything under the place. And then, you know, sometimes the contracts are sent to people who are not in the company anymore. You know, it's tough. So I was Okay, then let's try to make this nice, at least start with it and justify can help us. So we basically did like research of three tools. We compared who was doing the best deal or was the best price. Who can negotiate the price? Who says that we cannot negotiate because it's the lowest that we can do, and who has the most complete tool right from all of them and SaaS, if I was the one, but we went poor. Okay,
+
+Speaker 2  12:04  
+very interesting. And what was the what was the hardest part about finding a tool like SaaS, for example, like, what in your experience? What was the hardest thing to do?
+
+Unknown Speaker  12:17  
+Honest thing to do is, I um,
+
+Speaker 1  12:25  
+basically, to pick the best who's giving us the most options, or who has the most complete. And hardest part was, was finding the best solution, all of these three that we had. But I think we assess if I came out as a winner, because they provide the best price, they provide the most complete tool that time. And yeah, they've been also very nice to negotiate with. So they were friendly and open to negotiation. We also met the CEO, so it was very nice. He just said that he would like to ask to get the discount, and then he gave us also something extra, but we get, like, a better options. And yeah, I was really proactive there. So we always get, like, some previews of the new features. So it was nice to work next to them on their tool, and I was also given the feedback. So I think that was a good
+
+Unknown Speaker  13:31  
+all the same, like a B to B communication,
+
+Speaker 2  13:33  
+great. I totally understand it sounds like. Sounds like a brilliant service that provided. And how do you like you talk now about saastrified being the most complete tool. What was the process of identifying that they are the most complete tool? Like, what? What requirements did you talk about? Like, what? What were the key factors of that?
+
+Speaker 1  13:57  
+Yes. So the key factor was that they would say, double that that we paid for them, at least that was the minimum. Basically, they had to save double the amount that we paid for them, achieve that every year and show up, show that they did. And yeah, we had them for two years, and now we are onboarding slowly. So yeah, for the time two years ago, it was great. It was better than than what we needed.
+
+Speaker 2  14:30  
+Cool, I get that, of course, but it required so
+
+Unknown Speaker  14:33  
+much maintenance because we still have to,
+
+Speaker 1  14:37  
+you know, do the manual job and adding everything and so it was kind of a win, but also it wasn't easier for us. Yeah,
+
+Unknown Speaker  14:47  
+and why are you off boarding now?
+
+Speaker 1  14:51  
+So the reason is that we are switching to different tools, and now also departments will negotiate by themselves. We don't need the third side or the third party to negotiate for us, because it takes the time, and it was really hard to write everything, everything and explaining everything how we want it to somebody else. We would rather than directly speak to the seller or basically the company that we get getting that subscription from then, then explaining to another person, spend time and make sure that they understand it well, yeah, and then they have to send the message also further. So might change. I know that justify. Really wanted us to be the winner in this. But they also took, took the, you know, the other companies in like, they also didn't want to push too much, for example, like we would push ourselves, you know, yeah, but they did really great job, because we would not have time for it. Yeah, we gotta redistributed it. And now, basically we decided that every department has its own because they know the tools more the most. It was also hard to kind of navigate people like, please put their documents, put your video documents. I don't know what documents you have, and please upload it there and take care of it. And then we had some renewals, and people had other people, and then they forgot to pay or the cancel, you know, yeah. And then we had to pay the whole year, for example. So it was all stuff, yeah. So more people weren't aware about how to use it correctly, plus they didn't have time to also take care of extra tools. Yeah,
+
+Speaker 2  16:44  
+yeah, okay, main reason that that's super interesting, so you basically went from the centralized approach through saastrified to a more separated approach, so that each
+
+Speaker 1  16:54  
+exactly right, so everybody's has responsibility for their tools. Now, yeah, so I don't know I want to have, I want to buy in Microsoft Teams. Now, okay, you came with the idea, then you need to go with it. You have to negotiate the price. You have to find the usage because, and then you have to also maintain it, or find the person who's going to be responsible for that.
+
+Speaker 2  17:22  
+Okay, and what like, I mean, you mentioned some examples now, of like, negotiating the price and finding the person who's responsible for it. What else would a functional leader need to do? Now, if they like, if they buy, for example, Microsoft Teams now, like, is there? Like, do you have checklists that they have to take off? Or, like, how would that look like? What would their responsibility be like?
+
+Unknown Speaker  17:49  
+Yeah, basically, you need to,
+
+Speaker 1  17:54  
+you need to have an owner. You need to have managers in the in the we have a app called settle, that we are using now, where you can add the tool, then you can do pricing, and everything is nicely organized. You can add the licenses. What just, if I didn't have, they didn't really have this, the understanding of what the tool does or what we pay for, yeah. Why settle? Can do that.
+
+Unknown Speaker  18:20  
+Okay, what's the tool called settle,
+
+Unknown Speaker  18:25  
+s e t y l,
+
+Unknown Speaker  18:30  
+s e, t, y l, found
+
+Speaker 2  18:33  
+here. That's very interesting. And you said that testify, did a lot of things great, but it didn't go too deep into the tools. What do you mean by that, like when you say they don't really know what the tool does, or
+
+Unknown Speaker  18:49  
+the pricing?
+
+Speaker 1  18:52  
+Basically, we put the full export to Sastry from our business central export, basically everything that we're paying for. And we have different prices, because one is in euros, one is in dollars, one we pay in pounds, you know, or Danish Corona. And then, you know, it's, it comes mixed up. So, yeah, there's a manual, manual work with it. But in settle, for example, we have already put the currency, you already put this and and then how many licenses you put? How many are free, and you can nicely customize it.
+
+Unknown Speaker  19:29  
+Okay, that's one part
+
+Speaker 1  19:31  
+of it, of course, and then the other one, usually was the negotiation that we don't have time to explain something to another person. And usually people decided not to go to satrify and ask them like to negotiate for them, because they would rather talk to the tool. Yeah,
+
+Speaker 2  19:54  
+very interesting. And you said that sometimes you got better deals when you negotiate yourself, because saastrified didn't go as hard as you would maybe go. How did you how did you identify that?
+
+Speaker 1  20:07  
+I mean, SaaS actually has a lot of resellers contacts, which is very nice. We gain a lot of
+
+Unknown Speaker  20:16  
+nice options from them.
+
+Speaker 1  20:18  
+But yeah, for example, if you went out to say, we will not get the tool if, if, you know, give us the discount. You know, we've been trying different we have a manager who has a different approach then such you find. So I think it's a better approach on the Yeah, that's how we identify it, because, yeah, people didn't really want to use it, so we had to find another way how to, how to not pay for something that we don't use.
+
+Speaker 2  20:47  
+Yeah, no, that totally makes sense. I think that's a, that's a very, very good approach to it. Okay, that's, it's very interesting, because I was just trying to understand if maybe you had an idea of what the tool could actually cost versus what saastrify basically showed you, because in other interviews, we identified, for example, that there were feedback groups like or WhatsApp groups that talked about deals they they had for for example, Slack or Microsoft in that day, but some kind of inspiration.
+
+Speaker 1  21:20  
+Okay, yeah. I mean, it was great because they do really nice benchmark, yeah, so they can do the other companies databases. They have the database of other companies, what, what they paid for the tool. So I think that's very nice feature. I mean, they do really well, but just the use case, it's not, not there
+
+Speaker 2  21:40  
+for us, yeah. And, and you were talking about SaaS file, that they have this database which has the that's very interesting. And we're then able to see if you're in the average or, like, above or below. Yes, exactly. Okay, yeah, very interesting. That is all like, all super, super helpful so far. And when you when you think about tools in your company, was there ever a tool that you bought which you regretted buying after a few months or years?
+
+Speaker 1  22:17  
+Yeah, I think it was this renewed thing that happened as something that we didn't want to use anymore, but it got renewed for a year. There was one tool like that, and then basically we just replaced the tool we didn't really like. Maybe all SaaS five will be one of them. But so far, don't feel like that. Yeah.
+
+Speaker 2  22:43  
+Okay, so it was basically more that you that you bought a tool and it accidentally renewed itself, or the contract got renewed. Yes, okay, okay, got it, but the tool itself for a certain period was that still, when you bought it, you were still happy with it, and then at some point you just didn't use it anymore, and then it got renewed. Yeah, that's just
+
+Speaker 1  23:01  
+fine. Such if I was basically over two years, but now we have it half a year without any usage, okay? Because we already off boarding. So, yeah, right, not the regret. It's basically that we found a better solution for it, for now that fits us.
+
+Speaker 2  23:17  
+Okay, great. And that is in that case, settle, right? Yeah, could
+
+Speaker 1  23:21  
+be also, I don't know there was, maybe we regret that we didn't buy the package that we supposed to because we had a tool. So basically, the opposite, we regret that we didn't take that offer that was fair, but we didn't understand it as a fair offer, and then we paid more because of bad decision.
+
+Unknown Speaker  23:49  
+Very interesting,
+
+Speaker 2  23:51  
+and for which tool is that now, like the offer that you didn't take?
+
+Speaker 1  23:55  
+So we have forest, basically we got offer for 200 people or 250 people, they've been only 150 so we'll have 100 licenses extra, but it was the same price as 150 or 200 so basically the price was the same, but just the amount was bigger. Yeah,
+
+Unknown Speaker  24:17  
+and why did you not take it then?
+
+Unknown Speaker  24:21  
+Because we said we don't need that many. Okay, I
+
+Speaker 2  24:24  
+get it was the company back then smaller, and you just scaled now or, like, what? Like, why did you think you didn't need the licenses?
+
+Speaker 1  24:35  
+Yeah, we calculated that not many people supposed to, not that many people supposed to use that tool, and then all of a sudden, we have so many people there. Everybody needs access to
+
+Unknown Speaker  24:48  
+that can happen as well.
+
+Speaker 2  24:49  
+100% Cool. Thank you so much. I think that was kind of the last question I had. I can use the last three four minutes to give you a better idea of why we are running these interviews. Because, I mean, you, you seem like you know this process really, really well. But in general, when you read Gartner reports or something like that, you have various stages. You have, firstly, Problem identification, then solution exploration, where you think about, do I buy in house? Or, like, build an in house, or do I buy it? Then you have to collect the requirements, then you explore solutions, like the research you did, you run demos, and then in the end, you choose a vendor and onboard them. And I think saastrify, and it seems also settle, and also pre coro. There are a few company. They take care like they help you in the buying process. But we had the feeling that their main focus is on the maintenance. So you've bought a tool, and then these tools can shine. They show you the licenses, the renewals, the management of it. And we want to focus a bit more on the buying process. So we want to understand, like, really help identifying your tech stack, like looking at your tech stack, and then seeing, okay, there are optimizations here and there. You're overpaying here. If you maybe you can combine these two tools into using this other tool like this, more this, this kind of part. So moving away from the management, because that's already very crowded, more towards, how can we help you identify a problem and the right tool for it and help you in the buying process. And then I think after that, like there's a certain overlap with tools like saastrify. But then after that, tools like sastify can really shine, and that's why we are trying to identify a little bit more where the problems are. What are the priorities of many companies, which, as you can imagine, it's often costs, which is a big priority, yeah. And that's why nowadays, especially, yeah, exactly. And that's why we're running these interviews, because you want to kind of identify which company could benefit the most from it.
+
+Speaker 1  26:52  
+Okay, we had the rest this tool that we're most focused on buying, yeah, was one of those three companies that I mentioned that the big sastrafi, they only focus on. They didn't have complete tool, they didn't have benchmarks, they didn't have anything. They just in good salesperson people, you know, they know how to get the get the best price, or, like, how to make a change. So basically, we just send them our invoices, and they said, We can do this, or we can do that. Very interesting, but, yeah, but that was not a complete solution, as I mentioned, exactly it was. We needed somewhere, where we go, and we know this one is the owner of the tool. This one, this is the renewal date. This is when we need to pay and how much we need to pay. So we needed more complex thing, right? And buying, buying, you know, that's also that was a hard part, right? You have to communicate. One person was assigned, that was me to sacrifice. And then, you know, I had to understand the tools around the company, like, I didn't know how what, what they use. I don't know Forest for, like, was the use case, or how many people are using it, who's supposed to have access, and which access? So it's like, a very complex thing, yeah, and if I had to go, then we had to find somebody who was actually working with it daily and bring him to the meeting. And then I was the one organizing everything, and it went all over the place. So yeah, many tools and people, rather directly talk to forest and me explaining through somebody that this is the tool, or, you know, there is big misunderstanding, and we can maybe over buy, or we can buy less than we need. You know, it's Yeah, yeah always comes to the price, yeah. But in, in general, when, well, I mean, there was no, no screw ups, except some of the renewals been missed. Glad
+
+Speaker 2  29:04  
+to hear that. Yeah, I know we reached the end of the meeting, yes, just thank you so much. Thank you for your time. The insights were great. You helped us a lot. And I don't know if I would have a follow up question. Could I still reach out to you via LinkedIn or of you? Yeah,
+
+Speaker 1  29:22  
+well, no great email, or my email. Perfect. I'll have time, I'll
+
+Speaker 2  29:28  
+respond. Yeah, perfect. Thank you so much. Have a great day. Have a great rest of your afternoon and.
+
+Transcribed by https://otter.ai

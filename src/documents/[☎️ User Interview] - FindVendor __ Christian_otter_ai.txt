@@ -1,0 +1,163 @@
+Speaker 1  0:00  
+And AI having background in tech work impact for the past 20 years, 10 years machine learning research and past 10 years in different leadership roles in different startups, mostly deep tech startups. So not necessarily the kind of kind of environment where you would actually engage in a B to B relationship on the buyer side, but more on the seller side. But of course, from that, I think I have that within 26 obviously it's a bit different from that, right? But then we are constantly getting approached by, you know, sales people from the industry, which is overall, I mean, I also feel what, what you just said, Right? Just a second, that I also feel the process is a bit broken, in the sense that, obviously there is a demand for good software and for technology, and we are more than happy to buy, but I get constantly approached by people with non fitting offers, and basically, you know, classical more cold calls, just a bit too broad in general, right? Just a good example was at a conference the past two days and and while overall, it was, you know, kind of interesting there. There was so many sales people that it was just not a lot of fun to stay at the conference, because would be constantly approached by someone wanted to sell with something, and it was just not fitting. And just because I'm a polite person, I don't know, to go away. It's, it's just annoying. I see it's just annoying, right? So I certainly feel this, this,
+
+Unknown Speaker  1:34  
+yeah, that's interesting. Okay,
+
+Speaker 1  1:37  
+do you do you have some questions prepared? Or should I just, okay,
+
+Speaker 2  1:40  
+so could you, like, how many employees does n 26 have at the moment? 1500 Oh, that's that grew a little bit done. And how many of these work in the tech organization? And specifically the data organization
+
+Speaker 1  1:56  
+has a good question. Data is not that many, but in tech in general, 700%
+
+Speaker 2  2:02  
+okay, okay, that's great. And when we think about, yeah, basically the usage of AI, like when we talk about usage of AI, we're talking more about internal usage, not like the applications that you built towards the end consumer, but more like, how you as a team would use it internally? What situation there? How advanced is it? How integrated is it in? Like, let's focus on the data org right now.
+
+Speaker 1  2:30  
+Yeah, yeah. So, I mean that, of course, is a question that I cannot fully, fully answer, right? Because it's also now, it's a sensitive topic, sure, but just to give a broad answer, obviously, we are very much interested in AI, but they're also, I think, one of the main issues you might notice also from from your time here, is, in general, as regulated Institute, it's sometimes very difficult for us to interact with third parties. Not that it is not possible, but usually the process is quite long, and because there's a lot, you know, checks, TBI, cross security checks and so on, that needs to be done, which makes it very difficult for a new topic such as AI, where there is no clear idea what is the right tool, what's the right market with, whom to work there? This is not yet clear, right? So that as part of our strategy is actually more to also, you know, do lessons ourselves and and to just collaborate basically and use open source models, for example, right? The sort of thing, or one or not to so, so, okay, let me go back to the topic, right? So I think there's a difference right now in the AI space, because between, you know, people and services like, like open AI and others, and Microsoft and Amazon, who opened the foundation, who basically tried to sell access to a to a basic model, a foundational model, like like GPT four or so. And there is other companies who built on top of that to try to build infrastructure services around that the latter is not so interesting to us, because I really feel this. This is how it takes too long to onboard these guys, and we don't even know if they are, if the service will be relevant in a year from now. So that. So that's usually not super interesting at the moment, right? But in general, this puts us in a difficult models. Obviously, they need to build a lot of themselves, and just launching this foundational Model and Model, and that, of course, requires a lot more effort than buying a solution. But buying a solution is very difficult because, you know, a market is not it's not completely clear how brilliant.
+
+Speaker 2  4:31  
+Yeah, I get it. I totally agree, especially like looking at like, what is relevant today and what's maybe even relevant in a year from now on, because things are moving so fast, exactly, and like, with all the questions, obviously, like, things you can disclose, cool if you want to share them, if there are things that, yeah, you cannot share that. Like, we totally get that, especially in such a highly regulated field, the like you quickly touched up on the process of getting software approval tools approved in general, or, like, even, like, I don't know, APIs or whatever. Could you give us a really high level, like, walk through of how, like, what would you need to do if you, if you
+
+Speaker 1  5:12  
+want to propose, yeah, just compress, right? So, in general is about, so it's about, you know, if we have come up with an idea, we want to work with the software right now. We want to want to buy the solution. Then it's about, you know, figuring out all the details and security. How do they handle data? So they need to have a lot of information and documentation about their service, how they handle data, how the service works, security and so on. And we need to verify if everything is up to our standards, and if then we are allowed to actually work with them. So this is basically an assessment of documents that they provide, and compare that to questions that we have and requirements that we need to fulfill. My opinion, it's a perfect case, actually, for Jenni, because if, ideally, we would have our own LLM, the company, LLM talk to the LLM of the company, and they will mingle it out and figure out, you know, if there is, can be a match or not. And then they will come up with a document where you can read everything about, first
+
+Speaker 2  6:13  
+of all, that's a, that's a brilliant piece of idea. I would, I would love to see that as well, like, I like, from there two questions record for me. So the first one is, you said, Hey, once we have identified something that we want to implement or propose, how do you get to that point? Because usually how you how you start is you have either a business objective or, like, a problem, like, how do you, how do you find these things, and how do you then go to the state where you propose a tool or a potential solution to the other teams?
+
+Speaker 1  6:46  
+Yeah, well, that's a good question, right? This is always in this more general approach, right? The things that entering six I'm not so much involved in, actually the buying processes of software that much. But of course, knowing how the process works in general, you know it's always, it's always, it's a bit same question, right? You have a problem that you want to solve, and always the question is built case, you can always build everything, of course, but that not might not be useful. So, and then, obviously, you look for vendors, and then that actually comes up, right? Then we need to figure out vendors and figure out if there is a match on this is a time consuming process.
+
+Speaker 2  7:26  
+How long like, when you say it's time consuming, how long like, I know it's very different, but could you give us, like a range, like time
+
+Speaker 1  7:34  
+each year? Maybe. So. Okay, it depends on where you start. It depends on the complexity of the software. It depends on, you know, the actual big business leaders and my location, where it's faster, but overall, there's just so many steps in there. They seem to be very difficult to have this in less than six
+
+Speaker 2  7:54  
+now, yeah, I can imagine. And then coming to the second part, like where you said, Hey, we communicate with our internal teams, but also with the external teams. Internally Are you talking to to make sure everything's secure? You ask the right questions. You take off all the right boxes, like, Who are you interacting with internally?
+
+Speaker 1  8:09  
+It's, it's not us. We're asking them the question. There's usually the multiple teams involved, right? But which is, again, is a challenge, right? So, so basically, there's one team deciding on, hey, look, we want to have the software. But then, of course, you have security team, you have legal teams, you have compliance teams, and so on. And then everybody gets involved in the process. Everybody needs to understand what this is about. And then continue and continue and continue. And then eventually, you know, you come up with a conclusion. This part of the soul, you know, GPRA sourcing.
+
+Speaker 2  8:42  
+Yeah, I think I can even remember one case where we were back then talking about a labeling solution for transactions, or something
+
+Unknown Speaker  8:49  
+like, yeah, this was interesting, yeah,
+
+Speaker 2  8:51  
+yeah, exactly. I think I was like Part, Part,
+
+Speaker 1  8:55  
+years, also, I see But, but there, I think the business need was not that that right
+
+Unknown Speaker  9:02  
+question. On budget somebody,
+
+Speaker 2  9:06  
+do you have set budgets for for each organization, and can you disclose them? Or is this information that you cannot, I cannot disclose the question, okay, but do you have set budgets for like the like? No, no. Number. Is it just like, here's a budget for the data, or here's one for another org? Or,
+
+Speaker 1  9:21  
+yeah, that's a good question, actually, right? Usually, usually, I don't know this on on tech, but I'm sure there's, there is, I think N 26 is probably also a bit more agile in that respect, right? In the sense that we have, you know, a more flexible, I would say overall, but obviously there's also budget. But in general, this is not, we are not as strict as you're not doing bad, right? I think there's very strict as serious this budget. When you don't use the 10 of the year, it's gone for next year, stuff like that. This is not how we work. Got it? Maybe future? Yeah, we'll see. Yeah,
+
+Speaker 2  9:59  
+great. So that's, that's that's so much information so far already, and another, like, another question regarding the process, like, so let's assume you're interacting with all these teams. You're aligning all the requirements. How is the communication happening? Like, is there, like, what's, what's the preferred communication channel? What resources are being provided? Are there regular meetings? How's that going?
+
+Speaker 1  10:23  
+Yeah, just a good question, right? I mean, I think probably email is still very important for the communication with the vendor internally, everybody uses some sort of a chat solution, as you know, right? So that's what we do. There is a lot of tools around this tool, right? That people are using for the sourcing processes. And then you can, I mean, sure, I don't think we are, we are using now, we are also having some sort of a ticket system for that. So, but at the end, I seem also, I mean, for that, you might rather want to, want to talk to people directly, direct process, right? So, fortunately, fortunately, I'm not so deep in how the process is back to it. You see someone else's burden. And this more applause, you know, figure out, hey, COVID is what we want. And then the process starts, and then we're getting involved on large, different steps into the process. Cool,
+
+Speaker 2  11:13  
+okay, I got it. And from I know, you're not specifically involved in the entire process, or you're maybe not necessarily the person suggesting to buy some piece of software. But how often have you experienced this now, in your time at N 26 I think it's almost three years a bit more like
+
+Speaker 1  11:31  
+I wasn't watching a couple of this, this project, where also were discussions on buying a certain software plans that five to 10 times, but not always for my team, but maybe also in different contexts. Yeah, so, yeah, but not, not, not more frequently. To be very honest, this is, this is also, I think probably I can say that, but I think in general people, I wouldn't say that people want to avoid buying software because of that. But of course, it is a cumbersome process, right? So just to give you an example, right? I get occasionally approached by smaller startups want to sell some software, and when, when I talk to them, very honest and usually, pretty often, I don't have time for that, unfortunately. But you know when it's when it's you know, you know, friends or colleagues are now my usually, my advice is, you know, don't try to sell stuff to a bank. It doesn't make any sense for you because, you know, the process might kill you because it takes so long. You are not it's very unclear if you can succeed. And the requirements that banks have are just so strict, and we cannot get around that, that for many companies very difficult to fulfill, right? So it is a commerce and close, that is my opinion, that teams and people have been ordered before they actually buy software. It's relatively high. Oftentimes it's better and cheaper build something. And I know and 26 is actually not the extreme. When you talk to people from Deutsche Bank, they will tell you they are not buying any software. They are just they're just building everything. So which is, might make sense for them, right? So then the process is more complex. This is not us, right? I mean, we do acknowledge that there is, of course, a lot of efficiency gains from from buying solutions and so forth. Obviously, yeah,
+
+Speaker 2  13:27  
+I get it also, like, I think Antony six has really, really talented tech team, so building in house solutions probably also, like, like, closer than than for maybe other teams. Would you think if, like, I mean, oh yeah, go ahead, Neil, obviously,
+
+Unknown Speaker  13:46  
+thank you. When
+
+Speaker 3  13:49  
+you're buying tools, especially in my city bank, you have to ensure that they comply to your, let's say, standards. Is this all across the board, like, even in the marketing team,
+
+Speaker 1  14:01  
+product teams as well? Yeah. I mean, of course, there's, there's, of course, you know, obviously there's, there's different kinds of rules and thresholds that apply, depending on the actual use cases you are looking for, right? There might be situations where, you know, when someone in marketing is producing some marketing text with a new tool, don't need to integrate it with give it data for yourself, there's no customer data involved, and so on and so on. Then obviously there's different requirements. There's also, there's just a bunch of legal requirements, right? So, I mean, obviously we need to comply, you know, with GDPR, with the with the with the AI act as well these regulations, and there is just certain limitations in the same that you are, that you are allowed to do, in particular incentive, which is just good, but very, very hard to dependent on the use case, and this is very much dependent on what kind of data is more.
+
+Unknown Speaker  14:53  
+Cool. Thanks.
+
+Speaker 2  14:55  
+I would, I would spend like, two more questions on on tooling and software, and then zoom out a little bit and leave two three minutes at the end for I'd like to to explain you a bit more what we were thinking. If someone from your team has, like, wants to propose a tool, for example, because they came across it, or a friend of a friend uses it, what would you as director now? What would you need to to make a decision or to start this conversation like, how, like, is there? What would they need to bring to the table?
+
+Speaker 1  15:26  
+That's a That's a good question. So first of all, if a friend is proposing a solution, that will be a conflict of interest. So by definition, we are not allowed to use that solution there. So of course, you know, we could sell to something about that. But in general, you know, this, of course, also sensitive topic, right? You know, using soccer, which is just recommended by a friend, the bumpy, bribery and whatnot. So sorry, let
+
+Speaker 2  15:50  
+me sorry, the question was a bit stable, like, like, I mean, more someone from your team. Like, let's say someone from your team got something, right?
+
+Speaker 1  15:57  
+Someone wants once, once a software, and then question is, what? What's the next step in that? Right? So then, usually, I mean enormous step is to involve people who are directly involved in that, from from the sourcing teams who are organizing the process. And then we need to, you know, just tick all the boxes, make sure that we have the budget for that, get all the necessary approvals. But this is all part of the social process, right? So, okay, and obviously, you know, there's a lot of work that needs to be done. Just another company on the team side, you need to make a calculation on that. It's literally, what's the effort, what's the what's the investment, what's expanding. And so there's a lot of, you know, details that need to be figured out. Once the data works on process that starts with, then you have to contribute and whatnot, right? So, so there is not one size fits all, I would say in that sense, right? It's always a bit more tailored to every specific case, as for some just massive projects, right? Just to get a better note, yeah,
+
+Speaker 2  16:55  
+I get it. That totally makes sense. And then the last question from my side, regarding tooling, have you, like, it doesn't have to be in your time at N 26 but maybe you also, like, in your previous jobs, have you ever bought a piece of software or tool that you integrated then and noticed after weeks or months? Oh, it's actually not what I was expecting. And if so, like, what was, what was the reason?
+
+Unknown Speaker  17:20  
+Just can happen, right? So, I mean,
+
+Speaker 1  17:24  
+not so much speaking as in foreign 26 but in general, right? There are things that you might not be aware of when it comes to the integration, for example, right? So, so that basically figure out integration is common, something inspected leverage you have expected, right? All of these things can happen easily, dancing. That's why, also people take time with the assessment in the first place, right? So, but, but this is like it can also inequality gets worse over time, right? There's also something that you cannot go with the solution, but then figure out that you know someone else is actually, I know that at macro startup, we were selling with one cloud provider, and then figured out at some point that they couldn't do the quality right. Instances were not working as expected, and so on and so on. It was super annoying. And then we switched to cloud providers. So that was, like, self discovery, probably not a big topic anymore, but, Okay,
+
+Unknown Speaker  18:19  
+interesting.
+
+Speaker 1  18:20  
+Yeah, these things can happen all the time, right? There is, there's, of course, I think this also, I mean, I mean, this might be one reason, but there's multiple reasons why the enterprises do not collaborate so easily, just new and smaller startups, right? So there's many risks associated with this.
+
+Speaker 2  18:40  
+Yeah, that makes sense. Okay, that's great. So I would zoom out a little bit from here and think more about, or, like, talk more about, like, the general challenges the data organization is facing, or challenges, or like, yeah, challenges the data organization is facing for 2025 or what is like your focus for 2025 I know again, like you cannot go into details, but is there a direction you can you can share that?
+
+Speaker 1  19:06  
+It's a good question, I think, for example, one, one general challenge that everybody is facing at the moment, I would say, when you want to work with generative AI, you are a bit in a situation that certain models only available on certain members. So so you have the models from traffic on on Amazon, you have the open AI models Microsoft, and it's, you know, at the end, when you want to have the best model, you basically would need to collaborate with everybody. And that's, it's a bit like the streaming streaming situation that you're in when you watch every good series or every good movie, you need to have a lot of subscription to a lot of different vendors. Different vendors, yeah, and that was very time consuming and difficult to do. Yeah,
+
+Speaker 2  19:47  
+that's a good analogy. I literally had it yesterday that I was, like, I had a Netflix fatigue, and that's great. And like, I mean, closely coupled question, but to achieve these, these goals, to incorporate generative AI as efficient as possible. I know that the providers are important, but is there supporting software that you use to achieve these goals? Like, it's more like, Okay, I
+
+Speaker 1  20:18  
+think there's a lot of happening in the market as well. There's, there's machine learning platforms on happening at the moment, being built, but, yeah, definitely be looking to all of the solutions to some extent. And I think anything, it's good that the tools exist, but the market is also changing. Is due fast. Yeah,
+
+Speaker 2  20:40  
+I get it. I would ask one last question, and then if Neil doesn't have any anymore, I can share a bit more about, like, the ideas that we thought about so far.
+
+Speaker 1  20:51  
+I really have a hard stop. Then let's like the
+
+Speaker 2  20:55  
+last one is a shorter one, just like, What's your general take on agents? Like, where do you think they will contribute most in companies? Or do you think they're overhyped? Buzzword? No,
+
+Speaker 1  21:06  
+it's not overhyped. I think this is, this is very real. I think this is extremely useful. I think currently there may be still a bit of lack of infrastructure how to integrate them, but overall, it's just a very logical piece of automation, right? Because at the end, it's just not in the middle of that, which is, okay, that's how it is, but, but no,
+
+Speaker 2  21:31  
+okay, great. Then being aware of the time I can, I think we can slowly wrap it up. We have, like, a bunch of very helpful information. It's actually one of the interviews that I enjoyed them the most so far, it went really Yeah. It went really
+
+Unknown Speaker  21:45  
+smooth, yeah. Sorry. I'm sorry. Of course,
+
+Speaker 2  21:48  
+I kind of still good. It was super, super helpful. What you said. So basically, to give you an idea, is when you walk through the B to B buying process, there are various stages. There are stages where you identify the problem, you explore potential solutions, for example, in house versus external versus service, then you have to collect all the requirements from all the stakeholders. And this process is not linear. It's like back and forth and back and forth, right? And then until you reach the point where you even explored the solution. So you have to say, Okay, now compare all the I don't know, LLM providers or like, ml platforms or whatever, until you read that weeks, months have passed, people might have burned out or whatever, and then only like, then you have to reach out to sales and do all the chatting that you probably know about. And people, like, in studies from Gartner, many people said that they want a buying process without sales, but when they do that, it's more likely that they are unhappy with their purchase. So it's a kind of a paradox that people want to interact less with sales, but the less they interact with sales, the more they regret their purchase. So it's like kind of this conflict where we are trying to understand where could fit in, and where could we help? And I think especially in regulators like banks, there's so much back and forth that also the idea you said, Hey, one LLM communicating to another, LLM to just collect all the requirements and ask all these questions, like, we're just trying to understand where, where could this process we're looking more towards the beginning of the journey.
+
+Speaker 1  23:21  
+Yeah, I think, I think, I mean, I mean, I don't have a solution to the problem that said, right, but I think it could probably help to have, you know, I said there, there is, there is. I mean, in the first step, what you really have is a service making right. You have certain requirements, and maybe don't know all of them, just now you have certain ideas for what you want, what what you're looking for, looking for Windows. Situation gets more complicated when you're not expert on the topic. Then you talk to a lot of salespeople in the process and show you a lot of interesting stuff. And then, you know, figuring out exactly what's the right solution for you is usually not easy, I think so. So the problem, right? And then what it is for regulated Institute. This is, even though this process, by itself, is easy, wait, this is accumulation problem. So you not only have the constraints of your own requirements that you might know, but you have a lot more constraints about sort of what you're allowed to do and whatnot to be compliant. And there's tons of rules, and you don't know all of these rules. That's why so many other people need to be involved in the whole process. Yeah, so, and that's what makes it complicated, right? But this also explains the very specific vendors that tailor for the needs of regulated institutes, and usually then you need to work with them. Yeah, right, because you cannot explain a small startup never worked with a bank, what they need to comply to. So it doesn't make any sense. So usually, one of the killer questions is, we have any any banks as customers, and if they don't have them, then it's getting more and more uninteresting, because you realize, okay, maybe
+
+Speaker 2  25:04  
+yeah, I get it. No, totally, totally, right. I totally agree with that. Thank you so much for your time. I think was incredibly helpful. I'll reach out to you via LinkedIn, just and maybe we find this a lot next week, I would love to catch up and again, yeah, I think it's good. We both really enjoyed it. So big thanks for your time,
+
+Speaker 1  25:25  
+about what you what you do and good luck to that. Neither was the meeting, year, and you know. Thanks.
+
+Transcribed by https://otter.ai
