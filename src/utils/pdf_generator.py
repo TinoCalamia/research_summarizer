@@ -10,6 +10,35 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, Tabl
 from io import BytesIO
 import streamlit as st
 
+def format_assistant_message(message: str) -> str:
+    """
+    Format assistant's message for better readability in PDF.
+    
+    Args:
+        message: Raw message from assistant
+        
+    Returns:
+        str: Formatted message
+    """
+    # Split message into paragraphs
+    paragraphs = message.split('\n')
+    formatted_paragraphs = []
+    
+    for para in paragraphs:
+        # Check if it's a numbered item (e.g., "1.", "2.", etc.)
+        if para.strip() and para.strip()[0].isdigit() and '. ' in para:
+            formatted_paragraphs.append(f"\n{para.strip()}")
+        # Check if it's a sub-bullet point
+        elif para.strip().startswith('-') or para.strip().startswith('•'):
+            formatted_paragraphs.append(f"   {para.strip()}")
+        # Check if it's a section header (all caps or ends with ':')
+        elif para.strip().isupper() or para.strip().endswith(':'):
+            formatted_paragraphs.append(f"\n{para.strip()}")
+        else:
+            formatted_paragraphs.append(para.strip())
+    
+    return '\n'.join(p for p in formatted_paragraphs if p)
+
 def generate_solution_pdf(solution_data: dict) -> bytes:
     """
     Generate a PDF report from the solution data.
@@ -26,27 +55,53 @@ def generate_solution_pdf(solution_data: dict) -> bytes:
         styles = getSampleStyleSheet()
         story = []
         
-        # Title
-        title_style = ParagraphStyle(
-            'CustomTitle',
+        # Custom styles
+        styles.add(ParagraphStyle(
+            name='MainHeading',
             parent=styles['Heading1'],
             fontSize=24,
             spaceAfter=30
-        )
-        story.append(Paragraph("Solution Analysis Report", title_style))
+        ))
+        
+        styles.add(ParagraphStyle(
+            name='SectionHeading',
+            parent=styles['Heading2'],
+            fontSize=16,
+            spaceBefore=20,
+            spaceAfter=10
+        ))
+        
+        styles.add(ParagraphStyle(
+            name='SubHeading',
+            parent=styles['Heading3'],
+            fontSize=12,
+            spaceBefore=15,
+            spaceAfter=5
+        ))
+        
+        styles.add(ParagraphStyle(
+            name='BulletPoint',
+            parent=styles['Normal'],
+            fontSize=10,
+            leftIndent=20,
+            spaceBefore=5
+        ))
+        
+        # Title
+        story.append(Paragraph("Solution Analysis Report", styles['MainHeading']))
         story.append(Spacer(1, 20))
         
         # Problem Statement
-        story.append(Paragraph("Problem Statement", styles['Heading2']))
+        story.append(Paragraph("Problem Statement", styles['SectionHeading']))
         story.append(Paragraph(str(solution_data['inputs'].get('problem', 'N/A')), styles['Normal']))
         story.append(Spacer(1, 20))
         
-        # Add Requirements section
+        # Requirements section
         if solution_data['inputs'].get('requirements'):
-            story.append(Paragraph("Requirements", styles['Heading2']))
+            story.append(Paragraph("Requirements", styles['SectionHeading']))
             requirements_data = [[
-                Paragraph("Department", styles['Heading4']), 
-                Paragraph("Requirement", styles['Heading4'])
+                Paragraph("Department", styles['SubHeading']), 
+                Paragraph("Requirement", styles['SubHeading'])
             ]]
             for req in solution_data['inputs']['requirements']:
                 requirements_data.append([
@@ -67,50 +122,44 @@ def generate_solution_pdf(solution_data: dict) -> bytes:
             story.append(req_table)
             story.append(Spacer(1, 20))
         
-        # Company Context
-        story.append(Paragraph("Company Context", styles['Heading2']))
-        company_params = solution_data['inputs'].get('company_params', {})
-        context_data = [
-            ["Industry", company_params.get('industry', 'N/A')],
-            ["Company Size", company_params.get('company_size', 'N/A')],
-            ["Budget", company_params.get('budget', 'N/A')],
-            ["Success Metric", company_params.get('success_metric', 'N/A')]
-        ]
-        context_table = Table(context_data, colWidths=[150, 350])
-        context_table.setStyle(TableStyle([
-            ('BACKGROUND', (0, 0), (0, -1), colors.lightgrey),
-            ('TEXTCOLOR', (0, 0), (-1, -1), colors.black),
-            ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
-            ('FONTNAME', (0, 0), (-1, -1), 'Helvetica'),
-            ('FONTSIZE', (0, 0), (-1, -1), 10),
-            ('BOTTOMPADDING', (0, 0), (-1, -1), 12),
-            ('GRID', (0, 0), (-1, -1), 1, colors.black)
-        ]))
-        story.append(context_table)
-        story.append(Spacer(1, 20))
-        
-        # Tools Used
-        story.append(Paragraph("Current Tools", styles['Heading2']))
-        tools = solution_data['inputs'].get('tools', {})
-        for category, tool_list in tools.items():
-            if tool_list:  # Only show categories with selected tools
-                story.append(Paragraph(f"{category}:", styles['Heading4']))
-                story.append(Paragraph(", ".join(tool_list), styles['Normal']))
-        story.append(Spacer(1, 20))
-        
         # Solution Evolution
-        story.append(Paragraph("Solution Evolution", styles['Heading2']))
+        story.append(Paragraph("Solution Evolution", styles['SectionHeading']))
         for role, message in solution_data['conversation']:
             if role != "System":
+                # Role header
                 role_style = ParagraphStyle(
                     'Role',
                     parent=styles['Normal'],
-                    textColor=colors.blue if role == "Assistant" else colors.dark_green,
-                    fontSize=10,
-                    spaceBefore=15
+                    textColor=colors.black if role == "Assistant" else colors.green,
+                    fontSize=12,
+                    spaceBefore=15,
+                    bold=True
                 )
                 story.append(Paragraph(f"{role}:", role_style))
-                story.append(Paragraph(str(message), styles['Normal']))
+                
+                # Format message content
+                if role == "Assistant":
+                    formatted_message = format_assistant_message(message)
+                    # Split into paragraphs and format each
+                    for para in formatted_message.split('\n'):
+                        if para.strip():
+                            if para.strip()[0].isdigit() and '. ' in para:
+                                # Numbered items
+                                story.append(Paragraph(para, styles['SubHeading']))
+                            elif para.strip().startswith(('   -', '   •')):
+                                # Sub-bullets
+                                story.append(Paragraph(para, styles['BulletPoint']))
+                            elif para.strip().isupper() or para.strip().endswith(':'):
+                                # Section headers
+                                story.append(Paragraph(para, styles['SubHeading']))
+                            else:
+                                # Normal paragraphs
+                                story.append(Paragraph(para, styles['Normal']))
+                else:
+                    # User messages
+                    story.append(Paragraph(message, styles['Normal']))
+                
+                story.append(Spacer(1, 10))
         
         # Final Notes
         story.append(Spacer(1, 30))

@@ -18,6 +18,7 @@ from src.utils import (
 import os
 import shutil
 import time
+import random
 
 def get_analysis_response(prompt: str) -> str:
     """
@@ -38,36 +39,72 @@ def get_analysis_response(prompt: str) -> str:
         # Use vector store if available
         vectorstore = getattr(st.session_state, 'solution_vector_store', None)
         
-        chain = create_conversation_chain(
-            vectorstore=vectorstore,
-            llm=st.session_state.llm
-        )
-        
-        # Adjust prompt if using vectorstore
+        # Create chain based on whether we have a vector store
         if vectorstore:
+            # RAG chain with vector store
+            chain = create_conversation_chain(
+                vectorstore=vectorstore,
+                llm=st.session_state.llm
+            )
+            # Add context about documents
             prompt += "\n\nPlease incorporate relevant information from the uploaded documents in your response."
-        
-        # Get response with empty chat history
-        response = chain.invoke({
-            "question": prompt,
-            "chat_history": []  # Add empty chat history
-        })
-        
-        # Extract answer from response
-        if isinstance(response, dict) and 'answer' in response:
-            return response['answer']
-        elif isinstance(response, str):
-            return response
         else:
-            return str(response)
+            # Simple chain for direct LLM interaction without RAG
+            from langchain.chains import LLMChain
+            from langchain.prompts import PromptTemplate
             
+            template = """
+            Based on the following context and question, provide a detailed response:
+            
+            Context:
+            {context}
+            
+            Question:
+            {question}
+            
+            Please provide a comprehensive and well-structured response.
+            """
+            
+            prompt_template = PromptTemplate(
+                input_variables=["context", "question"],
+                template=template
+            )
+            
+            chain = LLMChain(
+                llm=st.session_state.llm,
+                prompt=prompt_template
+            )
+            
+            # Get response without RAG
+            response = chain.invoke({
+                "context": "You are a solution architect helping to design a comprehensive solution.",
+                "question": prompt
+            })
+            
+            return response.get("text", str(response))
+        
+        # If using RAG chain, get response with empty chat history
+        if vectorstore:
+            response = chain.invoke({
+                "question": prompt,
+                "chat_history": []
+            })
+            
+            # Extract answer from response
+            if isinstance(response, dict) and 'answer' in response:
+                return response['answer']
+            elif isinstance(response, str):
+                return response
+            else:
+                return str(response)
+        
     except Exception as e:
         st.error(f"Error getting analysis: {str(e)}")
         return "I apologize, but I encountered an error while analyzing your request. Please try again."
 
 def show_solution_explorer():
     """Display the solution explorer interface with step-by-step workflow."""
-    st.title("Solution Explorer 🎯")
+    st.title("Business Consultant Agent 🎯")
     
     # Initialize session state for workflow
     if "solution_step" not in st.session_state:
@@ -138,51 +175,53 @@ def show_requirements_collection():
     # Initialize requirements in session state if not exists
     if 'requirements' not in st.session_state:
         st.session_state.requirements = []
-
-        # Display summary of inputs
-    with st.expander("Examples", expanded=False):
-        st.markdown("""
-        Add requirements from different departments. For example:
-        - IT: System must support SSO
-        - Legal: Data must be stored in EU
-        - Operations: Process 1000 requests per hour
-        """)
     
-    # st.markdown("""
-    # Add requirements from different departments. For example:
-    # - IT: System must support SSO
-    # - Legal: Data must be stored in EU
-    # - Operations: Process 1000 requests per hour
-    # """)
+    # Initialize email request state
+    if 'show_email_form' not in st.session_state:
+        st.session_state.show_email_form = False
+    if 'email_sent' not in st.session_state:
+        st.session_state.email_sent = set()
+    
+    # Main requirements input section
+    st.markdown("""
+    Add requirements from different departments. For example:
+    - IT: System must support SSO
+    - Legal: Data must be stored in EU
+    - Operations: Process 1000 requests per hour
+    """)
     
     # Display existing requirements
     for i, req in enumerate(st.session_state.requirements):
-        col1, col2, col3 = st.columns([2, 3, 1])
-        
-        with col1:
-            department = st.text_input(
-                "Department",
-                value=req['department'],
-                key=f"dept_{i}"
-            )
-        
-        with col2:
-            requirement = st.text_input(
-                "Requirement",
-                value=req['requirement'],
-                key=f"req_{i}"
-            )
-        
-        with col3:
-            if st.button("🗑️", key=f"del_{i}"):
-                st.session_state.requirements.pop(i)
-                st.rerun()
-        
-        # Update the requirement if changed
-        st.session_state.requirements[i] = {
-            'department': department,
-            'requirement': requirement
-        }
+        with st.container():
+            col1, col2, col3 = st.columns([2, 3, 1])
+            
+            with col1:
+                department = st.text_input(
+                    "Department",
+                    value=req['department'],
+                    key=f"dept_{i}",
+                    label_visibility="visible"
+                )
+            
+            with col2:
+                requirement = st.text_input(
+                    "Requirement",
+                    value=req['requirement'],
+                    key=f"req_{i}",
+                    label_visibility="visible"
+                )
+            
+            with col3:
+                st.markdown("####")  # Even finer spacing control
+                if st.button("🗑️", key=f"del_{i}"):
+                    st.session_state.requirements.pop(i)
+                    st.rerun()
+            
+            # Update the requirement if changed
+            st.session_state.requirements[i] = {
+                'department': department,
+                'requirement': requirement
+            }
     
     # Add new requirement button
     if st.button("➕ Add Requirement"):
@@ -192,21 +231,86 @@ def show_requirements_collection():
         })
         st.rerun()
     
-    # Validation and navigation
-    if st.session_state.requirements:
-        # Check if all fields are filled
-        all_filled = all(
-            req['department'].strip() and req['requirement'].strip() 
-            for req in st.session_state.requirements
-        )
+    # Optional: Request requirements from colleagues
+    st.markdown("---")
+    with st.expander("🤝 Need input from colleagues?"):
+        st.markdown("Request requirements from your team members via email.")
         
-        if not all_filled:
-            st.warning("Please fill in all requirement fields or remove empty ones.")
+        # Toggle email form
+        if not st.session_state.show_email_form:
+            if st.button("Request Requirements via Email"):
+                st.session_state.show_email_form = True
+                st.rerun()
+        
+        # Show email form if toggled
+        if st.session_state.show_email_form:
+            with st.container():
+                col1, col2, col3 = st.columns([3, 2, 2])
+                
+                with col1:
+                    email = st.text_input(
+                        "Colleague's Email",
+                        key="req_email",
+                        label_visibility="visible"
+                    )
+                
+                with col2:
+                    department = st.selectbox(
+                        "Department",
+                        ["IT", "Legal", "Finance", "Operations", "Marketing", "HR", "Other"],
+                        key="req_dept",
+                        label_visibility="visible"
+                    )
+                
+                with col3:
+                    st.markdown("####")  # Even finer spacing control
+                    if st.button("Send Request"):
+                        if email and "@" in email:  # Basic email validation
+                            # Simulate sending email
+                            with st.spinner(f"Sending request to {email}..."):
+                                time.sleep(1.5)  # Simulate network delay
+                                st.session_state.email_sent.add(email)
+                                st.success(f"✉️ Request sent to {email}")
+                                # Clear the form
+                                st.session_state.show_email_form = False
+                                st.rerun()
+                        else:
+                            st.error("Please enter a valid email address")
+            
+            # Cancel button on new line
+            if st.button("Cancel"):
+                st.session_state.show_email_form = False
+                st.rerun()
+        
+        # Show sent requests
+        if st.session_state.email_sent:
+            st.markdown("### Pending Requests")
+            for email in st.session_state.email_sent:
+                st.info(f"Waiting for response from: {email}")
+                # Add a simulate response button (for demo purposes)
+                if st.button(f"Simulate Response from {email}", key=f"sim_{email}"):
+                    # Add a simulated requirement
+                    dummy_requirements = [
+                        "Must have 24/7 support",
+                        "Need real-time reporting",
+                        "Require multi-factor authentication",
+                        "Must integrate with existing systems",
+                        "Should support multiple languages"
+                    ]
+                    new_req = {
+                        'department': department,
+                        'requirement': random.choice(dummy_requirements)
+                    }
+                    st.session_state.requirements.append(new_req)
+                    st.session_state.email_sent.remove(email)
+                    st.success(f"Received response from {email}!")
+                    st.rerun()
     
     # Save requirements to workflow data
     st.session_state.workflow_data['requirements'] = st.session_state.requirements
     
     # Navigation
+    st.markdown("---")
     col1, col2 = st.columns([1, 5])
     with col1:
         if st.button("Next →"):
@@ -265,7 +369,8 @@ def show_tool_selection():
         "CRM": ["Salesforce", "HubSpot", "Microsoft Dynamics", "Zoho"],
         "Project Management": ["Jira", "Trello", "Asana", "Monday.com"],
         "Communication": ["Slack", "Microsoft Teams", "Discord"],
-        "Documentation": ["Confluence", "Notion", "SharePoint"]
+        "Documentation": ["Confluence", "Notion", "SharePoint"],
+        "Other": ['Zendesk', "Intercom"]
     }
     
     # Get existing selections or empty dict
@@ -352,75 +457,107 @@ def show_tool_connection():
         st.rerun()
 
 def show_document_upload():
-    """Step 5: Document Upload"""
-    st.header("Step 5: Additional Context")
+    """Step 6: Document Upload"""
+    st.header("Step 6: Additional Context")
     
-    st.info("Upload any relevant company documents for more personalized recommendations")
+    st.info("Upload any relevant company documents for more personalized recommendations (optional)")
     
-    uploaded_files = st.file_uploader(
-        "Upload documents (optional)",
-        accept_multiple_files=True,
-        type=['pdf', 'docx', 'txt']
-    )
+    # Store uploaded files in session state to persist between reruns
+    if 'uploaded_files' not in st.session_state:
+        st.session_state.uploaded_files = []
     
+    # Create a wider container for the upload section
+    with st.container():
+        uploaded_files = st.file_uploader(
+            "Upload documents",
+            accept_multiple_files=True,
+            type=['pdf', 'docx', 'txt']
+        )
+    
+    # Update session state when new files are uploaded
     if uploaded_files:
-        # Create a temporary directory for uploads if it doesn't exist
-        temp_dir = "temp_uploads"
-        if not os.path.exists(temp_dir):
-            os.makedirs(temp_dir)
-        
-        try:
-            # Save uploaded files temporarily
-            saved_files = []
-            for file in uploaded_files:
-                file_path = os.path.join(temp_dir, file.name)
-                with open(file_path, "wb") as f:
-                    f.write(file.getvalue())
-                saved_files.append(file_path)
-            
-            # Load and process documents
-            with st.spinner("Processing uploaded documents..."):
-                # Load documents
-                documents = load_folder_docs(temp_dir)
-                
-                if documents:
-                    # Split documents into chunks
-                    splitted_docs = split_documents(documents)
-                    
-                    # Create vector store
-                    vector_store = create_vectorstore_from_documents(splitted_docs)
-                    
-                    # Save to session state
-                    st.session_state.workflow_data['documents'] = [file.name for file in uploaded_files]
-                    st.session_state.solution_vector_store = vector_store
-                    
-                    st.success(f"Successfully processed {len(uploaded_files)} documents")
-                else:
-                    st.warning("No content could be extracted from the uploaded documents")
-            
-            # Cleanup temporary files
-            for file_path in saved_files:
-                if os.path.exists(file_path):
-                    os.remove(file_path)
-            
-        except Exception as e:
-            st.error(f"Error processing documents: {str(e)}")
-            if os.path.exists(temp_dir):
-                shutil.rmtree(temp_dir)
-            return
-        
-        finally:
-            # Ensure cleanup
-            if os.path.exists(temp_dir):
-                shutil.rmtree(temp_dir)
+        st.session_state.uploaded_files = uploaded_files
     
-    if st.button("Next →"):
-        st.session_state.solution_step += 1
-        st.rerun()
+    # Display uploaded files in a wider format
+    if st.session_state.uploaded_files:
+        st.write("📎 Uploaded files:")
+        for file in st.session_state.uploaded_files:
+            st.write(f"- {file.name}")
+    
+    st.markdown("---")
+    
+    # Navigation with processing
+    col1, col2 = st.columns([1, 5])
+    with col1:
+        next_button = st.button("Next →")
+    
+    # Process documents in the wider column
+    with col2:
+        if next_button:
+            # Process documents only when clicking Next
+            if st.session_state.uploaded_files:
+                # Create a temporary directory for uploads
+                temp_dir = "temp_uploads"
+                if not os.path.exists(temp_dir):
+                    os.makedirs(temp_dir)
+                
+                try:
+                    # Save uploaded files temporarily
+                    saved_files = []
+                    for file in st.session_state.uploaded_files:
+                        file_path = os.path.join(temp_dir, file.name)
+                        with open(file_path, "wb") as f:
+                            f.write(file.getvalue())
+                        saved_files.append(file_path)
+                    
+                    # Load and process documents
+                    with st.spinner("Processing uploaded documents..."):
+                        # Load documents
+                        documents = load_folder_docs(temp_dir)
+                        
+                        if documents:
+                            # Split documents into chunks
+                            splitted_docs = split_documents(documents)
+                            
+                            # Create vector store
+                            vector_store = create_vectorstore_from_documents(splitted_docs)
+                            
+                            # Save to session state
+                            st.session_state.workflow_data['documents'] = [file.name for file in st.session_state.uploaded_files]
+                            st.session_state.solution_vector_store = vector_store
+                            
+                            # Success message in full width
+                            st.success(f"Successfully processed {len(st.session_state.uploaded_files)} documents")
+                            
+                            # Progress to next step
+                            st.session_state.solution_step += 1
+                            st.rerun()
+                        else:
+                            st.error("No content could be extracted from the uploaded documents")
+                    
+                except Exception as e:
+                    st.error(f"Error processing documents: {str(e)}")
+                    if os.path.exists(temp_dir):
+                        shutil.rmtree(temp_dir)
+                    return
+                
+                finally:
+                    # Cleanup temporary files
+                    if os.path.exists(temp_dir):
+                        shutil.rmtree(temp_dir)
+            else:
+                # Clear vector store if no documents are uploaded
+                if 'solution_vector_store' in st.session_state:
+                    del st.session_state.solution_vector_store
+                st.session_state.workflow_data['documents'] = []
+                
+                # Progress to next step
+                st.session_state.solution_step += 1
+                st.rerun()
 
 def show_output_selection():
-    """Step 6: Output Selection"""
-    st.header("Step 6: Expected Outputs")
+    """Step 7: Output Selection"""
+    st.header("Step 7: Expected Outputs")
     
     output_options = [
         "Design Document",
@@ -443,9 +580,52 @@ def show_output_selection():
         st.session_state.solution_step += 1
         st.rerun()
 
+def format_assistant_message(message: str) -> str:
+    """Format assistant message with HTML styling for better readability."""
+    
+    # Split message into lines
+    lines = message.split('\n')
+    formatted_lines = []
+    
+    for line in lines:
+        # Check if it's a main section (numbered)
+        if line.strip() and line.strip()[0].isdigit() and '. ' in line:
+            # Make numbered sections bold and larger
+            section_title = line.split('. ')[0] + '.'
+            section_content = '. '.join(line.split('. ')[1:])
+            formatted_lines.append(
+                f"<div style='margin-top: 20px; margin-bottom: 10px;'>"
+                f"<span style='font-size: 18px; font-weight: bold;'>{section_title}</span> "
+                f"<span style='font-size: 18px; font-weight: bold;'>{section_content}</span>"
+                f"</div>"
+            )
+        # Check if it's a subsection (starts with -)
+        elif line.strip().startswith('-'):
+            # Add proper indentation and styling for subsections
+            formatted_lines.append(
+                f"<div style='margin-left: 20px; margin-top: 5px;'>{line}</div>"
+            )
+        # Regular text
+        else:
+            formatted_lines.append(f"<div style='margin-top: 5px;'>{line}</div>")
+    
+    return ''.join(formatted_lines)
+
 def show_analysis_chat():
     """Step 8: Analysis and Chat"""
     st.header("Step 8: Solution Analysis")
+    
+    # Initialize or reset chat history if outputs have changed
+    if "previous_outputs" not in st.session_state:
+        st.session_state.previous_outputs = None
+    
+    current_outputs = st.session_state.workflow_data.get('outputs', [])
+    
+    # Check if outputs have changed
+    if st.session_state.previous_outputs != current_outputs:
+        st.session_state.solution_chat_history = []
+        st.session_state.analysis_complete = False
+        st.session_state.previous_outputs = current_outputs
     
     # Initialize chat history if not exists
     if "solution_chat_history" not in st.session_state:
@@ -457,9 +637,15 @@ def show_analysis_chat():
             # Format requirements section
             requirements_section = ""
             if st.session_state.workflow_data.get('requirements'):
-                requirements_section = ""
+                requirements_section = "\nDepartmental Requirements:"
                 for req in st.session_state.workflow_data['requirements']:
                     requirements_section += f"\n- {req['department']}: {req['requirement']}"
+            
+            # Add document context if available
+            document_context = ""
+            if st.session_state.workflow_data.get('documents'):
+                document_context = "\n\nAnalysis includes information from uploaded documents: " + \
+                                 ", ".join(st.session_state.workflow_data['documents'])
             
             initial_prompt = f"""
             Based on the following information, provide a comprehensive solution analysis:
@@ -477,13 +663,16 @@ def show_analysis_chat():
             Connected Tools: {', '.join(st.session_state.workflow_data.get('connected_tools', []))}
             
             Requested Outputs: {', '.join(st.session_state.workflow_data.get('outputs', []))}
-            
+
+            {document_context}
+
             Please provide:
-            1. Initial solution recommendation that addresses all departmental requirements
-            2. Implementation approach considering existing tools and infrastructure
-            3. Key considerations and risks for each department's requirements
-            4. Specific next steps for each department
-            5. How the solution meets the success metrics while staying within budget
+            1. Initial solution recommendation that addresses all departmental requirements. Also if you identify two or more tools that do the same job, think about consolidating them if this would make sense.
+            2. Calcualte the ROI based on estimates and the chosen solution. Be specific and explain every step in detail. Describe why each step makes sense, how you came up with the value and how it contributes to the overall goal. If you refer to monetary values, mention in brackets if you got it from the web, your own knowledge or uploaded documents. Consider that the budget does not have to be spent and is only generally available.
+            3. Implementation approach considering existing tools and infrastructure. For various stages create individual tasks which have to be done to achieve this phase. Also design an exit criteria of each phase which allows the next one to start.
+            4. Key considerations and risks for each department's requirements. Also make one suggestion of how the risk could be mitigated and add it as sub-point of each risk with one hierachy level lower and one tab more inside.
+            5. Specific next steps for each department
+            6. How the solution meets the success metrics while staying within budget
             """
             
             # Get initial analysis from LLM
@@ -549,7 +738,10 @@ def show_analysis_chat():
         if role == "User":
             st.chat_message("user").write(message)
         elif role == "Assistant":
-            st.chat_message("assistant").write(message)
+            st.chat_message("assistant").write(
+                format_assistant_message(message),
+                unsafe_allow_html=True
+            )
         elif role == "System":
             st.chat_message("assistant").write(f"🔄 {message}")
     
@@ -567,13 +759,13 @@ def show_analysis_chat():
             if st.button("Export to GitHub"):
                 st.info("Preparing GitHub export...")
         with col3:
-            if st.button("Save as Final Solution"):
+            if st.button("Accept as Final Solution"):
                 st.session_state.final_solution = {
                     'inputs': st.session_state.workflow_data,
                     'conversation': st.session_state.solution_chat_history,
                     'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 }
-                st.success("Solution saved! You can now download it as PDF.")
+                st.success("Solution accepted! You can now download it as PDF.")
         
         # Separate PDF download button
         if hasattr(st.session_state, 'final_solution'):
