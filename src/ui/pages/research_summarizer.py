@@ -78,6 +78,30 @@ For each section, please:
 4. Note any patterns or themes across different topics
 """
 
+INTERVIEW_FEEDBACK_PROMPT = """As an expert interviewer, analyze this interview and provide detailed feedback on:
+
+1. Strengths:
+   - What questions generated deep insights?
+   - Which techniques worked well?
+   - Notable moments where the interviewer successfully uncovered meaningful information
+
+2. Areas for Improvement:
+   - Identify questions that remained surface-level
+   - Point out missed opportunities for follow-up questions
+   - Suggest alternative questions or approaches that could have yielded deeper insights
+
+3. Interview Script Recommendations:
+   - Specific suggestions to improve the interview script
+   - New questions to add based on emerging patterns
+   - Questions to modify or remove
+
+4. Key Insights Analysis:
+   - Which parts of the interview yielded the most valuable insights?
+   - What topics need deeper exploration in future interviews?
+
+Please provide specific examples from the interview transcript to support your feedback.
+"""
+
 def format_folder_name(folder_name: str) -> str:
     """Convert folder names from snake_case to Title Case."""
     return folder_name.replace('_', ' ').title()
@@ -209,23 +233,17 @@ def show_summarizer():
                     st.rerun()
                     
             with col3:
-                if st.button("Chat with Documents", key="direct_chat"):
-                    # Initialize conversation chain using existing vectorstore
-                    llm = ChatOpenAI(temperature=0, model_name="gpt-4o")
-                    st.session_state.conversation_chain = create_conversation_chain(
-                        vectorstore=st.session_state.vectorstore,
-                        llm=llm,
-                    )
-                    st.session_state.analysis_mode = "chat"
-                    st.session_state.chat_started = True
-                    st.session_state.show_file_selector = False
-                    st.session_state.chat_messages = []
+                if st.button("Interview Feedback", key="direct_chat"):
+                    st.session_state.analysis_mode = "interview_feedback"
+                    st.session_state.show_file_selector = True
+                    st.session_state.selected_file_for_feedback = None
+                    st.session_state.chat_started = False
                     st.rerun()
             
-            # Show file selector for meeting summary
+            # Show file selector for meeting summary or interview feedback
             if st.session_state.show_file_selector and st.session_state.current_folder:
                 st.markdown("---")
-                st.markdown("#### Select Meeting to Summarize")
+                st.markdown("#### Select Meeting to Summarize" if st.session_state.analysis_mode == "meeting" else "#### Select Interview to Analyze")
                 
                 try:
                     # Get files from the current folder
@@ -240,13 +258,13 @@ def show_summarizer():
                     logger.info(f"Available files: {file_names}")
                     
                     selected_file = st.selectbox(
-                        "Choose a meeting file to summarize:",
+                        "Choose an interview to analyze:" if st.session_state.analysis_mode == "interview_feedback" else "Choose a meeting file to summarize:",
                         options=file_names,
-                        key="meeting_file_selector"
+                        key="file_selector"
                     )
                     
                     # Start analysis button
-                    if st.button("Start Summary", key="start_summary"):
+                    if st.button("Start Analysis" if st.session_state.analysis_mode == "interview_feedback" else "Start Summary"):
                         try:
                             logger.info(f"Looking for document with filename: {selected_file}")
                             # Find the selected document
@@ -278,7 +296,8 @@ def show_summarizer():
                             st.session_state.show_file_selector = False
                             st.session_state.chat_messages = [{
                                 "role": "user", 
-                                "content": f"Please summarize the following meeting: {MEETING_SUMMARY_PROMPT}"
+                                "content": INTERVIEW_FEEDBACK_PROMPT if st.session_state.analysis_mode == "interview_feedback" 
+                                         else MEETING_SUMMARY_PROMPT
                             }]
                             st.rerun()
                             
@@ -342,19 +361,28 @@ def show_summarizer():
                             st.session_state.chat_messages.append({"role": "assistant", "content": response["answer"]})
                             st.rerun()
                             
-                else:  # Direct chat mode
-                    st.markdown("#### Chat with Documents")
-                    # Display chat messages
-                    for message in st.session_state.chat_messages:
-                        with st.chat_message(message["role"]):
-                            st.write(message["content"])
-                            
-                    # Handle chat input
-                    if prompt := st.chat_input("Ask a question about the documents"):
-                        st.session_state.chat_messages.append({"role": "user", "content": prompt})
-                        response = st.session_state.conversation_chain({"question": prompt})
-                        st.session_state.chat_messages.append({"role": "assistant", "content": response["answer"]})
-                        st.rerun()
+                elif st.session_state.analysis_mode == "interview_feedback":
+                    st.markdown("#### Interview Feedback")
+                    if st.session_state.selected_file_for_summary:
+                        st.markdown(f"Analyzing file: {Path(st.session_state.selected_file_for_summary.metadata.get('source', '')).name}")
+                        
+                        # Display chat messages
+                        for message in st.session_state.chat_messages:
+                            with st.chat_message(message["role"]):
+                                st.write(message["content"])
+                                
+                        # Get initial response
+                        if len(st.session_state.chat_messages) == 1:  # Only the initial prompt
+                            response = st.session_state.conversation_chain({"question": INTERVIEW_FEEDBACK_PROMPT})
+                            st.session_state.chat_messages.append({"role": "assistant", "content": response["answer"]})
+                            st.rerun()
+                        
+                        # Handle follow-up questions
+                        if prompt := st.chat_input("Ask a follow-up question about the interview feedback"):
+                            st.session_state.chat_messages.append({"role": "user", "content": prompt})
+                            response = st.session_state.conversation_chain({"question": prompt})
+                            st.session_state.chat_messages.append({"role": "assistant", "content": response["answer"]})
+                            st.rerun()
             
         elif not st.session_state.documents and st.session_state.get('chat_messages'):
             # Clear chat history if no documents are loaded
