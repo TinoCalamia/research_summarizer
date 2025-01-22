@@ -1,0 +1,167 @@
+Agostino Calamia  0:00  
+With the very first question, could you just maybe, like, we have a good idea of what tax fix does. Could you maybe introduce yourself your responsibilities just like in a short intro?
+
+Percy Stipp  0:12  
+Yeah, sure. So I've been with tax fix in April, is going to be two years, and my role is in, you know, leading the operation space. So any time, you know, across customer success, cross tax operations and the different functions was like back office, Central Services, teams, and to ensure, pretty much, like, you know, running of smooth operations during that we have a great customer experience, but also, of course, driving efficiencies across the large folks. Of course, on the automation piece,
+
+Agostino Calamia  0:50  
+that's great. And how big is your team?
+
+Percy Stipp  0:57  
+It used to be 60 people, but now there's been some changes,
+
+Agostino Calamia  1:04  
+okay, okay, that makes sense. And how's the hierarchical structure like? How do you report into you? How does that look like? So
+
+Percy Stipp  1:13  
+I have heads reporting into me, and then I have team leads, and then you have ICs,
+
+Agostino Calamia  1:18  
+okay, perfect. And how many heads do reporting to you?
+
+Percy Stipp  1:24  
+Well, we've just got a restructure, but like, based on the old structure, was three plus a partner manager.
+
+Agostino Calamia  1:34  
+Okay, cool, that makes sense. And from all the teams that reporting to you, is there one that is significantly bigger than than others that makes up most of the head count. No, okay, cool. That's great. So I mean that, like, I think we got kind of an idea of what the overall mission is that you that you're following, but could you maybe also elaborate a bit more on the challenges or goals you and the team are facing in 2022 Where do you want to go? What's kind of the the way you're you're aiming for?
+
+Percy Stipp  2:09  
+Yeah, sure. So as you may know, you know the tax finance base, it's a very seasonal business, so staffing for seasonality is a big challenge. To make sure you know that for these peak events, you have the sufficient pretty much like headcount in place, or the guys like onboarding, but then also the onboarding experience. And therefore the focus is really on, how can you most efficiently automate these type of events? Because, as you may or may not know, like, you know, in Germany, there's a one tax filing deadline. And I don't know how you are with regards to your taxes, but I also do it last minute. So the majority of people will do it in the last week or days. And then, of course, you know your volumes, you have this huge hockey stick which goes up into the right which, of course, is great. But want to make sure that you can answer all those questions, you know, from a customer success point of view, within time. But yeah, and certain people you know, have to hit that deadline because they're mandatory. So you want to make sure that those people's you know, get filed accordingly. Yeah, seasonality is the biggest challenge for this. Yeah.
+
+Agostino Calamia  3:20  
+And I mean, you, you pretty much just grab that you are aiming to manage these peaks that occur, like, once a year. What role does technology play into managing that or achieving that goal? Like, how do you structure the team and the department?
+
+Percy Stipp  3:37  
+Yeah, so, so, like, based on my experience, the only way that you can really efficiently, successfully scale is through automation. Because in order for you to really have a predictable, repeatable customer experience, you know that's that's the only way to go about it. But until you kind of have everything fully automated, need to have some form of, let's call it variable, slash flexible staffing in place, and then you just need to ensure that you have those cases go to the right people that have that knowledge. So, you know, scope based routing, and ideally you have some workflows that are not too complex, that can be taken on by, you know, external vendors, for example.
+
+Agostino Calamia  4:17  
+Yeah. Okay, very interesting. So, like, basically you have the technical part, but you also have stuffing, and you also said you have external vendors or partners. Like, what would that look like?
+
+Percy Stipp  4:29  
+Yeah, so that's that's ideally for having to buffer for those seasonality events. You have companies in place that help you to bring staffing on very quickly online, looks like you can do the best podcasting in the world. But if that really then kicks in, there's a whole different story. We even have the flexibility to then very quickly, you know, ramp up your staff accordingly. I mean, imagine, like, I don't know, like Black Friday is, like, where's my order? Those are questions, you know. I mean, ideally, that's automated nowadays, but that you just can very quickly increase your capacity if needed. Okay,
+
+Agostino Calamia  5:06  
+that's great. That's super interesting. Okay, and I remember, like, from the conversation with David, he said you and like, specifically the operations team, you did a great job last year in automating many, many parts of your work, implementing AI in a way that made you very, very efficient. Could you maybe walk us through one example, and obviously in a like, as many details as you can share, and if something is of like, then that's fine. But can you walk us through an example where you've been presented like a solution, or like a goal that you and the team had to achieve, and how you basically got from there to a solution that satisfied you, or like that you implemented, like, what's the process behind that?
+
+Percy Stipp  5:52  
+Well, I mean, the things would, I'd always be looking as like, what's your top contact driver, and then understanding, and kind of, you know, waiting that with the handling time, to understand, where do you have the biggest bang for your buck, so resources, to have the best, you know, return on investment, and based on that, would be my process. And then kind of going through those process to understand, you know, what's kind of the cost of implementation with regards to automating this, and what's the effort, and then prioritizing that accordingly. I mean, it's the same, like, where's my order, for example. You know, you will get a ton of those. I'll just provide this as an example. It's not really applicable, but you can kind of imagine it's like, Where's My Refund? You know, what's the status of my tax declaration as a human you don't really also add any value, so I always try to distinguish, like, one side, what's, what's, you know, handling time, times volumes, what's the effort of implementation. But also, like, do I add value with having a human interaction? Yes, no. Because the thing is, also you need to consider, ideally, want to have a really fast response, of course, and there you don't really add any value as a human, and that's how we went about, like, kind of how we prioritize what can be automated using an AI chat solution, essentially,
+
+Agostino Calamia  7:09  
+super interesting. And I mean, like, how much of this analysis and also decision is happening on your level, and how much is maybe also happening on the level of the hats. Is that clear? Like, who, who dies? Like, who drives what analysis or dives into this topic, like, what's the distinction there? Or is it all on your end, or all on the heads?
+
+Percy Stipp  7:32  
+No. I mean, ideally, they would kind of prepare it, and I would just be informed. But yeah, I do, kind of, I do participate in several of those discussions just to make sure that, you know, we invest our resources in the right space to avoid us. I think it was a bit dependent on, like, how experienced your heads are with regards to these type of problem statements. They want to call that way.
+
+Agostino Calamia  8:01  
+Yeah, okay, that makes sense. So just for me to summarize it, you probably get a goal, or like a problem that you have to solve from your COO, I would assume that ends up on your table, and then you talk to your head so that they come up with solutions for their respective responsibilities represented to you. And then, like, there's this experience
+
+Percy Stipp  8:24  
+essentially, like, the big problem statement is not necessarily good to know, it's from a staffing perspective. Is like, how do we deal with seasonality? That's point number one. And then point number two is like, how do I ensure that we are it's also a cost play, of course. Like, every cost cost you X euros, and if you automate, it's going to cost you wise savings. And the point for me is, we know, in the space of you know, you want to provide a fast, accurate answer. And you know, automation or AI is available. 24/7
+
+Agostino Calamia  8:56  
+is there? Is there an example of something that you've automated that you could share, like, where, where you said, Okay, this is a really, like, really successful implementation of automated AI, I
+
+Percy Stipp  9:07  
+would say, like, the number one is around. I mean, there's no recorded right? This is, yeah, it's pretty much like, what's the status of your submission? That's what I'm saying. Like, what's the order? What's the status of my order? That's pretty much, like, always the thing that you get, that's the number one. And the same with, like, what's the status of my, my tax declaration, you know? And then, yeah, okay, like, in a, b, to C, E, commerce store, like, probably, you know, that's the number one driver. It's a super high contact driver. You don't add any value as a human. So, yeah, okay, okay,
+
+Agostino Calamia  9:41  
+got it. That's that's super interesting. And how long
+
+Percy Stipp  9:45  
+that's a super simple solution? Yeah, that makes sense.
+
+Agostino Calamia  9:49  
+And how long did it take you to go from like we have this problem identified or this opportunity identified, to aligning on a solution, like, how long does it take tax fix. I know it varies, probably, but on average.
+
+Percy Stipp  10:06  
+So the thing is, we did like an RFP with regards to the solutions, and then we tested two solutions. We tested them quite extensively, which could have probably been a bit shorter, but I would say between like, making the decision to find a solution and then actually executing the solution. I would say, four months. Four to five months. Okay,
+
+Agostino Calamia  10:33  
+very interesting, very interesting. And how did you, like you said you tested two potential solutions. How did you end up deciding to test these two solutions out of all the potential opportunities?
+
+Percy Stipp  10:48  
+Yeah, there's different avenues. One, of course, just like a random Google search to see, kind of like, what providers are out there. But then we kind of test the first solution, but then also, then talking to legal, then very quickly also narrowed down of what can you do and what you could do, and that just also results in certain limitations that we have with regards to the type of providers that we could actually go for that quickly narrowed us down. I don't know what you guys are trying to solve for, but like, data storage, of course, is in the European Union a big thing. And then that quickly, you know, narrow down the scope of the type of providers that we have. And, yeah, okay, got it something also, like, as a real USP, I mean, again, like, curiously here what you guys are planning on doing, but that's something that, for example, like, if in the European Union and you're looking for European customers, that's something you can really, like, leverage of, like, okay, like, our data storage is Europe. We don't yada yada yada. We are. What's that? But, you know, it's like this, digital, etc, legal is not my strength. But I know that there's
+
+Agostino Calamia  11:59  
+things, yeah, yeah, I can imagine that's great. And why did you decide to buy, like, how did you come up with the decision to buy an external solution off the shelf versus maybe building it in house?
+
+Percy Stipp  12:16  
+There's two things should one. I personally believe you don't need to always reinvent the wheel right at the beginning. Like, we needed solution fast. That's the thing is. And that's why we just had, like, you know, to quickly implement. And that's why it was just a speed, you know, we had very quickly had to solve for, you know, high volumes, etc. We knew we're gonna kind of where we're heading, and that's why it was just speed of implementation, because to build internally would have thought of impossible, but it would have probably taken a bit longer than we would have any jobs and resources to have the capabilities to do that.
+
+Agostino Calamia  12:59  
+And how many of these automations maybe within your department, or, like your segment, implemented, I don't know, per year, or have you implemented in the time you've been with tax six now.
+
+Percy Stipp  13:12  
+So the main focus is really on the automation of, you know, user interactions. I mean, of course, there's, like, some back end product things. But the biggest lever for us was really the automation of the pretty much, like the customer success or customer slash customer support interactions. And they, of course, you know, like you have a very hockey stick with regards to, like, the automation level, and then the kind of, you know, now it's incremental things that you can do, because then you need, like, API calls and bit more back end integration pieces that are bit more complex. So that's kind of the progress has slowed down a bit.
+
+Neil Gursahani  13:51  
+Yeah. Okay, cool. And yeah, one question. I think the topic of the of this call so far has really hung around, automations a lot. And I want to ask you, Percy like, are we discussing a lot? Because it has, it drives so much business impact for time, for tax picks. And if so, I was wondering, how much business impact would you say automations like this actually brings, in terms of impact?
+
+Percy Stipp  14:19  
+Well, of course, one, you have the cost saving piece. Second, I would also say that as a conversion rate impact, but we have gone into actually quantifying it. But I truly believe that if you are quick to resolve some of these issues, you're more likely probably to convert the customer. That's just the hypothesis that I have. And so I think on the one side, kind of on the the cost side, has a positive impact, but I'm also pretty sure that, like on a revenue side, it should also positively reflect but again, we haven't gotten that far to actually look in the numbers, but it's something for this year that I really want to from a business case point of view as well, and
+
+Agostino Calamia  15:02  
+super cool. Very nice. Neil, I've asked most of my questions, and I would use the last 12 minutes to or last 10 minutes and then two remaining minutes to explain everything for the click demo. Would that work for you? Do you have any other question? Neil, anything else? Perfect. Cool. So first of all, thanks for all the questions, as you might have imagined or like can figure out, we are a little bit looking into the solution exploration once companies or teams have identified a problem, Oracle. So the initial idea we had was looking at the B to B buying process of tools. So how do companies buy it? And that's consists of multiple stages, first identifying a problem, exploring solutions, collecting requirements, etc, etc. And we want to focus on the on the first part, which is why we think there is potential to help companies identify valuable solution for their use cases. And what I'm going to show you right now is just a very simple click dummy that I would walk you through for like, two, three minutes, explain you what it does, what our thoughts were behind it, and then afterwards, we would appreciate your feedback, obviously, super honest feedback. Let's that's what we can work the most with so that's why I will quickly share my screen again. It's like this is also the first demo that we are showing. So I tested it multiple times, fingers crossed, that things go, go as planned. What you see here is kind of a multi step workflow, basically. So in the first place, we want to define a problem or goal. In our case, I think the one that we now talked about is something I just got past it from prepared doc, so don't, don't, don't wonder. It's like I was trying to think, out of your perspective, Director of Operations and BTC SaaS company, being able to handle customer requests a little bit faster while maintaining a stable head count. That's slightly different than what you just explained. But yeah, I thought it could be just a relatable problem where these numbers are obviously all just random, 300 employees, cost of 1 million euros per year. You want to reduce that by 10% with a project budget of 30 case for the next 12 months. So quite specific could be more, could be less. So after you described your problem, you can also add your requirements. So you said legal, for example, had a requirement. Can say something like legal data needs to be stored within the AU.
+
+Let's leave it like that. If you don't want to collect the feedback yourself, you can also just request it by email, and could send it out to the like various head off so that they give you, give you the feedback automatically, and it's being added to the system. Then the next step, you could add your company parameters. Let's say the budget range is now 10 to 50k the company like between 200,000 people, and the success metrics is euros spend or saved, or whatever you want to call it, or your return on investment, or your spend per head count, whatever you want to whatever you want to add. And then what's what we identified as one of the most interesting aspects of it is the connection to the existing tool stack, because so far, these things like sophisticated chat GPT prompt could do it as well. But connecting to, for example, your project management tool. In that case, maybe JIRA. You have access to a certain knowledge base, or maybe to your GitHub to identify how is the code structured. What is legacy code? What can we actually do, and what can we not? And maybe even your communication tools? I'll choose slack and Microsoft Teams in that case, just to show you how the system works later on, when it thinks about, how can we reduce cost and consolidate things? We can even add Zendesk here, like, just for the sake of doing it, go next, and then in the next step, you would actually, sorry, was that question? Okay, in the next step, you would just connect to all your tools so we have access. Let's do that for GitHub and JIRA. That obviously is just a demo. There's nothing really connecting here. If you want, you can up though, you can upload company specific documents I prepared just a very basic cost analysis report like it's also just fake data that shows how expensive is slack, how expensive is teams? How expensive is GitHub for my organization. So it's uploading the documents, and in the last step, I can choose what I want to create out of it. Is it technical requirements, a risk assessment in our case, business case, and then it does an analysis, and now basically creates a business case based on your inputs to then give you a recommendation, either share or have a conversation with this agent to refine it a little bit more. And the reason for that is that we think we can mimic consulting behavior using AI, so we can be as fast as AI and as cheap but as personalized as consultants, for example. And this year, very simple output. It has a recommendation here. It, for example, recommends us to consolidate like a Microsoft because it's kind of a duplicated communication setup that we have here. This is still very broad that we can use AI powered chat bots, but it gives us an idea. It tries to calculate the return on investment based on the items we passed. Gives us an implementation approach, including exit criteria to go from one phase to another phase, so that can then later on, be translated into an actionable plan. Some key considerations, including mitigation measures and some additional info, and in case you're happy with it, either you can export it to JIRA or GitHub as tickets directly, so your product manager or your operations manager do not need to copy paste it. Or if you want to share it with someone else, you can accept the final solution and download it as PDF. It's still an ugly PDF, but it could look something like that, where you have all everything summarized and can easily share solutions and action plans. And again, the idea is to make this problem identification to solution exploration phase standardized better and faster. And, yeah, so that's, that's the initial click. Demo. Any thoughts, or initial thoughts,
+
+Percy Stipp  21:52  
+yeah, I'm trying to think back when we're actually in the phase of identifying the problem, and is the idea that you then use this to evaluate that will, kind of, it goes then to the next step. Once you've identified a problem, you kind of then use this to evaluate how you would go about the RFP or, like the purchasing Well, exactly.
+
+Agostino Calamia  22:14  
+So ideally, like usually, what the process would include of the solution exploration is collecting the requirements, like doing all the Google search you did, maybe talking to legal, identifying, Oh, these are the restrictions, etc. And that should be condensed in a very short process, so that this can happen quickly. Or you can have two or three versions that you can compare with each other. Like, versions are solutions then,
+
+Percy Stipp  22:36  
+and with the next step, would that then also include the criteria for evaluating, or what the kind of, what are the considerations you need to make? Because I think that's really, that's something that can be easily standardized with regard to, like, you know, data collection. Sorry,
+
+Agostino Calamia  22:52  
+can you What's the question I was just wondering, is
+
+Percy Stipp  22:54  
+it like, Okay, so once I have now this, this PDF Does, does that then also provide me for the individual departments, like, almost like, size of like, okay, what are the criteria to evaluate this? Or what are the things that you require from the individual what's anything missing?
+
+Agostino Calamia  23:10  
+Exactly? So that would be, basically, if you have collected the requirements already, you can map it against each other and see, hey, does it fulfill the requirements? Or if, like, if there are requirements still open, there's a checklist on how to check it.
+
+Percy Stipp  23:25  
+It was, I think that's, that's the super helpful. Because when you think about, like, buying new tools that you necessarily don't haven't implemented yet. I mean, like, AI chatbot, for example, like you don't actually know necessarily what your requirements always are. So it's like, it's good to have that as a starting point. It's pretty much like learning and kind of as we go along, and then it's pretty much attention to detail by the individuals to really also think this through. As one example would be, you know, does does their model get trained on your data? Yes, no. But that wasn't like that only came about as we were kind of going through the process, but that's something we'd never considered like at the beginning of the RFP process, so kind of as we went along with them. Yeah, there's some standard things,
+
+Agostino Calamia  24:14  
+exactly one question from our side, like this process that we talked about that we now try to mimic how much of a pain is it for you? Because, obviously, we're looking to to identify how painful is this process actually in a company, or are there parts of it that are very, very cumbersome? Is it like a problem or, like, is it something you look at for a long time, or is it more for your heads to solve this issue, like, can you? Can you share your thoughts on that?
+
+Percy Stipp  24:47  
+No, it's it like it's good if you have a standardized process, because you don't want to reinvent the wheel, because you usually also know that the decision that you make, you know it's not something like you you don't want to switch tool, so it should be really be done thoroughly, but usually it's also under time pressure, very seldomly acquired tools that you had like all the time to make all these considerations. That's why, I think, if you have sort of a standardized format that helps you, that's absolutely beneficial, because that's a good starting point, and you don't need to again, like, reinvent the wheel, but if you have something off the shelf solution, I think for me, then the next step would be based on the requirements that I have, if it then kind of already gives me a recommendation. So like, Okay, I go through the exercise, and I kind of feed it back into the system, and then it comes back to me, like, hey, based on your inputs, these are the two, three suppliers we will kind of shortlist based on using these criteria, I think that would be, then, you know, even more beneficial than apart from just there, okay, just a pure kind of okay, this is how you go about your problem statement.
+
+Agostino Calamia  25:54  
+Okay, interesting? And is that specifically interesting for tools, or also potential in house solution that we tools, etc, but there are obviously also ways to solve this internally. Sometimes. Would that be? Would that be the same? What do you see for yourself and your team the most benefit in like, the vendor, vendor part?
+
+Percy Stipp  26:16  
+No. I mean, if it gets that good, that it kind of has this trade off of being okay, you know, you can do this externally. You kind of get your ROI but you know, if you do it in house, these are the benefits, let's be honest. I mean, yes, the benefit of doing it in house. You keep your data in house, you develop your own solutions, absolutely, but the trade off is the resource that need to go into it and just based on the solution, or in this example, is like, Okay, what is it going to cost me to build it myself versus divide externally? That absolutely will help for the trade off part. But then again, like, sometimes those is just a strategic decision. Yeah,
+
+Agostino Calamia  26:57  
+okay, totally makes sense. I know it's I think we can wrap it up here. I hope you enjoyed it as well. Little bit. Do you have one last question, or are you,
+
+Neil Gursahani  27:09  
+yeah, yeah. Thank you very much Percy for joining the call. I think what you know, what we did may mention the beginning, is that we're still really validating this thing, like on a really and we want to validate pretty quickly. Would you say that is anyone else, either within tax fix or within, like, maybe your peers, that you think could be really relevant to talk to? Because the idea is that we want to quickly validate or invalidate if this is actually a worthwhile idea to pursue. And the way to do that is to speak to people who would potentially do it. So, yeah, do you have anyone that we can actually speak to, that you think, like within the company they would do this? You know, I
+
+Percy Stipp  28:04  
+maybe some of mine, who runs the Central Services team, because he's also evaluating kind of tools and things. So His name is Pierluigi, but I could also just add to the initial thread and conceive his time for quick, but he's going on holidays. I don't know how quick you need
+
+Agostino Calamia  28:27  
+we get. Like, if you could just add him to the threat, or, like, ask him if he would be open. Add him to the threat then, because he's just about
+
+Percy Stipp  28:32  
+you on holidays, and he has a lot on his plate right now, so let me ask him, and then I'll follow up with you guys. Perfect.
+
+Agostino Calamia  28:38  
+Thank you so much. And again, thank you for your time. Was super nice chatting to you guys
+
+Percy Stipp  28:44  
+would have a name for this gig, or what's we don't have a
+
+Agostino Calamia  28:47  
+name yet, so we are like we had a name, which was fine vendor. Then we wanted to move away a bit from the vendor part and be more general. So yeah, we're currently evaluating that. Again. I'll keep you posted. Once we once we've identified the name, We'll let you know. Okay. Well, best of luck. Thank you so much. Thanks for your time. Robert.
+
+Second.
+
+Transcribed by https://otter.ai

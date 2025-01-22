@@ -17,7 +17,7 @@ def sidebar_content() -> str:
         # App mode selection
         app_mode = st.radio(
             "Choose Analysis Mode",
-            ["Solution Explorer", "Research Summarizer", "Problem Framing", "Market Research", ],
+            ["Research Summarizer","Solution Explorer", "Problem Framing", "Market Research", ],
             index=0  # Default to Research Summarizer
         )
         

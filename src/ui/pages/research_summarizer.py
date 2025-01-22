@@ -4,76 +4,217 @@ Research Summarizer page functionality.
 
 import streamlit as st
 from typing import List, Dict, Any
-from src.components.document_selector import DocumentSelector
+from src.utils.document_selector import DocumentSelector
 from src.ui.components.chat_interface import ChatInterface
 from src.utils import split_documents, create_vectorstore_from_documents, create_conversation_chain
+from langchain_openai import ChatOpenAI
 import logging
 
 # Configure logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+NEEDS_ANALYSIS_PROMPT = """Please analyze the provided research documents and identify underserved needs following these steps:
+
+1. Identify pain points and challenges mentioned by users
+2. Analyze the frequency and severity of these pain points
+3. Highlight needs that are currently not being met or inadequately addressed
+4. Consider both explicit needs (directly stated) and implicit needs (implied from behavior or context)
+5. Prioritize needs based on:
+   - Number of users affected
+   - Severity of the problem
+   - Current lack of solutions
+6. Group related needs into themes or categories
+7. Provide specific quotes or evidence from the research to support each identified need
+
+Please present your findings in a clear, structured format with specific examples from the research documents.
+In your output, include the following:
+- A list of the identified needs, including the number of users affected and the severity of the problem
+- A summary of the identified needs, including the number of users affected and the severity of the problem
+- A list of opportunities to address the needs.
+"""
+
+def format_folder_name(folder_name: str) -> str:
+    """Convert folder names from snake_case to Title Case."""
+    return folder_name.replace('_', ' ').title()
 
 def show_summarizer():
     """Display the research summarizer interface."""
-    st.title("Research Summarizer 📚")
+    st.title("Research Summarizer")
 
-    # Initialize session state variables
-    if "vector_store" not in st.session_state:
-        st.session_state.vector_store = None
-    if "previous_selection" not in st.session_state:
-        st.session_state.previous_selection = set(st.session_state.document_names)  # Initialize with all documents
-    if "document_selection" not in st.session_state:
-        st.session_state.document_selection = set(st.session_state.document_names)  # Initialize with all documents
-    if "chat_history" not in st.session_state:
-        st.session_state.chat_history = []
+    # Initialize session states
+    if "documents" not in st.session_state:
+        st.session_state.documents = None
+    if "analysis_mode" not in st.session_state:
+        st.session_state.analysis_mode = None
+    if "chat_started" not in st.session_state:
+        st.session_state.chat_started = False
 
-    # Document selection with all pre-selected
-    selected_docs = DocumentSelector.show_selector(st.session_state.document_names)
-
-    if not selected_docs:
-        st.warning("Please select at least one document")
-        st.session_state.vector_store = None
-        return
-
-    # Handle document selection changes
-    if not st.session_state.vector_store or selected_docs != st.session_state.previous_selection:
-        # Validate documents exist
-        if not st.session_state.all_documents:
-            st.error("No documents loaded. Please add documents to the 'docs' folder.")
-            return
-            
-        # Initialize vector store with selected documents
-        filtered_docs = [
-            doc for doc in st.session_state.all_documents 
-            if doc.metadata.get('source', '').split('/')[-1] in selected_docs
-        ]
-        
-        if not filtered_docs:
-            st.error("No valid documents found after filtering.")
-            return
-            
-        splitted_docs = split_documents(filtered_docs)
-        if not splitted_docs:
-            st.error("No content found after splitting documents.")
-            return
-            
-        try:
-            st.session_state.vector_store = create_vectorstore_from_documents(splitted_docs)
-            st.session_state.previous_selection = selected_docs
-        except Exception as e:
-            st.error(f"Error creating vector store: {str(e)}")
-            return
-
-    # Chat interface
-    ChatInterface.show_input_guidelines()
-    user_question = ChatInterface.get_user_input()
+    # Initialize document selector
+    doc_selector = DocumentSelector()
     
-    if user_question and "chat_history" in st.session_state:
-        rag_chain = create_conversation_chain(st.session_state.vector_store, st.session_state.llm)
-        handle_user_input(user_question, rag_chain)
+    try:
+        # Get available folders
+        available_folders = doc_selector.get_available_folders()
         
-        # Display chat history
-        ChatInterface.display_chat_history(st.session_state.chat_history)
+        if not available_folders:
+            st.warning("No folders found in the data directory.")
+            return
+            
+        # Create formatted folder options for the dropdown with exact mapping
+        folder_options = {}
+        for folder in available_folders:
+            display_name = format_folder_name(folder)
+            folder_options[display_name] = folder
+            logger.info(f"Mapping display name '{display_name}' to folder '{folder}'")
+        
+        # Single select dropdown that collapses after selection
+        selected_folder = st.selectbox(
+            "Select a folder to load documents from:",
+            options=sorted(list(folder_options.keys())),
+            index=0,
+            key="folder_selector"
+        )
+
+        # Load documents button
+        if st.button("Load Selected Documents"):
+            if not selected_folder:
+                st.warning("Please select a folder.")
+                return
+                
+            folder = folder_options[selected_folder]
+            logger.info(f"Selected folder mapping - Display: '{selected_folder}' -> Folder: '{folder}'")
+            
+            try:
+                logger.info(f"Loading documents from folder: {folder}")
+                documents = doc_selector.load_documents_from_folder(folder)
+                logger.info(f"Successfully loaded {len(documents)} documents from {folder}")
+                    
+                st.session_state.documents = documents
+                st.session_state.analysis_mode = None  # Reset analysis mode
+                st.session_state.chat_started = False  # Reset chat state
+                st.success(f"Successfully loaded {len(documents)} documents from folder")
+                st.experimental_rerun()  # Rerun to show the buttons
+                
+            except Exception as e:
+                logger.error(f"Error loading documents: {str(e)}")
+                st.error(f"Error loading documents: {str(e)}")
+                return
+
+        # Show options only if documents are loaded
+        if st.session_state.documents:
+            st.markdown("---")
+            st.markdown("### Choose Your Analysis Option")
+            
+            # Create two columns for the buttons
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                if st.button("Analyze Underserved Needs", key="analyze_needs"):
+                    st.session_state.analysis_mode = "needs"
+                    st.session_state.chat_started = True
+                    st.experimental_rerun()
+                    
+            with col2:
+                if st.button("Chat with Documents", key="direct_chat"):
+                    st.session_state.analysis_mode = "chat"
+                    st.session_state.chat_started = True
+                    st.experimental_rerun()
+            
+            # Show the appropriate interface based on selection
+            if st.session_state.chat_started:
+                st.markdown("---")
+                
+                # Initialize chat interface and required components
+                if 'chat_history' not in st.session_state:
+                    st.session_state.chat_history = []
+                
+                # Create RAG components if not already in session state
+                if 'conversation_chain' not in st.session_state:
+                    with st.spinner('Setting up chat system...'):
+                        try:
+                            documents = st.session_state.documents
+                            split_docs = split_documents(documents)
+                            vectorstore = create_vectorstore_from_documents(split_docs)
+                            
+                            # Initialize the LLM
+                            llm = ChatOpenAI(
+                                temperature=0,
+                                model="gpt-4o",
+                                streaming=True
+                            )
+                            
+                            # Create conversation chain with LLM
+                            st.session_state.conversation_chain = create_conversation_chain(vectorstore, llm)
+                        except Exception as e:
+                            logger.error(f"Error creating conversation chain: {str(e)}")
+                            st.error(f"Error setting up chat: {str(e)}")
+                            return
+
+                # Initialize chat interface with the conversation chain
+                chat_interface = ChatInterface()
+                
+                if st.session_state.analysis_mode == "needs":
+                    st.markdown("#### Analyzing Underserved Needs")
+                    # Send the needs analysis prompt if not already sent
+                    if not st.session_state.get('needs_analysis_sent'):
+                        with st.spinner('Analyzing research documents for underserved needs...'):
+                            try:
+                                # Process the needs analysis prompt
+                                response = st.session_state.conversation_chain({
+                                    "question": NEEDS_ANALYSIS_PROMPT,
+                                    "chat_history": []
+                                })
+                                
+                                # Extract answer and update chat history
+                                answer = response["answer"] if isinstance(response, dict) and "answer" in response else str(response)
+                                st.session_state.chat_history.append((NEEDS_ANALYSIS_PROMPT, answer))
+                                st.session_state.needs_analysis_sent = True
+                                
+                            except Exception as e:
+                                logger.error(f"Error processing needs analysis: {str(e)}")
+                                st.error(f"Error analyzing needs: {str(e)}")
+                    
+                else:  # Direct chat mode
+                    st.markdown("#### Chat with Documents")
+                
+                # Display chat messages
+                for message in st.session_state.chat_history:
+                    user_msg, assistant_msg = message
+                    with st.chat_message("user"):
+                        st.write(user_msg)
+                    with st.chat_message("assistant"):
+                        st.write(assistant_msg)
+                
+                # Chat input
+                if prompt := st.chat_input("Ask a follow-up question"):
+                    with st.chat_message("user"):
+                        st.write(prompt)
+                    
+                    with st.spinner('Processing...'):
+                        try:
+                            response = st.session_state.conversation_chain({
+                                "question": prompt,
+                                "chat_history": st.session_state.chat_history
+                            })
+                            answer = response["answer"] if isinstance(response, dict) and "answer" in response else str(response)
+                            
+                            with st.chat_message("assistant"):
+                                st.write(answer)
+                            
+                            st.session_state.chat_history.append((prompt, answer))
+                            
+                        except Exception as e:
+                            logger.error(f"Error processing question: {str(e)}")
+                            st.error(f"Error processing question: {str(e)}")
+                
+        elif not st.session_state.documents and st.session_state.get('chat_history'):
+            # Clear chat history if no documents are loaded
+            st.session_state.chat_history = []
+            
+    except Exception as e:
+        logger.error(f"Error in show_summarizer: {str(e)}")
+        st.error(f"An error occurred: {str(e)}")
 
 def handle_user_input(user_question: str, rag_chain: Any):
     """

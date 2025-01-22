@@ -13,12 +13,14 @@ from src.utils import (
     load_folder_docs, 
     split_documents, 
     create_vectorstore_from_documents,
-    create_conversation_chain
+    create_conversation_chain,
+    merge_vectorstores
 )
 import os
 import shutil
 import time
 import random
+from src.utils.github_processor import process_github_repos
 
 def get_analysis_response(prompt: str) -> str:
     """
@@ -36,75 +38,42 @@ def get_analysis_response(prompt: str) -> str:
             st.error("LLM not initialized. Please check your configuration.")
             return ""
         
-        # Use vector store if available
+        # Combine vector stores if GitHub is connected
         vectorstore = getattr(st.session_state, 'solution_vector_store', None)
+        github_vectorstore = getattr(st.session_state, 'github_docs', None)
+        
+        if github_vectorstore:
+            if vectorstore:
+                # Merge vector stores
+                vectorstore = merge_vectorstores([vectorstore, github_vectorstore])
+            else:
+                vectorstore = github_vectorstore
         
         # Create chain based on whether we have a vector store
         if vectorstore:
-            # RAG chain with vector store
             chain = create_conversation_chain(
                 vectorstore=vectorstore,
                 llm=st.session_state.llm
             )
-            # Add context about documents
-            prompt += "\n\nPlease incorporate relevant information from the uploaded documents in your response."
+            # Add context about code availability
+            prompt += "\n\nPlease incorporate relevant information from the uploaded documents and GitHub repositories in your response."
         else:
-            # Simple chain for direct LLM interaction without RAG
-            from langchain.chains import LLMChain
-            from langchain.prompts import PromptTemplate
-            
-            template = """
-            Based on the following context and question, provide a detailed response:
-            
-            Context:
-            {context}
-            
-            Question:
-            {question}
-            
-            Please provide a comprehensive and well-structured response.
-            """
-            
-            prompt_template = PromptTemplate(
-                input_variables=["context", "question"],
-                template=template
-            )
-            
-            chain = LLMChain(
-                llm=st.session_state.llm,
-                prompt=prompt_template
-            )
-            
-            # Get response without RAG
-            response = chain.invoke({
-                "context": "You are a solution architect helping to design a comprehensive solution.",
-                "question": prompt
-            })
-            
-            return response.get("text", str(response))
+            # Handle case where no vector store is available
+            st.error("No vector store available for analysis.")
+            return ""
         
-        # If using RAG chain, get response with empty chat history
-        if vectorstore:
-            response = chain.invoke({
-                "question": prompt,
-                "chat_history": []
-            })
-            
-            # Extract answer from response
-            if isinstance(response, dict) and 'answer' in response:
-                return response['answer']
-            elif isinstance(response, str):
-                return response
-            else:
-                return str(response)
-        
+        # Get the response from the chain
+        response = chain.run(prompt)
+        return response
+
     except Exception as e:
-        st.error(f"Error getting analysis: {str(e)}")
-        return "I apologize, but I encountered an error while analyzing your request. Please try again."
+        st.error(f"Error during analysis: {str(e)}")
+        return ""
 
 def show_solution_explorer():
     """Display the solution explorer interface with step-by-step workflow."""
-    st.title("Business Consultant Agent 🎯")
+    st.title("Advisr 🎯")
+    st.markdown('<span style="font-size: 18px; font-style: italic;">Your AI-powered business consultant, connected to your knowledge base</span>', unsafe_allow_html=True)
     
     # Initialize session state for workflow
     if "solution_step" not in st.session_state:
@@ -392,8 +361,8 @@ def show_tool_selection():
         st.rerun()
 
 def show_tool_connection():
-    """Step 4: Tool Connection"""
-    st.header("Step 4: Connect Your Tools")
+    """Step 5: Tool Connection"""
+    st.header("Step 5: Connect Your Tools")
     
     # Initialize tool connection state if not exists
     if 'connected_tools' not in st.session_state:
@@ -418,27 +387,34 @@ def show_tool_connection():
             st.subheader(f"📁 {category}")
             
             for tool in tools:
-                col1, col2, col3 = st.columns([3, 1, 1])
-                
+                col1, col2 = st.columns([3, 1])
                 with col1:
-                    st.markdown(f"**{tool}**")
-                
+                    st.write(f"**{tool}**")
                 with col2:
-                    is_connected = tool in st.session_state.connected_tools
-                    status = "🟢 Connected" if is_connected else "⚪ Not Connected"
-                    st.markdown(status)
-                
-                with col3:
-                    button_label = "Disconnect" if is_connected else "Connect"
-                    if st.button(button_label, key=f"btn_{tool}"):
-                        if is_connected:
-                            st.session_state.connected_tools.remove(tool)
-                        else:
-                            # Simulate connection process
-                            with st.spinner(f"Connecting to {tool}..."):
-                                time.sleep(1)  # Simulate connection delay
+                    if tool in st.session_state.connected_tools:
+                        st.success("Connected ✓")
+                        
+                        # Process GitHub repositories after connection
+                        if tool == "GitHub" and "github_docs" not in st.session_state:
+                            with st.spinner("Processing your GitHub repositories..."):
+                                docs = process_github_repos()
+                                if docs:
+                                    # Create vector store for GitHub code
+                                    github_vectorstore = create_vectorstore_from_documents(docs)
+                                    st.session_state.github_docs = github_vectorstore
+                                    st.success(f"Processed {len(docs)} code files from your repositories")
+                                else:
+                                    st.warning("No code files found in repositories")
+                    else:
+                        if tool == "GitHub":
+                            if st.button("Connect GitHub", key=f"connect_{tool}"):
+                                js = f"""
+                                <script>
+                                    window.open('https://github.com/login', '_blank');
+                                </script>
+                                """
+                                st.components.v1.html(js, height=0)
                                 st.session_state.connected_tools.add(tool)
-                                st.success(f"Successfully connected to {tool}")
                                 st.rerun()
     
     # Show connection summary
