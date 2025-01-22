@@ -8,16 +8,18 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
+pygithub = "*"
+reportlab = "*"
+streamlit-agraph = "*"
+streamlit = "1.33.0"
+langchain = "0.2.16"
+langchain-core = "0.2.41"
+langchain-community = "0.2.17"
+langchainhub = "0.1.21"
+langchain-google-community = "1.0.8"
 chromadb = "0.4.24"
 pydantic = "1.10.18"
-streamlit = "1.33.0"
-langchain-community = "0.2.17"
-langchain-core = "0.2.41"
 tiktoken = "0.7.0"
-langchain-openai = "0.1.25"
-langchainhub = "0.1.21"
-langchain = "0.2.16"
-langchain-google-community = "1.0.8"
 pypdf2 = "3.0.1"
 altair = "4.0"
 oauth2client = "<4.0.0"
@@ -31,7 +33,8 @@ faiss-cpu = "1.8.0.post1"
 unstructured = "0.15.13"
 python-docx = "1.1.2"
 exception = "0.1.0"
-
+pathlib = "*"
+logging = "*"
 
 [build-system]
 requires = ["poetry-core"]
