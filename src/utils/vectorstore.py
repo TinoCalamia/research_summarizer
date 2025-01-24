@@ -7,7 +7,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain.docstore.document import Document
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 
 def split_documents(documents: List[Document]) -> List[Document]:
     """

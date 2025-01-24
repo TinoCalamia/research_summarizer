@@ -35,48 +35,133 @@ In your output, include the following:
 - A list of opportunities to address the needs.
 """
 
-MEETING_SUMMARY_PROMPT = """Please analyze the interview/meeting documents and provide a structured summary following these categories. For each question, provide the answer if available in the documents, or explicitly state if the question wasn't addressed.
+# SOLUTION_FOCUSEDMEETING_SUMMARY_PROMPT = """Please analyze the interview/meeting documents and provide a structured summary following these categories. For each question, provide the answer if available in the documents, or explicitly state if the question wasn't addressed.
 
-## 0. Interview/ICP Framing
-1. Company Information:
-   - Number of employees
-   - Annual revenue
-   - Biggest teams
-   - Main geographic markets
-2. Role Information:
-   - Role responsibilities
-   - Team structure/hierarchy
-   - Number of direct reports
+# ## 0. Interview/ICP Framing
+# 1. Company Information:
+#    - Number of employees
+#    - Annual revenue
+#    - Biggest teams
+#    - Main geographic markets
+# 2. Role Information:
+#    - Role responsibilities
+#    - Team structure/hierarchy
+#    - Number of direct reports
 
-## 1. Strategic Challenges and Opportunities
-- Primary strategic objectives for 2025
-- Current organizational challenges
-- Time-consuming or cumbersome tasks
-- Emerging opportunities
-- Balance between short-term and long-term goals
-- Priority metrics for strategy evaluation
-- Mechanisms for continuous learning and team agility
+# ## 1. Strategic Challenges and Opportunities
+# - Primary strategic objectives for 2025
+# - Current organizational challenges
+# - Time-consuming or cumbersome tasks
+# - Emerging opportunities
+# - Balance between short-term and long-term goals
+# - Priority metrics for strategy evaluation
+# - Mechanisms for continuous learning and team agility
 
-## 2. Decision-Making and Problem-Solving
-- Recent complex decision example
-- Success factors
-- Insights and potential different approaches
+# ## 2. Decision-Making and Problem-Solving
+# - Recent complex decision example
+# - Success factors
+# - Insights and potential different approaches
 
-## 3. Future Outlook
-- Role of emerging technologies (AI, digital transformation)
-- Significant industry trends (3-5 years)
-- Organizational preparation for trends
+# ## 3. Future Outlook
+# - Role of emerging technologies (AI, digital transformation)
+# - Significant industry trends (3-5 years)
+# - Organizational preparation for trends
 
-## 4. Innovation and Adaptability
-- Organization's innovation culture
-- Example of successful adaptability
+# ## 4. Innovation and Adaptability
+# - Organization's innovation culture
+# - Example of successful adaptability
 
-For each section, please:
-1. Provide direct quotes where relevant
-2. Clearly indicate if any question wasn't addressed in the interview
-3. Highlight particularly insightful or unique responses
-4. Note any patterns or themes across different topics
-"""
+# For each section, please:
+# 1. Provide direct quotes where relevant
+# 2. Clearly indicate if any question wasn't addressed in the interview
+# 3. Highlight particularly insightful or unique responses
+# 4. Note any patterns or themes across different topics
+# """
+
+# MARKETING_MEETING_SUMMARY_PROMPT = """Please analyze the interview/meeting documents and provide a structured summary following these categories. For each question, provide the answer if available in the documents, or explicitly state if the question wasn't addressed.
+# Neil Gursahani and Agostino Calamia are the interviewers.
+
+# ## General Company Setup [ICP Filtering] → step 1
+
+# 1. Can you tell me a bit about the company?
+#     1. Number of employees
+#     2. Annual revenue
+#     3. What are the biggest teams?
+#     4. Main geographic markets that you operate in?
+# 2. What does your role entail?
+#     1. What is the team structure or hierarchy look like?
+#     2. How many direct reports do you have?
+    
+
+# ## Company Goals & Problems
+
+# 1. What was the biggest problem that your team faced in 2024?
+# 2. How do you identify problems/inefficiencies in the team?
+# 3. What are the company goals for 2025?
+#     1. How does the growth marketing team contribute to these goals?
+#     2. What are the biggest challenge in accomplishing these goals?
+#     3. How important do you believe is incorporating software will be to the success of these goals?
+#     4. What is your company budget for tools like this?
+#     5. What is the budget for the marketing team in general?
+# 4. What keeps you up at night?
+# 5. How does your company currently acquire customers? What does the customer and marketing journey look like?
+#     1. I saw that you mentioned G2 on your LinkedIn profile - does your company use G2 a lot for their marketing? What do you like or dislike about it?
+
+# ## Tool Consideration/Selection + Problems
+
+# 1. What is the marketing tech stack currently?
+#     1. How many of them are AI related?
+# 2. What is the budget that you typically have for marketing tools?
+# 3. What is the process that one goes through when they want to incorporate a tool at your company?
+# 4. What was the last tool you brought into the company?
+#     1. How important do you think new tools are to help accomplish your company targets/goals for 2025?
+#     2. How much pressure is there from the founders or VCs to adopt/incorporate AI tools today?
+#     3. How often do you use AI tools in your day to day? Or your team
+#     4. What is is the (thought) process of selecting a potential tool for your company?
+#     5. Have you ever purchased a tool for the company that you regretted?
+#     6. Have you ever been frustrated after adopting a tool because it didn’t solve the problem you were expecting it to? What was missing?
+
+# If you find other information which could be useful for the interviewer, please include it in your summary by creating a new section called "General remarks" and list it there.
+# When extracting information from these interviews be as specific as possible and try to catch all details and numbers which are mentioned.
+# """
+# MEETING_SUMMARY_PROMPT = """Please analyze the interview/meeting documents and provide a structured summary following these categories. For each question, provide the answer if available in the documents, or explicitly state if the question wasn't addressed.
+# Neil Gursahani and Agostino Calamia are the interviewers.
+
+# ## **General Company Setup**
+
+# 1. Can you describe your role and responsibilities?
+# 2. How is your tech organization structured?
+# 3. How does your tech stack look like, and why were they chosen? How many are AI based?
+# 4. Who is responsible for making decisions on the software which is being used?
+# 5. What is your team’s budget for software tools?
+# 6. How well integrated is the use of AI tools in your company?
+
+# ## **Problem Identification**
+
+# 1. What were the biggest challenges your team faced this year?
+# 2. How do you identify problems/inefficiencies in the team?
+# 3. When was the last time you realized something wasn’t working as well as it should in your team’s workflow? What did you do next?
+
+# ## **Solution discovery**
+
+# 1. What do you usually do first when you’re trying to solve a problem for your team?
+# 2. How do you narrow down potential solutions once you’ve identified the problem?
+# 3. How do you decide to buy a new tool vs develop in-house?
+# 4. What’s the hardest part about finding the right solution for a problem you’re facing?
+# 5. Tell me about the last time you introduced a new tool to improve software delivery. What were you hoping it would solve?
+# 6. When evaluating software, how do you figure out whether it will work well for your business? Especially with AI tools.
+# 7. Have you ever been frustrated after adopting a tool because it didn’t solve the problem you were expecting it to? What was missing?
+
+# ## Software Purchasing Behavior
+
+# 1. Can you walk me through a typical process of introducing a new software tool in your company? How to you rate your process?
+# 2. What made aligning with stakeholders challenging, if at all?
+# 3. What do you usually look for to feel confident about a decision before buying software? 
+# 4. What kind of changes or events usually prompt your organization to start looking for new software?
+
+# If you find other information which could be useful for the interviewer, please include it in your summary by creating a new section called "General remarks" and list it there.
+# When extracting information from these interviews be as specific as possible and try to catch all details and numbers which are mentioned.
+# """
 
 INTERVIEW_FEEDBACK_PROMPT = """As an expert interviewer, analyze this interview and provide detailed feedback on:
 
@@ -101,6 +186,40 @@ INTERVIEW_FEEDBACK_PROMPT = """As an expert interviewer, analyze this interview 
 
 Please provide specific examples from the interview transcript to support your feedback.
 """
+
+MEETING_SUMMARY_PROMPT = """
+Instruction:
+Please analyze the provided interview or meeting transcript and produce a structured summary that captures all questions asked, all available answers, and any additional, relevant observations. Use the following format:
+
+1. Context and Participants
+    - Interviewers: (List any known interviewers, e.g., Neil Gursahani and Agostino Calamia, if relevant)
+    - Interviewee(s): Name, role, and brief context about their position or organization, if available
+    - Overall Purpose: (Brief explanation of why the interview/meeting took place)
+
+2. Detailed Q&A
+    - For each question asked (whether by the interviewer(s) or a participant), provide:
+
+    Question Text: (Exactly or in paraphrased form if exact text is unavailable)
+        - Answer/Response:
+            - Summarize or quote key points from the response.
+            - Include specific details, numbers, and any nuanced information mentioned.
+            - If a question was not addressed or answered, explicitly state that it wasn’t covered.
+
+3. Key Themes and Insights
+    - Noteworthy Patterns or Themes: Mention any recurring ideas, challenges, or strategies.
+Quotes and Data Points: Highlight especially insightful or illustrative direct quotes and quantitative data (budgets, timeframes, etc.).
+    - Observations: Note anything that seems pivotal for understanding the interviewee’s situation or mindset (e.g., pain points, motivations, goals).
+4. General Remarks
+    - List any additional comments or information that does not neatly fit into the Q&A but could be valuable for future reference or business strategy.
+    - Add remarks about context, tone, or any follow-up questions you might consider for the next interview.
+
+Important Guidelines:
+    - Completeness: Include all questions that appear in the transcript, even if the answer was not provided.
+    - Clarity: Mark clearly if something was not addressed or is unknown.
+    - Specificity: Capture all details—especially numeric data, timelines, direct quotes—so we can make informed decisions later.
+    - Neutrality: Summarize in an objective manner; avoid adding personal assumptions or opinions not stated by the interviewee(s).
+"""
+
 
 def format_folder_name(folder_name: str) -> str:
     """Convert folder names from snake_case to Title Case."""
@@ -201,27 +320,9 @@ def show_summarizer():
             
             with col1:
                 if st.button("Analyze Underserved Needs", key="analyze_needs"):
-                    # Initialize conversation chain using existing vectorstore
-                    llm = ChatOpenAI(temperature=0, model_name="gpt-4o")
-                    st.session_state.conversation_chain = create_conversation_chain(
-                        vectorstore=st.session_state.vectorstore,
-                        llm=llm,
-                    )
-
-                    # Print unique file names from vectorstore
-                    print(st.session_state.vectorstore.docstore.__dict__.values())
-                    docs = st.session_state.vectorstore.docstore._dict.values()
-                    unique_files = set()
-                    for doc in docs:
-                        source = doc.metadata.get('source', '')
-                        if source:
-                            unique_files.add(Path(source).name)
-                            
-                    st.session_state.unique_files = unique_files
                     st.session_state.analysis_mode = "needs"
-                    st.session_state.chat_started = True
-                    st.session_state.show_file_selector = False
-                    st.session_state.chat_messages = [{"role": "user", "content": NEEDS_ANALYSIS_PROMPT}]
+                    st.session_state.show_file_selector = True
+                    st.session_state.chat_started = False
                     st.rerun()
                     
             with col2:
@@ -236,81 +337,212 @@ def show_summarizer():
                 if st.button("Interview Feedback", key="direct_chat"):
                     st.session_state.analysis_mode = "interview_feedback"
                     st.session_state.show_file_selector = True
-                    st.session_state.selected_file_for_feedback = None
+                    st.session_state.selected_file_for_summary = None
                     st.session_state.chat_started = False
                     st.rerun()
             
-            # Show file selector for meeting summary or interview feedback
+            # Show file selector for meeting summary, interview feedback, or needs analysis
             if st.session_state.show_file_selector and st.session_state.current_folder:
                 st.markdown("---")
-                st.markdown("#### Select Meeting to Summarize" if st.session_state.analysis_mode == "meeting" else "#### Select Interview to Analyze")
-                
-                try:
-                    # Get files from the current folder
-                    file_paths = doc_selector.get_document_paths(st.session_state.current_folder)
+                if st.session_state.analysis_mode == "needs":
+                    st.markdown("#### Select Interviews to Analyze")
                     
-                    if not file_paths:
-                        st.warning(f"No text files found in folder: {st.session_state.current_folder}")
-                        return
-                    
-                    # Extract file names from paths
-                    file_names = [Path(path).name for path in file_paths]
-                    logger.info(f"Available files: {file_names}")
-                    
-                    selected_file = st.selectbox(
-                        "Choose an interview to analyze:" if st.session_state.analysis_mode == "interview_feedback" else "Choose a meeting file to summarize:",
-                        options=file_names,
-                        key="file_selector"
-                    )
-                    
-                    # Start analysis button
-                    if st.button("Start Analysis" if st.session_state.analysis_mode == "interview_feedback" else "Start Summary"):
-                        try:
-                            logger.info(f"Looking for document with filename: {selected_file}")
-                            # Find the selected document
-                            selected_doc = None
-                            for doc in st.session_state.documents:
-                                doc_path = doc.metadata.get('source', '')
-                                if not doc_path:
-                                    doc_path = doc.metadata.get('path', '')
-                                
-                                if doc_path and Path(doc_path).name == selected_file:
-                                    selected_doc = doc
-                                    break
-                            
-                            if selected_doc is None:
-                                raise ValueError(f"Could not find document for file: {selected_file}")
-                            
-                            logger.info(f"Successfully found document for file: {selected_file}")
-                            
-                            # Initialize conversation chain using existing vectorstore
-                            llm = ChatOpenAI(temperature=0, model_name="gpt-4o")
-                            st.session_state.conversation_chain = create_conversation_chain(
-                                vectorstore=create_vectorstore_from_documents([selected_doc]),
-                                llm=llm,
-                            )
-                            
-                            # Store the selected document and start chat
-                            st.session_state.selected_file_for_summary = selected_doc
-                            st.session_state.chat_started = True
-                            st.session_state.show_file_selector = False
-                            st.session_state.chat_messages = [{
-                                "role": "user", 
-                                "content": INTERVIEW_FEEDBACK_PROMPT if st.session_state.analysis_mode == "interview_feedback" 
-                                         else MEETING_SUMMARY_PROMPT
-                            }]
-                            st.rerun()
-                            
-                        except Exception as e:
-                            logger.error(f"Error processing selected file: {str(e)}")
-                            st.error(f"Error processing selected file: {str(e)}")
+                    try:
+                        # Get files from the current folder
+                        file_paths = doc_selector.get_document_paths(st.session_state.current_folder)
+                        
+                        if not file_paths:
+                            st.warning(f"No text files found in folder: {st.session_state.current_folder}")
                             return
-                            
-                except Exception as e:
-                    logger.error(f"Error loading files from folder: {str(e)}")
-                    st.error(f"Error loading files from folder: {str(e)}")
-                    return
-            
+                        
+                        # Extract file names from paths
+                        file_names = ["All Interviews"] + [Path(path).name for path in file_paths]
+                        logger.info(f"Available files: {file_names}")
+                        
+                        selected_file = st.selectbox(
+                            "Choose interviews to analyze:",
+                            options=file_names,
+                            index=0,  # Default to "All Interviews"
+                            key="needs_file_selector"
+                        )
+                        
+                        # Start analysis button
+                        if st.button("Start Analysis"):
+                            try:
+                                # Initialize conversation chain
+                                llm = ChatOpenAI(temperature=0, model_name="gpt-4o")
+                                
+                                if selected_file == "All Interviews":
+                                    # Use all documents
+                                    st.session_state.conversation_chain = create_conversation_chain(
+                                        vectorstore=st.session_state.vectorstore,
+                                        llm=llm,
+                                    )
+                                    
+                                    # Get unique files for display
+                                    docs = st.session_state.vectorstore.docstore._dict.values()
+                                    unique_files = set()
+                                    for doc in docs:
+                                        source = doc.metadata.get('source', '')
+                                        if source:
+                                            unique_files.add(Path(source).name)
+                                else:
+                                    # Find the selected document
+                                    selected_doc = None
+                                    for doc in st.session_state.documents:
+                                        doc_path = doc.metadata.get('source', '')
+                                        if not doc_path:
+                                            doc_path = doc.metadata.get('path', '')
+                                        
+                                        if doc_path and Path(doc_path).name == selected_file:
+                                            selected_doc = doc
+                                            break
+                                    
+                                    if selected_doc is None:
+                                        raise ValueError(f"Could not find document for file: {selected_file}")
+                                    
+                                    # Create vectorstore from single document
+                                    single_vectorstore = create_vectorstore_from_documents([selected_doc])
+                                    st.session_state.conversation_chain = create_conversation_chain(
+                                        vectorstore=single_vectorstore,
+                                        llm=llm,
+                                    )
+                                    unique_files = {selected_file}
+                                
+                                st.session_state.unique_files = unique_files
+                                st.session_state.chat_started = True
+                                st.session_state.show_file_selector = False
+                                st.session_state.chat_messages = [{"role": "user", "content": NEEDS_ANALYSIS_PROMPT}]
+                                st.rerun()
+                                
+                            except Exception as e:
+                                logger.error(f"Error processing selected file: {str(e)}")
+                                st.error(f"Error processing selected file: {str(e)}")
+                                return
+                                
+                    except Exception as e:
+                        logger.error(f"Error loading files from folder: {str(e)}")
+                        st.error(f"Error loading files from folder: {str(e)}")
+                        return
+                        
+                elif st.session_state.analysis_mode == "meeting":
+                    st.markdown("#### Select Meeting to Summarize")
+                    try:
+                        # Get files from the current folder
+                        file_paths = doc_selector.get_document_paths(st.session_state.current_folder)
+                        
+                        if not file_paths:
+                            st.warning(f"No text files found in folder: {st.session_state.current_folder}")
+                            return
+                        
+                        # Extract file names from paths
+                        file_names = [Path(path).name for path in file_paths]
+                        
+                        selected_file = st.selectbox(
+                            "Choose meeting to summarize:",
+                            options=file_names,
+                            key="meeting_file_selector"
+                        )
+                        
+                        if st.button("Start Summary"):
+                            try:
+                                # Find the selected document
+                                selected_doc = None
+                                for doc in st.session_state.documents:
+                                    doc_path = doc.metadata.get('source', '')
+                                    if not doc_path:
+                                        doc_path = doc.metadata.get('path', '')
+                                    
+                                    if doc_path and Path(doc_path).name == selected_file:
+                                        selected_doc = doc
+                                        break
+                                
+                                if selected_doc is None:
+                                    raise ValueError(f"Could not find document for file: {selected_file}")
+                                
+                                # Initialize conversation chain
+                                llm = ChatOpenAI(temperature=0, model_name="gpt-4o")
+                                vectorstore = create_vectorstore_from_documents([selected_doc])
+                                st.session_state.conversation_chain = create_conversation_chain(
+                                    vectorstore=vectorstore,
+                                    llm=llm,
+                                )
+                                
+                                st.session_state.selected_file_for_summary = selected_doc
+                                st.session_state.chat_started = True
+                                st.session_state.show_file_selector = False
+                                st.session_state.chat_messages = [{"role": "user", "content": MEETING_SUMMARY_PROMPT}]
+                                st.rerun()
+                                
+                            except Exception as e:
+                                logger.error(f"Error processing selected file: {str(e)}")
+                                st.error(f"Error processing selected file: {str(e)}")
+                                return
+                                
+                    except Exception as e:
+                        logger.error(f"Error loading files from folder: {str(e)}")
+                        st.error(f"Error loading files from folder: {str(e)}")
+                        return
+                
+                elif st.session_state.analysis_mode == "interview_feedback":
+                    st.markdown("#### Select Interview to Analyze")
+                    try:
+                        # Get files from the current folder
+                        file_paths = doc_selector.get_document_paths(st.session_state.current_folder)
+                        
+                        if not file_paths:
+                            st.warning(f"No text files found in folder: {st.session_state.current_folder}")
+                            return
+                        
+                        # Extract file names from paths
+                        file_names = [Path(path).name for path in file_paths]
+                        
+                        selected_file = st.selectbox(
+                            "Choose interview to analyze:",
+                            options=file_names,
+                            key="feedback_file_selector"
+                        )
+                        
+                        if st.button("Start Analysis"):
+                            try:
+                                # Find the selected document
+                                selected_doc = None
+                                for doc in st.session_state.documents:
+                                    doc_path = doc.metadata.get('source', '')
+                                    if not doc_path:
+                                        doc_path = doc.metadata.get('path', '')
+                                    
+                                    if doc_path and Path(doc_path).name == selected_file:
+                                        selected_doc = doc
+                                        break
+                                
+                                if selected_doc is None:
+                                    raise ValueError(f"Could not find document for file: {selected_file}")
+                                
+                                # Initialize conversation chain
+                                llm = ChatOpenAI(temperature=0, model_name="gpt-4o")
+                                vectorstore = create_vectorstore_from_documents([selected_doc])
+                                st.session_state.conversation_chain = create_conversation_chain(
+                                    vectorstore=vectorstore,
+                                    llm=llm,
+                                )
+                                
+                                st.session_state.selected_file_for_summary = selected_doc
+                                st.session_state.chat_started = True
+                                st.session_state.show_file_selector = False
+                                st.session_state.chat_messages = [{"role": "user", "content": INTERVIEW_FEEDBACK_PROMPT}]
+                                st.rerun()
+                                
+                            except Exception as e:
+                                logger.error(f"Error processing selected file: {str(e)}")
+                                st.error(f"Error processing selected file: {str(e)}")
+                                return
+                                
+                    except Exception as e:
+                        logger.error(f"Error loading files from folder: {str(e)}")
+                        st.error(f"Error loading files from folder: {str(e)}")
+                        return
+
             # Show the chat interface if chat is started
             if st.session_state.chat_started:
                 st.markdown("---")

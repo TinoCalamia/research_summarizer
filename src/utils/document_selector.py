@@ -2,7 +2,7 @@ import os
 import logging
 from typing import List
 from pathlib import Path
-from langchain.document_loaders import DirectoryLoader, TextLoader
+from langchain_community.document_loaders import DirectoryLoader, TextLoader
 
 logger = logging.getLogger(__name__)
 

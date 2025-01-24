@@ -1,0 +1,238 @@
+Liana Hakobyan  0:00  
+Use when people started creating projects, because I had my own startup for three years, and I know the struggle, but yeah, I'm happy to contribute as much as I can, and good luck to the project.
+
+Neil Gursahani  0:12  
+Nice. I'm happy that we're also helping each other over here. So that'd be really awesome, you know? So I obviously, like, before I got into questions, I wanted just some framing in terms of who you are and, like, where you work at, of course, like, I know, like, you're currently working PA team, but I was wondering if you can maybe tell me a bit more about the company itself. Like, what do you guys do? Like, how big are you guys? Like, what is your revenue numbers? If you guys are open to sharing and, yeah, like, what kind of markets you operate in? Whatever, whatever can get a feel before
+
+Liana Hakobyan  0:41  
+jumping in answering the question, Neil, can I ask you to describe more like the project itself and kind of the goals and the goal of the this guys, some kind of you call it customer review, or you just call it interview, but so I know which direction to go with the answers as well. Will be more productive for you, for
+
+Neil Gursahani  1:02  
+sure, for sure. Currently, it's pretty it's pretty broad. In December, we were kind of currently exploring in one direction, specifically would be to be a software and subscription tools over here. I think we're going a bit broader and just trying to understand, especially with your company, because I noticed that so Tino is data scientist, and we're trying to be leaning towards how AI and these innovative technologies can really help outdated fields or stuff like that, right? So I think, like, I think you're a really interesting space, because you're in in between a lot of the areas we're looking at. So currently, I guess, like we're looking at a more general scope, you know, for example, in different industries, and how they tackle problems using AI, I guess
+
+Liana Hakobyan  1:47  
+I see, okay, sure, so right now I'm the Head of Marketing at pay team, as you can see, and also slash business development. So the in general, like our company is providing automation AI services to big enterprises like IKEA, FedEx, and so we don't work with small and medium companies. I would say it's primarily enterprise level. So the company initially started as automation provider, and then we are also providing now AI services together with automation. So that's like a clear answer on that Sure, and my responsibilities mainly are like a brand awareness and lead gen for the company.
+
+Neil Gursahani  2:28  
+Interesting, interesting. And how big is the company in general right now?
+
+Liana Hakobyan  2:32  
+70 people. 7060 people. Oh, okay, cool,
+
+Neil Gursahani  2:35  
+nice. So sizable. You guys are growing nice. And, of course, as a head of marketing, how many like, what is the hierarchy currently like within the company? And like, flat, nice. And do you have any direct reports as well under you?
+
+Liana Hakobyan  2:52  
+Yeah, I have. We are also working with outsourcing partners. Like we have content writers, we have video makers, we have website developers, so everyone is under me.
+
+Neil Gursahani  3:02  
+Oh, wow. Okay, cool. Got it. And you mentioned that, of course, that you are, you provide, like automation services as well, right? So maybe can you tell me through, like a use case, for example, if I'm a company, like, what would your current industries? Do you do you kind of serve, at the moment,
+
+Liana Hakobyan  3:17  
+it's contact center specifically. So even, for example, if you call to contact center, the agent will respond to you on an agent screen, the automation will start. And once someone is saying something, the automation will automatically bring the answers to the screen of the agent, and then at the agent will tell to the caller immediately the answer.
+
+Neil Gursahani  3:39  
+Okay, so, so I can just repeat, so you're basically helping contact centers with automating their service processes. Exactly.
+
+Liana Hakobyan  3:49  
+That's like just one use case, simple one,
+
+Neil Gursahani  3:53  
+cool. Well, can you maybe just so I also understand the scope of it. What is like a really, more complex one? Out of curiosity, yeah, complex
+
+Liana Hakobyan  4:00  
+one can be, for example, the voice recognition, when the automation itself understands like what the person is saying, and then tries to figure out and find the answers, and also maybe brings extra information, says, if the person is asking this question, then it might also be interested. He will or she might be interested also in this direction. So it kind of brings up the recommended information as well, interesting.
+
+Neil Gursahani  4:27  
+So of course, so a simple one is you mentioned your text and you're seeing a more complex one would be through voice
+
+Liana Hakobyan  4:33  
+also. The other one is that it will understand personalized it's more personalized approach. It will understand who is calling the history that that person had with the customer support can customize the answer based on the history. So that's more complex the project, cool that AI, we are using AI, nice
+
+Neil Gursahani  4:51  
+and of your current like, customer base, would you say? Like, of course, because right now, we describe two different systems, right? One is more simple and a more complex one, like, especially when the contact center world, because I don't think that's something that's Tino and I are currently really aware of too much. What is like the state of development in like, the contact center industry? Like, are people looking for, for, like, a simple solutions, or kind of complex solutions, like, where is current, like eyes or focus?
+
+Liana Hakobyan  5:19  
+I will say the market is quite like everyone integrated some software in their processes. So it's not like in the starting stage. It's more like now, advancing the technology that they have, adding more features. So that's kind of the stage for the contact centers with integrating now they are integrate more AI, the automation is already kind of basic
+
+Agostino Calamia  5:42  
+to have, okay,
+
+Liana Hakobyan  5:43  
+foundation. You have to have it, otherwise the competition is going to kill you immediately.
+
+Neil Gursahani  5:48  
+Yeah, maybe not even competition, even your brand. Like I feel a lot of people, if you don't hear that, you're using AI, sometimes you get already deprioritized a bit. So I think I totally agree with that. Where would you say are most of your your clients currently based? Which part of the world?
+
+Liana Hakobyan  6:06  
+It's North American, Europe, North America and Europe? I
+
+Neil Gursahani  6:10  
+have a lovely question to ask you, actually, in terms of the was it development, or, let's say, ability to integrate AI into the customer, into sorry, into the processes. Would you say, like, what is the difference between North American mentality and European mentality that you've currently
+
+Liana Hakobyan  6:29  
+focused so I will say North Americans are faster to integrate than Europeans. For Europeans, it takes longer time for conversion. And the other issue with Americans is, for example, if they get it, they can quickly, six months later, change it to another product, while Europeans take it longer for choosing the tool, and they stick longer to it, and it's harder to change the tool later for Europeans. So that's the main difference. Americans
+
+Neil Gursahani  6:58  
+are less sticky as compared to Europeans, which I think buy an period, yeah, I
+
+Liana Hakobyan  7:03  
+will say, of course, both of them have their own advantages and disadvantages. But for example, if you are a new product and trying to sell it's easier to sell it in North America than Europe, because your people will say, Oh, we're using this tool for a long time. It's a bit hard for us to switch to a new product. Americans are like, okay, give us. We can try it out a few months on that, we'll see that's the main, I think, difference that I see, not only in AI and automation in general the market differences, of course, it depends on which state it is as well. There's two detailed analysis that should be done based on the product, but that's kind of general conclusion, if you want to go easy way. Yeah,
+
+Neil Gursahani  7:44  
+cool. Thanks for the easy conclusion. Of course, I'm pretty sure there are a lot more like specifics within it, you know, but I think that hits a nail in the head. Yeah, I'm curious, actually. So for for your company, am I browser, PA, team? That's how you say it.
+
+Liana Hakobyan  8:00  
+Yeah, exactly. It's personal assistant, basically,
+
+Neil Gursahani  8:04  
+pa, pa.oh, yeah, of course I'm here, like, thinking of other words, but yeah, PA team, okay, that makes a lot more sense. So now we're in the second week of 2025, or third calendar week, guys, the year is flying. Um, I'm kind of curious. Like, what would you say? Uh, are, like, looking at the end of 2025 what are the like objectives, or main goals that you're currently that your company is currently pursuing for this year? Of
+
+Liana Hakobyan  8:28  
+course, like any company, I will say three main goals, like the North metrics, are the customer growth, the lead gen growth, and also the revenue growth. So that's two main things, cool.
+
+Neil Gursahani  8:39  
+So customer growth, lead gen and revenue growth are your two biggest like, objectives for the year. Nice and, of course, as you being like, I guess Head of Brand Marketing or brand marketing in general, like, what would you say are your challenges and your team or your company is facing to actually achieve these goals?
+
+Liana Hakobyan  8:59  
+I think the main challenges is that market is now, there are a lot of players in the market. It's just how you position and how competitive, what's how you show your competitive advantage? Because, as you know, there are a lot of AI tools and a add a lot of AI providers. Automation has been interesting for a while. There are a lot of tools as well. The matter The question is, what is the messaging? So that's kind of the hardest part to find. And also the second thing I will say, the nurturing takes longer, because, of course, it's B to B market space we are working with enterprise level. So it can take like a, six, seven months for the marketing. So you need to nurture like consistently.
+
+Neil Gursahani  9:41  
+Okay, so nurturing, of course, and of course, I think number one, you said, the market is super duper competitive, supply saturated with a lot of other providers. So enterprises have more people to pick, right? And then you have to really differentiate yourself interesting. If I were an enterprise clients looking in the customer like contact space, right? And if I was looking for a solution like this, what exactly would differentiate you from the others that that, that, that I would have access to?
+
+Liana Hakobyan  10:11  
+The main differentiation is that we have partners with automation providers. So we have, currently, they are batches, usually an automation field you call batches. So we are, for example, silver partner of nice automation, and then golden partner of UiPath. Or this main differentiation that you kind of have authority in the market,
+
+Neil Gursahani  10:36  
+okay, got it, got it, got it, got it. And, of course, like using AI, right? Okay, it's really interesting, because of course, you use AI and AI create AI solutions for the rest of your your clients. Do you see any like opportunities as well within PA team itself, that AI can really help capitalize on to help these two goals? So
+
+Liana Hakobyan  11:00  
+we personally use, like, customized AI tools. So if the team, for example, services team needs AI, our team just customizes AI for that. So it's always we have a forum. Someone says, we have a problem here we need automation or AI service, and then the AI automation team just customizes the solution internally, and then we provide to the team, and if the tool is interesting enough, we may even market to our clients. Very
+
+Neil Gursahani  11:26  
+cool. Can you maybe, first of all, I think this is super, super interesting. Like, can you maybe talk me through an example, like, of a tool maybe, like, that's come very recently that you guys wanted and the team developed,
+
+Liana Hakobyan  11:41  
+such as knowledge management. So that's one of the tools. The services team also wanted to have a knowledge management in the services department. And, yeah, we just developed, like, a smart search, let's say using we call it like our own name, which is really private. I will not say that, but usually, yeah, it helps you to find the information easily in all the documents that in the company. It helps immediately to answer the questions if we need, like, it's a smart search. Basically, it's integrated with our tools internal so if we want to make changes, we can just tell the tool to change next thing, it will immediately change the system, we don't need to go and log into that system and change things
+
+Neil Gursahani  12:23  
+cool. And you say, for example, if, like, say, I was on your team and I wanted to create a I needed a tool. What would be the process of doing that again?
+
+Liana Hakobyan  12:32  
+It just there is a form everyone can submit it. And then the, basically, the owner of the head of AI team just contacts you back, you have a call, and then they put in priority list if it's important or not,
+
+Neil Gursahani  12:45  
+okay. And if a tool has like, some level of priority, how long will it take, like, generally, the AI team to basically create, like, a prototype, or like a v1 of the product?
+
+Liana Hakobyan  12:58  
+I'll say generally, one week. The pilot immediately, immediately. Okay, very interesting. Depends on that depends on the client, of course, tasks, but if it's requested, one week, draft pilot to be sketched and ready, and then next week, you kind of try it out with the team. That's
+
+Neil Gursahani  13:15  
+that's very, very fast. That's very cool. Do you know the process of how they actually prioritize one idea in the form over others. It's
+
+Liana Hakobyan  13:24  
+just depends on how valuable it's for the company revenue growth and how it's valuable for the lead gen. So it's connected to the main goals of the company. Say they will put maybe marketing priorities higher than the services priorities
+
+Neil Gursahani  13:36  
+check. Okay. So the Okay. So you're saying is that these individual teams, they basically identify these opportunities by looking at how, like the business goal and how, for example, this lack of a tool or solution is basically stopping us from hitting that exactly. Okay, nice, cool, cool. And yeah, I guess, like going forward. I guess, like, out of curiosity as well. Like you mentioned that one of your the biggest things within your team are like, you of course, have different like, roles, right? Like copywriters, right market, etc. You said that some part of it is also outsourced, for example, like content writing. How come you guys don't, either a number one do that in house, or B have also tried to automate that using automated kind of content writers. So
+
+Liana Hakobyan  14:23  
+first of all, content writing with AI is horrible. We tried it. It's not authentic enough yet, like we try different tools internally, personally, me as well. What we do? We have aI put together with content writers in specific areas. And content writers is easier to work for us financially as well. So that's the reason we work. But we use AI with them in terms of brainstorming and things of SEO keywords, in terms of understanding how much keyword frequency needs to be in the content. So all the technical things is AI, but actual writing, writing is human, because you can see on LinkedIn is horrible, like everyone just use AI generated content, and people lose connection with them. Also the messages that I receive, also 90% AI generated and also we have a tool that we can put text and see if the message was aI generated or not based on the wordings. So yeah, we don't want to position our marketing in that way. Also, when you use AI, we usually try always to personalize it in a hyper person personalization is called in automation sphere. So that's how we use
+
+Neil Gursahani  15:40  
+cool if you had to put a number, of course, and I'm pretty sure you don't have the exact number over here, because that would be crazy. But like, would you know how many AI tools you guys are currently using in house?
+
+Liana Hakobyan  15:55  
+I can't say that. No, there is. I can't say specific number, but it's not a lot. I will say it's not a lot, really. Oh yeah, I will say, like, services team might have like, four AI, five AI tools. Personally, me have, I have like a three main AI tools, and most of the things that we use is also using HubSpot and HubSpot AI tools internally. So it's not a lot. Okay, we really. There is also a problem that lots of companies now have, that they have, like a list of AI tools, also a list of just tools that they use. And for example, two years ago, our company decided to filter all the tools that we use, all or not. We created product library, so then everything is mentioned. There reason why we are using this tool or not. And if we don't use it more than six months, we just stop the subscription.
+
+Neil Gursahani  16:43  
+Okay, that process was done. Like, how did you guys do that? Was that a more manual process? Or did you guys have a team for that? Or consultant,
+
+Liana Hakobyan  16:51  
+just HR team managed everything and then coordinated everything. Okay,
+
+Neil Gursahani  16:55  
+cool, cool. Very nice. Yeah. And I think, like, right now, of course, how long have you been working at PA team for so far, for three years, for three years, and did you previously also operate in the AI slash customer service like contact space as well? Yeah.
+
+Liana Hakobyan  17:13  
+So I was working at 10 Web. 10 web was the first platform that introduced a power website builder, and I was responsible for launching it, and it was recognized in the Forbes like one of the best website builders. The idea was basically, you copy the link of any website you like, you post it on the platform, and it generates the website, and then you can edit and drag and drop. So it was seven years ago, seven years ago, so it was very new to the world. And then we were trying to do keywords. So people know about AI powered website builders. Now it's already a bit mainstream as well, but that's like my AI experience. And also in my startup, we did recommendation system with AI, which was already nine years ago, 19 years ago. It's also a starting of AI usage,
+
+Neil Gursahani  18:01  
+yeah, wow. Okay, cool. You've really been in the space for, let's for a while, even before. Before is cool. Let's say Yeah,
+
+Liana Hakobyan  18:08  
+before, but it was known, yeah,
+
+Neil Gursahani  18:11  
+yeah, nice. And I in your current like field, like, what do you think is like, one of the biggest like trends that you see happening that will impact your industry maybe next year or so.
+
+Liana Hakobyan  18:23  
+So, I will say, a lot of AI tools right now, of course, they emerged. They are not keeping the promise. So big, big enterprises will take over the small ones, for sure. And also, second thing that I see right now is the regulations towards AI. They starting to rise, like in Europe, they recently did. That's the AI act, eu act, that by February, some companies that provide AI and automation need to follow some regulations and also document and tell information openly. And so that's kind of going to influence the market itself. But what I see, like the kind of the main direction is, a lot of companies, enterprises like are restricting their employees to use AI tools because of the security and privacy reasons. So a lot of AI tools needs to compete now and be sure that they are secure. The data is protected as well. So it's getting like, it hard to just select AI tool and say, Okay, let's use it. I think it's going to take longer for area, like I answer, but kind of just like the three areas, mostly connected relations, yeah,
+
+Neil Gursahani  19:40  
+of course, as you are dealing with a lot of enterprise clients, which have a lot more compliance, let's say, uh, needs. Do you also see that kind of sentiment being reflected in there, in them as well, that they are also asking for more, like, privacy, uh, backing and, yeah, of course, as well with them, enterprise clients working with a 70 person company, like, how is that trust formed? You know?
+
+Liana Hakobyan  20:04  
+So the thing is that when you work with enterprises, you should adhere some regulated things from their end, like they have some standards that you need to follow. So that's the main difference between small and medium and enterprises. So when you come to the table and talk with enterprises, they say, okay, these are the things that you need to your company need to do at your for example, you need to have Ico specific certified or something. So that's what they put on the table. And then, if you say, Okay, check this checklist. I have all these things. Then they will have a continued conversation with you. Whilst with small and medium companies, you can just have a conversation and don't think about these security things in at the start of the conversation, I say, Yeah, Am I answering in the way that you intended the question?
+
+Neil Gursahani  20:54  
+Yeah, no, no, it's you definitely are answering it the best way. And was the focus for you guys always on enterprise, or did you guys also have SMEs as the initial target audience as well? It's enterprise from from the get go with enterprise. Okay, cool. And I guess, like, I like Congress, some time I'll let me just ask a couple more questions, which for me is number one, and maybe I'll also ask Tino if he has any questions as well. I guess number one, of course, like being a center of like, of course, your company is, like, quite like, a very unique hotspot of innovation, right? You guys create AI tools. People are really cognizant of it. How do you guys maybe Foster, like, a culture of innovation within the company? Like, to also like, say, like, Hey guys, using tools is fine, and to also get more ideas, you know, in terms of in terms of newer ways of thinking, I
+
+Liana Hakobyan  21:50  
+think it's kind of easy, because of most of the people in the company are automation developers. So their mentality is any manual task we just need to automate. So if you even do, like, a four steps manual thing in the in the call, and someone sees it from the developers, they're like, Hold on, I'll get you automation for this I did, for example, LinkedIn, some steps in my marketing, and they're like, are you doing this manually? Let me just send you over the next day. And they send me automation. That's just the mentality that they have, because they are automation developers and founders are also automation started as automation developers. So that kind of culture itself has been built because of them, because of like, 60% I think, are developers in the company. So that's how we keep kind of innovation running, just because of their personality. Yeah.
+
+Neil Gursahani  22:39  
+Yeah. Okay, cool, cool, cool, very cool. Okay, thank you. Thank you very much for that. Tino, do you have any questions as well from your
+
+Agostino Calamia  22:49  
+side, you can continue? I Yeah, no, no, it's obvious. Continue. I might have one later, but
+
+Neil Gursahani  22:55  
+specifically the consultant side of things, maybe, yeah, exactly,
+
+Agostino Calamia  22:59  
+exactly, if you want to jump on that otherwise,
+
+Neil Gursahani  23:04  
+yeah, no, I was gonna say you can take Liana, yeah. Okay,
+
+Agostino Calamia  23:07  
+so first of all, thanks for the context. I think that's that's super interesting when we like, I mean, you work with clients, and you also internally solve various various problems for yourself. How do you like when you when you face a solution, like or when you face a goal, or you're aiming for a solution? Can you walk us a little bit through how you would like, break this complex process down until you reach your solution? Right? So let's say you you have a goal or you have a problem, sorry, I think that's a solution. Yeah, a problem or goal, how do you how do you reach your solution? How do you break it down? I mean, you as a partly consulting team as well. How does it look like?
+
+Liana Hakobyan  23:51  
+So it always depends, like imaging the company has a problem, we just go there, we have evaluation of their processes, and then we identify which process is the good one to start with, and then we take the one process, and then we do a pilot for them. And then after the pilot, if everything is good, we start the integration of the solution in the company. So that's kind of the process,
+
+Agostino Calamia  24:13  
+and what would qualify an opportunity as a good opportunity. It's a
+
+Liana Hakobyan  24:17  
+whole checklist, gotcha checklist of things that we got from,
+
+Agostino Calamia  24:23  
+okay, very interesting. That's probably developed internally. That makes sense. Okay, that was the question.
+
+Neil Gursahani  24:33  
+Neil, how did you why did you guys pick the customer contact service industry rather than all of the other industries that are also have maybe complex processes.
+
+Liana Hakobyan  24:42  
+We choose contact center industry in that, industries within that industries. So that's our focus. For example, legal for for example, it's like a legal company who has a contact center. It's a agriculture company as a contact center. So that's this, that's the focus.
+
+Neil Gursahani  24:59  
+Yeah, no, exactly. So I'm curious, how did you guys pick that focus? You know, like, because, of course, okay, let me, let me see this, when you're creating automations, specifically using AR or not, regardless, you can, of course, apply that kind of thinking to the the whole anything that's basically like, has multiple steps, right? So you describe LinkedIn currently, you're looking at contact centers within different industries. Like, how did you guys actually decide, like, Hey, this is actually the field that maybe requires the most help or has the most steps? You know? I think it's
+
+Liana Hakobyan  25:36  
+just basically comes because our founders were more focused on this and they just want to continue working because of their expertise. So that's the quite easy answer. Just want to say, Guys, I have a call at 430 as well, so I need to drop at 430
+
+Neil Gursahani  25:53  
+cool. Okay, I guess that's, I mean, that's a few seconds. Okay, no worries. I think we can, we can wrap it up. Thank you so much, actually for your thoughts, I'm gonna let me have to sync with with Tino and see if we can get some really cool insights out of that. I appreciate you taking the time I wanted to ask, of course, just quickly. Is it? Is it okay if I can also reach out to you on LinkedIn, maybe with some few additional thoughts or questions, in case you missed them here?
+
+Liana Hakobyan  26:15  
+Yeah, absolutely. You can reach out, and then I will answer when I have availability.
+
+Neil Gursahani  26:20  
+Nice, amazing. Thank you so much. Diana appreciate it.
+
+Agostino Calamia  26:24  
+Thank you so much. Goodbye.
+
+Transcribed by https://otter.ai

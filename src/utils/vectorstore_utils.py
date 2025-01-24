@@ -1,5 +1,5 @@
 from typing import List
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 import logging
 
 logger = logging.getLogger(__name__)
