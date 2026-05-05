@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, useTransition } from "react";
+import { useCallback, useEffect, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import {
   BLOCKS,
@@ -26,7 +26,7 @@ import {
   signOut as signOutAction,
 } from "./actions";
 
-type Tab = "plan" | "log" | "progress" | "flare" | "nutrition" | "coach";
+type Tab = "plan" | "progress" | "flare" | "nutrition" | "coach";
 
 const QUICK_QUESTIONS = [
   "What should I do this week?",
@@ -58,7 +58,15 @@ export default function AppShell({ profile, logs, messages, adaptations, userEma
   const [tab, setTab] = useState<Tab>("plan");
   const [stack, setStack] = useState<string[]>(["plan"]);
   const [subView, setSubView] = useState<string | null>(null);
+  const [logInitialBlock, setLogInitialBlock] = useState<string>("");
   const [, startTransition] = useTransition();
+
+  // Optimistic week — updates instantly on click, then syncs with server
+  const [optimisticWeek, setOptimisticWeek] = useState(profile.current_week);
+  useEffect(() => {
+    setOptimisticWeek(profile.current_week);
+  }, [profile.current_week]);
+  const displayProfile = { ...profile, current_week: optimisticWeek };
 
   // Local chat state — synced with server messages on initial load
   const [chat, setChat] = useState<Array<{ role: "user" | "assistant"; content: string }>>(
@@ -85,11 +93,18 @@ export default function AppShell({ profile, logs, messages, adaptations, userEma
     });
   }
 
-  function setWeek(w: number) {
+  const setWeek = useCallback((w: number) => {
+    setOptimisticWeek(w);
     startTransition(() => {
       setCurrentWeekAction(w);
     });
-  }
+  }, []);
+
+  const openLog = useCallback((blockId: string = "") => {
+    setLogInitialBlock(blockId);
+    setStack((s) => [...s, "log"]);
+    setSubView("log");
+  }, []);
 
   const navClass = (t: Tab) => `nav-btn${tab === t ? ` active-${t}` : ""}`;
 
@@ -98,11 +113,10 @@ export default function AppShell({ profile, logs, messages, adaptations, userEma
       <div className="header">
         <div className="header-row">
           <div className="logo">Move &amp; Thrive</div>
-          <div className="week-pill">Week {profile.current_week}</div>
+          <div className="week-pill">Week {displayProfile.current_week}</div>
         </div>
         <nav className="nav">
           <button className={navClass("plan")} onClick={() => go("plan")}>Plan</button>
-          <button className={navClass("log")} onClick={() => go("log")}>Log</button>
           <button className={navClass("progress")} onClick={() => go("progress")}>Progress</button>
           <button className={navClass("flare")} onClick={() => go("flare")}>Flares</button>
           <button className={navClass("nutrition")} onClick={() => go("nutrition")}>Food</button>
@@ -119,18 +133,18 @@ export default function AppShell({ profile, logs, messages, adaptations, userEma
       <div className="content">
         {!subView && tab === "plan" && (
           <PlanTab
-            profile={profile}
+            profile={displayProfile}
             logs={logs}
             adaptations={adaptations}
             onSetWeek={setWeek}
             onPushBlock={(id) => push(`block:${id}`)}
+            onOpenLog={() => openLog("")}
             onGoCoach={() => go("coach")}
           />
         )}
-        {!subView && tab === "log" && <LogTab profile={profile} logs={logs} />}
         {!subView && tab === "progress" && (
           <ProgressTab
-            profile={profile}
+            profile={displayProfile}
             logs={logs}
             onAskCoach={(q) => {
               setChatPrefill(q);
@@ -170,17 +184,15 @@ export default function AppShell({ profile, logs, messages, adaptations, userEma
           />
         )}
 
+        {subView === "log" && (
+          <LogTab profile={displayProfile} logs={logs} initialBlock={logInitialBlock} />
+        )}
+
         {subView?.startsWith("block:") && (
           <BlockDetail
             blockId={subView.split(":")[1] as BlockId}
-            profile={profile}
-            onLog={(id) => {
-              go("log");
-              setTimeout(() => {
-                const sel = document.getElementById("bSel") as HTMLSelectElement | null;
-                if (sel) sel.value = id;
-              }, 80);
-            }}
+            profile={displayProfile}
+            onLog={(id) => openLog(id)}
             onAskCoach={(q) => {
               setChatPrefill(q);
               go("coach");
@@ -200,6 +212,7 @@ function PlanTab({
   adaptations,
   onSetWeek,
   onPushBlock,
+  onOpenLog,
   onGoCoach,
 }: {
   profile: Profile;
@@ -207,6 +220,7 @@ function PlanTab({
   adaptations: Adaptation[];
   onSetWeek: (w: number) => void;
   onPushBlock: (id: BlockId) => void;
+  onOpenLog: () => void;
   onGoCoach: () => void;
 }) {
   const week = profile.current_week;
@@ -259,6 +273,10 @@ function PlanTab({
           </div>
         ))}
       </div>
+
+      <button className="btn btn-primary" style={{ marginTop: 14 }} onClick={onOpenLog}>
+        ✓ Log a session
+      </button>
 
       <div style={{ marginTop: 14 }}>
         <div className="alert alert-warn">⚠️ Spin: stop if lateral knee pain doesn&apos;t ease in 2 min. Max 1x/week.</div>
@@ -385,13 +403,21 @@ function GymDetail({
 
 /* -------------------- Log Tab -------------------- */
 
-function LogTab({ profile, logs }: { profile: Profile; logs: SessionLog[] }) {
+function LogTab({
+  profile,
+  logs,
+  initialBlock = "",
+}: {
+  profile: Profile;
+  logs: SessionLog[];
+  initialBlock?: string;
+}) {
   const [date, setDate] = useState(new Date().toISOString().split("T")[0]);
   const [duration, setDuration] = useState("45 min");
   const [mood, setMood] = useState("");
   const [pain, setPain] = useState("");
   const [notes, setNotes] = useState("");
-  const [block, setBlock] = useState("");
+  const [block, setBlock] = useState(initialBlock);
   const [saving, setSaving] = useState(false);
 
   async function submit() {
